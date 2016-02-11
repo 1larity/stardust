@@ -1,0 +1,4 @@
+1348752721452	Rename local variable 'playerVector'
+1348772247202	Extract method 'awardPlayerForNPCKill'
+1348834507375	Extract method 'respawnShieldDisruptor'
+1348834561953	Copy method

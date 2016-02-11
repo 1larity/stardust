@@ -1,0 +1,4096 @@
+Amphiaraus,1,12,15
+Angelos,1,16,14
+Askalaphos,1,21,1
+Cerberus,1,25,8
+Charon,1,35,15
+Empusa,1,36,7
+Erebos,1,37,15
+Erinyes,1,59,54
+Alecto,2,5,21
+Tisiphone,2,10,70
+Megaera,2,17,7
+Hecate,2,19,5
+Aiakos,2,27,1
+Minos,2,30,18
+Rhadamanthys,2,31,6
+Keuthonymos,2,35,2
+Cronus,2,44,35
+Lamia,2,45,8
+Lampades,3,2,52
+Gorgyra,3,11,98
+Orphne,3,19,39
+Macaria,3,38,1
+Melinoe,3,39,35
+Menoetes,3,42,9
+Mormo,3,54,17
+Nyx,3,57,33
+Persephone,3,59,226
+Acheron,3,62,53
+Kokytos,4,5,49
+Lethe,4,10,61
+Phlegethon,4,14,68
+Styx,4,22,10
+Tartarus,4,23,1
+Aegaeon,4,24,-5
+Acheilos,4,32,27
+Amphitrite,4,33,6
+Benthesikyme,4,34,10
+Brizo,4,50,35
+Ceto,4,57,15
+Charybdis,4,61,58
+Cymopoleia,4,62,315
+Delphin,5,8,13
+Eidothea,5,16,3
+Glaucus,5,22,3
+Stheno,5,27,6
+Euryale,5,32,2
+Medusa,5,41,33
+Deino,6,2,90
+Enyo,6,5,44
+Pemphredo,6,16,16
+Aello,6,24,11
+Ocypete,6,26,1
+Podarge,6,34,6
+Celaeno,6,37,10
+Nicothoe,6,40,32
+Bythos,6,46,66
+Aphros,6,54,139
+Karkinos,6,58,129
+Ladon,6,62,272
+Leucothea,7,9,40
+Nereides,7,19,5
+Thetis,7,20,2
+Arethusa,7,28,0
+Galene,7,33,5
+Psamathe,7,36,4
+Nereus,7,38,8
+Nerites,7,50,8
+Oceanus,7,62,45
+Palaemon,7,64,50
+Phorcys,8,20,12
+Pontos,8,22,19
+Poseidon,8,28,17
+Proteus,8,29,2
+Scylla,8,31,3
+Aglaope,8,41,17
+Himerope,8,43,11
+Leucosia,8,45,7
+Ligeia,8,47,6
+Molpe,8,49,12
+Parthenope,8,60,138
+Peisinoe,9,4,8
+Raidne,9,12,12
+Teles,9,22,8
+Thelchtereia,9,43,19
+Thelxiope,9,45,28
+Telchines,9,47,7
+Actaeus,10,8,178
+Argyron,10,9,37
+Atabyrius,10,13,10
+Chalcon,10,14,48
+Chryson,10,21,5
+Damon,10,27,9
+Damnameneus,10,50,64
+Dexithea,10,53,8
+Lycos,10,57,60
+Lysagora,10,63,37
+Makelo,11,1,20
+Megalesius,11,19,62
+Mylas,11,24,12
+Nikon,11,33,1
+Ormenos,11,39,100
+Simon,11,40,10
+Skelmis,11,46,9
+Tethys,11,47,96
+Thalassa,11,51,104
+Thaumas,12,4,58
+Thoosa,12,6,74
+Triteia,12,8,59
+Triton,12,13,29
+Tritones,12,14,110
+Achelois,12,24,37
+Aeolus,12,29,9
+Aether,12,42,52
+Alectrona,12,48,47
+Anemoi,12,53,27
+Boreas,13,2,3
+Eurus,13,17,39
+Notus,13,26,4
+Zephyrus,13,44,27
+Aparctias,13,49,47
+Apheliotes,13,51,25
+Argestes,13,58,18
+Caicias,14,9,4
+Circios,14,12,102
+Euronotus,14,27,4
+Lips,14,30,46
+Skeiron,14,33,1
+Arke,14,34,29
+Astraios,14,53,27
+Stilbon,14,54,115
+Eosphorus,14,59,18
+Hesperus,15,6,3
+Pyroeis,15,8,4
+Phaethon,15,13,23
+Phaenon,15,15,200
+Aurai,15,16,28
+Aura,15,17,46
+Chaos,15,35,49
+Chione,15,39,21
+Helios,15,40,4
+Selene,15,45,27
+Eos,15,46,20
+Hemera,15,47,175
+Hera,15,49,40
+Herse,16,1,19
+Hesperides,16,11,7
+Hyades,16,12,37
+Iris,16,18,191
+Menae,16,19,23
+Nephelai,16,21,12
+Ouranos,16,23,8
+Pandia,16,28,21
+Pleiades,16,35,10
+Alcyone,16,39,4
+Sterope,16,40,10
+Celaeno,16,52,83
+Electra,16,54,51
+Maia,16,56,57
+Merope,16,57,8
+Taygete,16,58,54
+Zeus,17,6,1
+Aetna,17,7,8
+Amphictyonis,17,10,6
+Anthousai,17,11,8
+Aristaeus,17,30,5
+Attis,17,31,8
+Britomartis,17,50,41
+Cabeiri,17,57,76
+Aitnaios,17,62,12
+Alkon,18,1,19
+Eurymedon,18,12,32
+Onnes,18,20,94
+Tonnes,18,22,43
+Asbolus,18,33,15
+Chariclo,18,44,63
+Chiron,18,59,13
+Eurytion,19,15,162
+Nessus,19,22,12
+Pholus,19,24,6
+Cercopes,19,27,88
+Akmon,19,31,72
+Passalos,19,38,8
+Chloris,19,40,10
+Comus,19,57,16
+Corymbus,19,59,96
+Curetes,20,15,18
+Cybele,20,25,6
+Dactyls,20,30,79
+Acmon,20,31,10
+Damnameneus,20,40,46
+Delas,20,45,26
+Epimedes,20,48,76
+Heracles,20,51,24
+Iasios,20,55,17
+Kelmis,21,4,3
+Skythes,21,12,11
+Dionysus,21,17,31
+Dryades,21,40,8
+Gaia,21,50,8
+Epimeliades,22,6,33
+Hamadryades,22,12,50
+Hecaterus,22,14,68
+Hephaestus,22,19,7
+Hermes,22,23,17
+Eunomia,22,41,8
+Dike,22,45,22
+Eirene,22,48,44
+Thallo,23,6,5
+Auxo,23,17,5
+Karpo,23,21,28
+Pherousa,23,41,29
+Euporie,23,56,30
+Orthosie,23,62,17
+Auge,24,4,29
+Anatole,24,16,28
+Mousika,24,19,8
+Musica,24,36,42
+Gymnastika,24,43,21
+Nymphe,24,53,14
+Mesembria,24,54,89
+Sponde,24,60,89
+Elete,24,63,13
+Akte,25,11,8
+Acte,25,25,380
+Cypris,25,27,35
+Hesperis,25,33,53
+Dysis,25,36,8
+Arktos,25,40,29
+Eiar,25,44,7
+Theros,25,47,10
+Pthinoporon,25,52,11
+Cheimon,25,53,52
+Korybantes,25,55,47
+Damneus,25,62,6
+Idaios,25,64,9
+Kyrbas,26,6,25
+Okythoos,26,18,33
+Prymneus,26,20,41
+Pyrrhichos,26,23,23
+Maenades,26,31,13
+Methe,26,34,38
+Meliae,26,40,126
+Naiades,26,49,5
+Daphne,26,55,26
+Metope,26,58,194
+Hekaerge,27,5,10
+Loxo,27,7,87
+Oupis,27,13,9
+Oreades,27,14,5
+Adrasteia,27,33,18
+Echo,27,40,20
+Oceanides,27,45,14
+Beroe,28,4,37
+Calypso,28,17,3
+Clytie,28,21,15
+Eidyia,28,29,28
+Ourea,28,35,13
+Palici,28,36,119
+Pan,28,51,11
+Potamoi,28,58,77
+Achelous,28,62,112
+Acis,29,9,29
+Acheron,29,11,5
+Alpheus,29,13,81
+Asopus,29,17,24
+Cladeus,29,23,22
+Eurotas,29,38,23
+Cocytus,29,49,11
+Lethe,29,57,56
+Peneus,30,3,7
+Phlegethon,30,10,23
+Styx,30,21,15
+Scamander,30,22,61
+Priapus,30,25,10
+Rhea,30,34,93
+Krotos,30,36,146
+Silenus,30,62,99
+Telete,31,4,8
+Zagreus,31,11,23
+Adonis,31,13,7
+Aphaea,31,15,17
+Carme,31,18,10
+Carmanor,31,43,71
+Chrysothemis,31,47,82
+Cyamites,32,1,9
+Demeter,32,2,38
+Despoina,32,5,5
+Dionysus,32,13,1
+Eunostus,32,18,51
+Hestia,32,35,35
+Persephone,32,57,5
+Philomelus,32,62,56
+Plutus,33,1,59
+Achilles,33,8,5
+Aiakos,33,16,3
+Aeolus,33,17,42
+Amphiaraus,33,18,7
+Ariadne,33,23,4
+Aristaeus,33,29,54
+Asclepius,33,30,14
+Attis,33,34,59
+Bolina,33,37,56
+Dioscuri,33,41,35
+Castor,33,44,2
+Polydeuces,33,45,6
+Endymion,33,49,73
+Ganymede,33,51,9
+Glaucus,34,5,0
+Hemithea,34,11,4
+Apollo,34,19,7
+Heracles,34,29,11
+Lampsace,34,44,21
+Minos,34,52,32
+Ino,34,53,2
+Leucippides,34,57,6
+Phoebe,35,18,6
+Hilaeira,35,33,49
+Orithyia,35,35,207
+Palaemon,35,42,8
+Phylonoe,35,48,9
+Psyche,35,54,8
+Aceso,35,59,123
+Aegle,35,63,180
+Asclepius,36,9,-1
+Epione,36,12,36
+Hygieia,36,32,65
+Iaso,36,33,14
+Paeon,36,34,88
+Panacea,36,47,7
+Telesphorus,36,54,56
+Gyges,36,56,21
+Agrius,36,63,18
+Alcyoneus,37,1,19
+Otos,37,12,2
+Ephialtes,37,17,12
+Antaeus,37,18,5
+Panoptes,37,20,12
+Arges,37,23,12
+Brontes,37,27,16
+Steropes,37,29,170
+Polyphemus,37,35,28
+Enceladus,37,40,8
+Gegenees,37,41,31
+Geryon,37,44,10
+Orion,37,47,10
+Talos,37,53,151
+Tityos,37,56,7
+Typhon,37,64,11
+Achlys,38,7,-1
+Adephagia,38,8,11
+Adikia,38,14,24
+Aergia,38,16,5
+Agon,38,24,40
+Aidos,38,25,4
+Aisa,38,32,45
+Alala,38,36,59
+Alastor,38,51,7
+Aletheia,38,55,17
+Achos,38,59,21
+Ania,39,17,3
+Lupe,39,35,72
+Alke,39,42,11
+Amechania,39,48,2
+Anaideia,39,50,8
+Androktasiai,39,57,33
+Angelia,40,7,2
+Apate,40,11,-1
+Apheleia,40,16,23
+Aporia,40,24,89
+Arae,40,25,19
+Arete,40,36,45
+Atë,40,41,17
+Bia,40,42,92
+Caerus,40,43,10
+Corus,40,52,18
+Deimos,40,58,148
+Dikaiosyne,41,20,2
+Dike,41,27,23
+Dolos,41,32,8
+Dysnomia,41,34,7
+Dyssebeia,41,38,3
+Eirene,41,39,15
+Ekecheiria,41,47,12
+Eleos,41,48,2
+Elpis,41,56,32
+Epiphron,41,57,371
+Eris,42,9,1
+Anteros,42,37,5
+Eros,42,40,70
+Hedylogos,42,60,80
+Himeros,43,3,39
+Pothos,43,6,1
+Eucleia,43,12,2
+Eulabeia,43,22,14
+Eunomia,43,24,10
+Eupheme,43,25,17
+Eupraxia,43,28,4
+Eusebeia,43,34,1
+Euthenia,43,42,13
+Gelos,43,47,69
+Geras,43,48,5
+Harmonia,43,49,11
+Hebe,43,61,39
+Hedone,43,64,16
+Heimarmene,44,17,7
+Homados,44,19,8
+Homonoia,44,34,19
+Horkos,44,40,13
+Horme,44,51,9
+Hybris,44,58,75
+Hypnos,45,1,18
+Hysminai,45,20,19
+Ioke,45,24,7
+Kakia,45,26,4
+Kalokagathia,45,31,2
+Keres,45,41,16
+Koalemos,45,45,234
+Kratos,45,58,10
+Kydoimos,46,11,3
+Lethe,46,13,11
+Limos,46,15,14
+Litae,46,28,7
+Lyssa,46,34,16
+Machai,46,36,43
+Mania,46,42,39
+Moirai,46,56,60
+Clotho,47,1,17
+Lachesis,47,6,-1
+Atropos,47,8,2
+Momus,47,14,12
+Moros,47,16,17
+Neikea,47,20,21
+Nemesis,47,25,12
+Nike,47,35,65
+Nomos,47,41,16
+Oizys,47,49,42
+Oneiroi,47,64,28
+Epiales,48,1,21
+Morpheus,48,15,17
+Phantasos,48,21,10
+Phobetor,48,41,10
+Palioxis,48,42,47
+Peitharchia,48,48,162
+Peitho,48,57,10
+Penia,49,7,3
+Penthus,49,11,11
+Pepromene,49,18,36
+Pheme,49,19,39
+Philophrosyne,49,23,7
+Philotes,49,32,8
+Phobos,49,33,109
+Phonoi,49,59,19
+Phrike,50,2,66
+Phthonus,50,7,6
+Pistis,50,15,17
+Poine,50,16,139
+Polemos,50,19,16
+Ponos,50,30,29
+Poros,50,40,36
+Praxidike,50,43,13
+Proioxis,50,44,48
+Prophasis,50,53,11
+Pseudologoi,50,57,15
+Ptocheia,50,61,16
+Soter,50,64,230
+Soteria,51,2,13
+Sophrosyne,51,10,9
+Techne,51,32,3
+Thanatos,51,37,15
+Thrasos,51,42,10
+Tyche,51,46,16
+Zelos,51,48,22
+Acratopotes,51,52,18
+Adrastea,51,59,182
+Agdistis,51,62,34
+Alexiares,51,63,281
+Aphroditus,52,8,46
+Astraea,52,38,83
+Auxesia,52,43,14
+Charites,52,45,21
+Aglaea,52,47,16
+Euphrosyne,52,51,21
+Thalia,52,53,31
+Hegemone,52,63,34
+Antheia,53,16,6
+Pasithea,53,27,18
+Cleta,53,37,172
+Phaenna,53,48,11
+Eudaimonia,54,6,86
+Euthymia,54,7,16
+Calleis,54,17,3
+Paidia,54,18,20
+Pandaisia,54,39,14
+Pannychis,54,45,23
+Ceraon,54,60,211
+Chrysus,55,8,21
+Circe,55,17,5
+Daemones,55,28,13
+Ceramici,55,33,14
+Syntribos,55,37,28
+Smaragos,55,41,38
+Asbetos,56,2,56
+Sabaktes,56,4,46
+Omodamos,56,10,165
+Deipneus,56,13,9
+Eiresione,56,28,47
+Eileithyia,56,36,51
+Enyalius,56,41,39
+Enyo,56,48,54
+Harpocrates,56,61,23
+Hermaphroditus,57,11,45
+Hymenaios,57,12,13
+Ichnaea,57,14,11
+Iynx,57,24,24
+Matton,57,53,70
+Aoide,58,13,14
+Arche,58,27,13
+Melete,58,29,6
+Mneme,58,32,41
+Thelxinoe,58,38,74
+Mnemosyne,58,42,205
+Calliope,58,49,15
+Clio,58,56,278
+Erato,59,8,35
+Euterpe,59,9,49
+Melpomene,59,22,10
+Polyhymnia,59,25,29
+Terpsichore,59,26,13
+Thalia,59,33,14
+Urania,59,34,8
+Cephisso,59,38,23
+Apollonis,59,50,22
+Borysthenis,59,51,214
+Hypate,59,53,56
+Mese,59,61,83
+Nete,60,5,54
+Polymatheia,60,22,76
+Palaestra,60,26,55
+Rhapso,60,30,65
+Abderus,60,33,5
+Aeneas,60,34,38
+Ajax,60,53,51
+Amphitryon,60,57,28
+Bellerophon,60,62,356
+Pollux,61,6,61
+Chrysippus,61,16,9
+Daedalus,61,27,25
+Diomedes,61,35,27
+Eleusis,61,45,355
+Eunostus,61,55,68
+Ganymede,61,61,747
+Hector,62,3,57
+Iolaus,62,11,35
+Jason,62,13,39
+Meleager,62,14,156
+Odysseus,62,29,17
+Orpheus,62,30,104
+Perseus,62,32,51
+Theseus,62,48,103
+Alcestis,62,51,44
+Amymone,62,56,164
+Andromache,63,14,26
+Andromeda,63,19,112
+Antigone,63,24,9
+Arachne,63,25,10
+Ariadne,63,34,21
+Atalanta,63,47,341
+Briseis,63,64,105
+Caeneus,64,2,558
+Cassandra,64,4,446
+Clytemnestra,64,17,16
+Danaë,64,18,131
+Deianeira,64,23,8
+Electra,64,24,49
+Europa,64,38,49
+Hecuba,64,41,11
+Helen,64,47,43
+Hermione,64,51,48
+Iphigenia,64,54,242
+Ismene,1,11,32
+Jocasta,1,13,41
+Medea,1,15,22
+Medusa,1,17,58
+Niobe,1,31,14
+Pandora,1,34,15
+Penelope,1,51,34
+Phaedra,1,58,30
+Polyxena,1,62,48
+Semele,2,1,103
+Abas,2,9,16
+Acastus,2,16,37
+Acrisius,2,26,-6
+Actaeus,2,34,42
+Admetus,2,42,31
+Adrastus,2,52,65
+Aeacus,2,56,76
+Aeëtes,2,60,121
+Aegeus,3,17,8
+Aegimius,3,18,0
+Aegisthus,3,29,-2
+Aegyptus,3,34,4
+Aeson,3,36,3
+Aëthlius,3,41,13
+Aetolus,3,48,11
+Agamemnon,3,49,19
+Agasthenes,3,61,71
+Agenor,3,63,530
+Alcinous,4,8,76
+Alcmaeon,4,13,12
+Aleus,4,20,22
+Amphiaraus,4,21,3
+Amphictyon,4,27,-2
+Amphion,4,28,-7
+Zethus,4,29,2
+Amycus,4,35,2
+Anaxagoras,4,42,33
+Anchises,4,49,5
+Arcesius,5,3,57
+Argeus,5,4,46
+Assaracus,5,5,442
+Asterion,5,17,11
+Athamas,5,26,2
+Atreus,5,28,-2
+Augeas,5,29,5
+Autesion,5,31,8
+Bias,5,36,10
+Busiris,5,43,21
+Cadmus,5,48,10
+Car,5,52,22
+Catreus,5,59,54
+Cecrops,6,3,23
+Ceisus,6,7,30
+Celeus,6,8,89
+Cephalus,6,9,13
+Cepheus,6,11,21
+Cepheus,6,12,94
+Charnabon,6,15,5
+Cinyras,6,18,16
+Codrus,6,22,20
+Corinthus,6,39,7
+Cranaus,6,41,6
+Creon,6,53,24
+Cres,6,64,322
+Cresphontes,7,1,36
+Cretheus,7,5,47
+Criasus,7,6,27
+Cylarabes,7,8,29
+Cynortas,7,15,52
+Cyzicus,7,32,0
+Danaus,7,39,80
+Dardanus,7,40,10
+Deiphontes,7,43,80
+Demophon,7,52,16
+Diomedes,7,55,221
+Echemus,7,57,64
+Echetus,7,58,39
+Eetion,8,8,189
+Electryon,8,10,183
+Elephenor,8,12,85
+Eleusis,8,24,71
+Epaphus,8,25,19
+Epopeus,8,26,70
+Erechtheus,8,33,4
+Erginus,8,53,12
+Erichthonius,8,59,42
+Eteocles,9,2,10
+Eteocles,9,5,62
+Eurotas,9,6,15
+Eurystheus,9,16,6
+Gelanor,9,21,32
+Haemus,9,36,-1
+Helenus,9,54,14
+Hippothoön,10,29,3
+Hyrieus,10,33,1
+Ilus,10,37,5
+Ixion,10,46,28
+Laërtes,10,49,9
+Laomedon,10,60,124
+Lycaon,10,61,15
+Lycurgus,11,15,89
+Makedon,11,36,-2
+Megareus,11,38,10
+Melampus,11,43,117
+Melanthus,11,44,15
+Memnon,12,16,34
+Menelaus,12,17,5
+Menestheus,12,23,11
+Midas,12,28,54
+Minos,12,38,52
+Myles,12,41,5
+Nestor,12,50,51
+Nycteus,12,55,26
+Odysseus,12,58,135
+Oebalus,12,62,208
+Oedipus,13,9,41
+Oeneus,13,18,6
+Oenomaus,13,31,14
+Oenopion,13,33,3
+Ogygus,13,39,9
+Oicles,13,45,251
+Oileus,13,48,8
+Orestes,13,53,255
+Oxyntes,13,57,77
+Pandion,14,16,69
+Peleus,14,22,97
+Pelias,14,24,26
+Pelops,14,25,5
+Pentheus,14,32,7
+Perseus,14,38,32
+Phineus,14,40,32
+Phlegyas,14,61,40
+Phoenix,14,63,34
+Phoroneus,15,2,5
+Phyleus,15,19,177
+Pirithoös,15,22,13
+Pittheus,15,29,3
+Polybus,15,41,11
+Polynices,15,52,20
+Priam,15,56,14
+Proetus,15,62,31
+Pylades,16,14,64
+Rhadamanthys,16,20,91
+Rhesus,16,27,3
+Sarpedon,16,29,5
+Sisyphus,16,34,56
+Sithon,16,36,29
+Talaus,16,41,3
+Tegyrios,16,53,14
+Telamon,16,55,13
+Telephus,17,2,10
+Temenus,17,4,5
+Teucer,17,24,7
+Teutamides,17,26,9
+Teuthras,17,35,12
+Thersander,17,36,2
+Theseus,17,43,19
+Thyestes,17,48,42
+Tisamenus,17,59,14
+Tyndareus,17,60,8
+Amphilochus,18,11,10
+Anius,18,16,168
+Branchus,18,18,204
+Calchas,18,26,55
+Carnus,18,32,53
+Carya,18,45,9
+Cassandra,18,63,33
+Ennomus,19,16,19
+Halitherses,19,37,20
+Helenus,19,43,115
+Iamus,19,44,14
+Idmon,19,51,216
+Manto,19,52,25
+Melampus,19,55,94
+Mopsus,19,61,36
+Polyeidos,20,4,13
+Telemus,20,10,12
+Theoclymenus,20,28,76
+Tiresias,20,29,19
+Aegea,20,35,13
+Aella,20,37,17
+Alcibie,20,38,50
+Antandre,20,41,9
+Antiope,20,52,146
+Areto,20,63,26
+Asteria,20,64,111
+Bremusa,21,6,6
+Celaeno,21,7,10
+Eurypyle,21,8,4
+Hippolyta,21,10,2
+Hippothoe,21,15,23
+Iphito,21,24,5
+Lampedo,21,46,25
+Marpesia,21,47,24
+Melanippe,21,48,11
+Molpadia,21,49,50
+Myrina,22,7,7
+Orithyia,22,17,1
+Otrera,22,22,118
+Pantariste,22,35,12
+Penthesilea,22,38,99
+Abia,22,42,71
+Abrota,22,44,127
+Acacallis,22,49,8
+Acallaris,22,56,107
+Acamas,22,63,19
+Acarnan,23,13,18
+Achaeus,23,14,5
+Acoetes,23,16,7
+Actaeon,23,34,12
+Actor,23,42,21
+Aegiale,23,48,11
+Aegialeus,23,50,10
+Aepytus,23,60,25
+Aëdon,23,61,29
+Aërope,23,63,116
+Aesacus,24,1,7
+Aethalides,24,10,57
+Aethilla,24,14,26
+Aethra,24,22,62
+Agamede,24,23,23
+Agamedes,24,25,38
+Agapenor,24,26,153
+Agave,24,30,42
+Agelaus,24,45,7
+Aglaea,24,47,9
+Aglaulus,24,62,45
+Agrius,25,6,5
+Agron,25,7,8
+Alcaeus,25,22,11
+Alcathous,25,28,12
+Alcidice,25,31,13
+Alcimache,25,45,39
+Alcimede,25,46,6
+Alcimedon,25,54,15
+Alcimus,25,56,41
+Alcinoe,25,59,48
+Alcmene,25,60,13
+Alcyone,26,9,12
+Almus,26,17,4
+Aloeus,26,24,159
+Alope,26,38,71
+Alphesiboea,26,45,4
+Althaea,26,46,36
+Althaemenes,26,47,6
+Amarynceus,26,51,9
+Amethystos,26,56,172
+Amphidamas,26,60,88
+Amphimachus,27,3,71
+Amphinome,27,15,35
+Amphinomus,27,18,6
+Amphion,27,22,18
+Amphithea,27,24,20
+Amyclas,27,26,21
+Amyntor,27,29,29
+Amythaon,27,42,14
+Anaxarete,27,48,7
+Anaxibia,27,49,15
+Anaxo,28,6,46
+Ancaeus,28,23,18
+Anchialus,28,27,18
+Andraemon,28,30,117
+Andreus,28,32,64
+Androgeus,28,49,2
+Antenor,28,59,23
+Anticlus,29,4,9
+Anticlea,29,21,162
+Antilochus,29,25,43
+Antimachus,29,28,22
+Antinoe,29,39,23
+Antinous,29,43,21
+Antion,29,44,10
+Antiphates,29,46,14
+Antiphus,29,55,26
+Apemosyne,29,61,244
+Aphareus,30,6,51
+Apheidas,30,32,94
+Apis,30,33,13
+Apsyrtus,30,51,7
+Arcas,30,53,16
+Arceophon,30,58,62
+Arcesilaus,30,61,22
+Areithous,30,64,75
+Aretaon,31,1,14
+Arete,31,8,3
+Arganthone,31,22,9
+Arge,31,24,6
+Argea,31,32,36
+Argia,31,33,63
+Argynnus,31,53,15
+Aristodemus,31,54,12
+Aristomachus,31,61,31
+Asius,31,63,135
+Asterodia,32,4,20
+Asteropaios,32,6,31
+Asterope,32,8,27
+Astyanassa,32,17,4
+Astyanax,32,22,36
+Astydameia,32,28,41
+Astynome,32,30,89
+Astyoche,32,48,34
+Astypalaea,32,51,8
+Atrax,32,61,8
+Atymnius,32,64,128
+Auge,33,4,3
+Autolycus,33,10,5
+Automedon,33,28,8
+Autonoë,34,1,10
+Autonous,34,9,6
+Axylus,34,10,26
+Batea,34,18,36
+Baubo,34,23,5
+Baucis,34,28,28
+Bianna,34,34,225
+Bienor,34,42,30
+Biston,34,46,37
+Bormus,34,64,135
+Borus,35,13,7
+Botres,35,14,8
+Budeia,35,23,58
+Briseus,35,32,26
+Broteas,36,3,6
+Bucolion,36,11,4
+Buphagus,36,22,55
+Bura,36,23,9
+Butes,36,28,72
+Byblis,36,55,9
+Calesius,36,60,121
+Caletor,36,64,91
+Callidice,37,15,2
+Callithyia,37,21,134
+Calyce,37,36,19
+Calydon,37,37,158
+Canace,37,48,6
+Canthus,37,51,17
+Capaneus,37,52,17
+Capys,37,57,51
+Carius,38,5,8
+Carystus,38,9,4
+Cassiopeia,38,17,3
+Caunus,38,21,16
+Cebriones,38,26,34
+Celtine,38,39,9
+Cerambus,38,40,44
+Cerdo,38,42,45
+Cestrinus,38,47,8
+Ceyx,38,52,78
+Chaeresilaus,38,57,11
+Chalciope,38,60,122
+Chalcodon,38,61,23
+Charops,38,64,73
+Chione,39,1,5
+Chloris,39,10,4
+Chromia,39,15,14
+Chrysanthis,39,20,3
+Chryseis,39,23,107
+Chryses,39,30,13
+Chrysippe,39,39,111
+Chrysothemis,39,40,15
+Chthonia,39,44,7
+Chthonius,39,46,6
+Chthonophyle,40,1,6
+Cilix,40,4,9
+Cilla,40,8,9
+Cleite,40,9,0
+Cleitus,40,15,4
+Cleoboea,40,21,5
+Cleobule,40,23,11
+Cleodaeus,40,29,2
+Cleopatra,40,34,47
+Meleager,40,37,6
+Clinis,40,39,16
+Clonius,40,49,6
+Clymenus,40,50,27
+Clytie,40,56,159
+Clytius,41,4,4
+Clytodora,41,11,5
+Clytus,41,23,20
+Coeranus,41,26,13
+Comaetho,41,31,14
+Copreus,41,35,12
+Coresus,41,53,38
+Coronis,41,55,39
+Cragaleus,41,64,11
+Crete,42,3,8
+Creusa,42,12,-9
+Crino,42,31,2
+Crisus,42,42,90
+Ctesippus,42,54,72
+Ctesylla,42,57,36
+Ctimene,43,2,6
+Cyanippus,43,5,0
+Cychreus,43,8,6
+Cycnus,43,9,3
+Cydippe,43,13,4
+Cydon,43,21,19
+Cyparissus,43,30,3
+Daedalion,43,33,7
+Daedalus,43,52,9
+Dascylus,43,53,19
+Deileon,43,63,149
+Deimachus,44,4,20
+Deioneus,44,6,25
+Deiphobus,44,7,4
+Deipyle,44,15,2
+Delphus,44,32,-4
+Demodice,44,36,11
+Demonassa,44,39,4
+Demonice,44,42,61
+Demophon,44,48,31
+Eleusis,44,63,20
+Deucalion,45,2,3
+Dexamenus,45,5,13
+Dia,45,15,9
+Dictys,45,16,5
+Dimoetes,45,17,27
+Diocles,45,23,26
+Diomede,45,33,5
+Dirce,45,38,5
+Dius,45,40,2
+Dolius,45,44,23
+Dolon,45,46,22
+Dolops,45,50,11
+Dorus,45,56,10
+Dotis,45,59,32
+Dryas,46,6,10
+Dryope,46,7,5
+Dymas,46,9,4
+Echion,46,19,18
+Eioneus,46,23,12
+Electryone,46,27,0
+Eleius,46,43,16
+Eleuther,46,47,17
+Elpenor,46,60,126
+Elymus,46,62,170
+Emathion,46,64,107
+Enarete,47,4,6
+Endeïs,47,15,107
+Endymion,47,17,28
+Enyeus,47,24,6
+Epeius,47,30,5
+Epicasta,47,32,4
+Epidaurus,47,33,8
+Epipole,48,16,131
+Epirus,48,19,25
+Epistrophus,48,31,2
+Epochus,48,39,6
+Ereuthalion,48,60,51
+Eribotes,49,1,102
+Eriopis,49,24,9
+Eriphyle,49,25,52
+Erymanthus,49,29,6
+Euippe,49,42,6
+Euchenor,49,43,17
+Eulimene,49,58,14
+Eumaeus,49,60,9
+Eumedes,50,3,11
+Euphorion,50,14,43
+Euryalus,50,33,11
+Euryanassa,50,37,5
+Eurybates,50,38,41
+Eurycleia,50,41,6
+Eurycyda,50,47,23
+Eurydamas,50,51,22
+Eurylochus,50,54,47
+Eurymachus,50,59,22
+Eurymedon,50,62,100
+Eurymedousa,51,7,53
+Eurypyle,51,14,18
+Eurypylus,51,15,147
+Euryte,51,18,20
+Eurythemis,51,20,17
+Eurythemista,51,45,27
+Eurytion,51,64,36
+Eurytus,52,13,23
+Evaechme,52,20,82
+Evippus,52,31,9
+Galanthis,52,36,54
+Alcmene,52,42,54
+Gerana,52,46,115
+Gorge,52,58,78
+Gorgophone,52,61,45
+Guneus,53,30,10
+Haemon,53,36,15
+Halaesus,53,38,17
+Halirrhothius,53,39,22
+Harpalion,53,40,8
+Hecamede,53,43,28
+Henioche,53,50,9
+Herippe,53,52,32
+Hermippe,53,53,315
+Leander,54,3,9
+Hero,54,20,63
+Hippocoön,54,21,14
+Hippodamas,54,35,11
+Hippodamia,54,42,92
+Hippolytus,54,59,37
+Hippotes,54,64,194
+Hippothoe,55,22,10
+Hippothous,55,23,79
+Hodites,55,25,23
+Hodoedocus,55,44,22
+Hyacinthus,55,47,89
+Apollo,55,50,14
+Lacedaemon,55,51,134
+Hylas,56,3,10
+Hyllus,56,8,157
+Hyperenor,56,14,48
+Hyperippe,56,25,22
+Hypermnestra,56,26,86
+Hyperphas,56,32,32
+Hypsenor,56,39,25
+Hyrmine,56,47,9
+Hyrnetho,56,54,108
+Ialmenus,56,62,139
+Iasus,56,63,39
+Icarius,57,6,17
+Icarus,57,8,38
+Ilione,57,15,15
+Ilioneus,57,22,6
+Imbrius,57,26,21
+Iodame,57,37,49
+Iole,57,45,59
+Ion,57,46,10
+Iphianassa,57,49,94
+Iphianeira,57,56,64
+Iphicles,57,58,66
+Iphidamas,58,16,47
+Iphimedeia,58,17,8
+Iphinoe,58,20,28
+Iphitus,58,24,90
+Iphthime,58,31,10
+Itonus,58,35,10
+Lamedon,58,36,30
+Lampus,58,37,6
+Laodamas,58,39,24
+Laodamia,58,44,86
+Laodice,58,45,13
+Laonome,58,59,46
+Laothoe,59,10,26
+Lapithes,59,13,37
+Leitus,59,20,5
+Leos,59,28,13
+Lepreus,59,29,16
+Leucippus,59,30,12
+Leucon,59,32,9
+Leuconoe,59,36,10
+Leucophrye,59,56,41
+Leucus,59,58,44
+Lityerses,60,10,111
+Lophis,60,16,35
+Lycaon,60,19,6
+Lycaste,60,31,9
+Lycastus,60,35,15
+Lycorus,60,38,125
+Lycurgus,60,40,75
+Lysianassa,60,51,29
+Lysimache,60,52,214
+Lysippe,60,56,152
+Machaon,60,61,77
+Maeon,61,3,80
+Magnes,61,7,66
+Mecisteus,61,12,36
+Meda,61,26,5
+Medôn,61,47,43
+Megapenthes,61,48,15
+Melanippus,61,56,27
+Melantho,61,57,113
+Melas,61,59,86
+Meliboea,62,7,51
+Melicertes,62,18,38
+Melite,62,27,14
+Menippe,62,31,13
+Messene,62,39,14
+Metaneira,62,44,162
+Metioche,62,46,205
+Miletus,62,47,32
+Minyas,62,58,181
+Mestra,62,63,90
+Munichus,63,1,128
+Myrina,63,2,75
+Myrmidon,63,5,90
+Myrmidone,63,8,49
+Myrrha,63,16,24
+Myrtilus,63,20,13
+Myrto,63,27,71
+Mytilene,63,54,49
+Narcissus,63,55,358
+Naubolus,63,57,61
+Nausicaa,63,59,520
+Nausithous,64,9,40
+Neoptolemus,64,22,22
+Nicippe,64,33,19
+Nireus,64,34,150
+Nyctimene,64,50,316
+Nyctimus,64,53,31
+Oenoe,64,55,44
+Oenone,64,62,518
+Oenotrus,1,2,104
+Olenus,1,10,25
+Omphale,1,14,14
+Orion,1,18,10
+Ornytion,1,23,10
+Ornytus,1,27,2
+Orsilochus,1,39,6
+Othryoneus,1,40,8
+Oxylus,1,48,31
+Pallene,1,49,140
+Pandaie,1,52,20
+Pandareus,1,53,59
+Pandarus,1,55,38
+Pandora,2,13,6
+Panopeus,2,29,-2
+Panthous,2,32,43
+Paris,2,33,6
+Priam,2,40,23
+Parthenopeus,2,58,94
+Patroclus,2,59,23
+Peirous,3,9,27
+Peisenor,3,31,29
+Peisidice,3,37,8
+Peisistratus,3,40,5
+Pelopia,3,46,11
+Peneleus,3,47,114
+Penthilus,3,50,13
+Periboea,3,52,15
+Perileos,3,53,27
+Periphas,3,56,17
+Periphetes,4,4,246
+Perimede,4,7,25
+Perimedes,4,9,12
+Phaenops,4,18,4
+Phaëton,4,43,7
+Phalerus,4,46,82
+Pharis,4,53,20
+Phemius,4,63,68
+Phialo,5,1,113
+Phocus,5,2,19
+Philemon,5,7,44
+Philoctetes,5,15,11
+Phlias,5,35,14
+Phoenix,5,38,13
+Phorbas,5,40,3
+Phorcys,5,44,12
+Phrastor,5,45,141
+Phrixus,5,53,236
+Phrontis,5,56,14
+Phylacus,5,58,19
+Phylas,5,63,79
+Phyleus,6,31,-2
+Phyllis,6,43,7
+Physadeia,6,48,32
+Physcoa,6,55,22
+Pleuron,6,60,244
+Plexippus,7,2,20
+Podalirius,7,12,19
+Polites,7,14,6
+Polyboea,7,24,9
+Polycaon,7,30,0
+Polycaste,7,35,22
+Polydorus,7,56,31
+Polymele,7,60,41
+Polypheides,8,1,27
+Polyxenus,8,4,69
+Polyxo,8,9,43
+Praxithea,8,16,24
+Proclia,8,27,6
+Procrustes,8,32,17
+Promedon,8,36,23
+Pronax,8,42,73
+Prosymnus,8,56,248
+Protesilaus,8,63,43
+Prothoenor,9,9,416
+Psophis,9,24,14
+Pterelaos,9,49,82
+Pygmalion,9,51,14
+Pylaeus,9,58,61
+Pylaemenes,9,61,77
+Pyraechmes,9,62,17
+Pyramus,10,2,59
+Pyrrha,10,11,23
+Rarus,10,23,12
+Rhadine,10,28,21
+Rhoeo,10,30,11
+Saon,10,34,16
+Schedius,10,52,64
+Scylaceus,10,56,247
+Selemnus,11,9,46
+Sidero,11,11,210
+Socus,11,13,32
+Solymus,11,22,14
+Sostratus,11,25,22
+Sparta,11,26,8
+Lacedaemon,11,29,9
+Staphylus,11,37,7
+Stentor,11,41,24
+Stheneboea,11,48,8
+Sthenele,11,61,51
+Sthenelus,12,2,32
+Stratonice,12,3,10
+Strophius,12,12,137
+Syleus,12,18,31
+Syme,12,20,86
+Tecmessa,12,26,42
+Tegeates,12,52,88
+Telecleia,13,7,13
+Telegonus,13,8,8
+Telemachus,13,21,220
+Teleon,13,27,14
+Telephassa,13,36,7
+Tenes,13,52,24
+Termerus,13,54,27
+Theiodamas,13,56,15
+Themiste,13,62,42
+Themisto,14,6,43
+Theobule,14,10,33
+Theonoe,14,18,75
+Theophane,14,20,100
+Thero,14,21,25
+Thersander,14,31,6
+Thersites,14,36,47
+Thespius,14,39,7
+Thestius,14,43,12
+Thestor,14,49,11
+Thisbe,14,50,68
+Thoas,14,52,134
+Thoön,14,56,51
+Thrasymedes,15,1,30
+Thymoetes,15,11,100
+Timandra,15,18,26
+Tithonus,15,27,45
+Tlepolemus,15,54,17
+Toxeus,16,5,3
+Trambelus,16,6,25
+Troezen,16,10,45
+Trophonius,16,22,27
+Tydeus,16,32,32
+Tyres,16,47,21
+Tyro,16,51,26
+Ucalegon,17,8,9
+Xanthippe,17,15,48
+Xanthius,17,20,17
+Xanthus,17,32,9
+Xuthus,17,53,57
+Zarex,17,54,8
+Zetes,17,58,10
+Zeuxippe,18,4,20
+Zeuxippus,18,24,30
+Amphiaraus II,18,27,7
+Angelos II,18,34,63
+Askalaphos II,18,37,7
+Cerberus II,18,40,34
+Charon II,18,41,8
+Empusa II,18,58,60
+Erebos II,18,62,83
+Erinyes II,19,4,4
+Alecto II,19,5,3
+Tisiphone II,19,7,64
+Megaera II,19,14,17
+Hecate II,19,26,7
+Aiakos II,19,30,8
+Minos II,19,34,12
+Rhadamanthys II,19,36,9
+Keuthonymos II,19,42,9
+Cronus II,19,47,191
+Lamia II,19,49,50
+Lampades II,19,54,15
+Gorgyra II,19,58,11
+Orphne II,19,64,32
+Macaria II,20,23,9
+Melinoe II,20,36,63
+Menoetes II,20,46,110
+Mormo II,20,57,9
+Nyx II,20,62,143
+Persephone II,21,1,19
+Acheron II,21,32,7
+Kokytos II,21,41,36
+Lethe II,21,42,9
+Phlegethon II,21,52,28
+Styx II,21,60,27
+Tartarus II,21,63,33
+Aegaeon II,22,16,16
+Acheilos II,22,34,36
+Amphitrite II,22,37,19
+Benthesikyme II,22,43,19
+Brizo II,22,59,22
+Ceto II,23,1,11
+Charybdis II,23,5,6
+Cymopoleia II,23,18,8
+Delphin II,23,27,169
+Eidothea II,23,28,20
+Glaucus II,23,33,18
+Stheno II,23,47,92
+Euryale II,23,57,44
+Medusa II,23,64,15
+Deino II,24,5,5
+Enyo II,24,7,8
+Pemphredo II,24,8,43
+Aello II,24,12,38
+Ocypete II,24,18,39
+Podarge II,24,20,40
+Celaeno II,24,27,23
+Nicothoe II,24,28,82
+Bythos II,24,48,31
+Aphros II,24,56,191
+Karkinos II,24,58,174
+Ladon II,25,35,13
+Leucothea II,26,4,18
+Nereides II,26,8,45
+Thetis II,26,12,39
+Arethusa II,26,15,5
+Galene II,26,29,11
+Psamathe II,26,35,9
+Nereus II,26,39,20
+Nerites II,26,52,47
+Oceanus II,26,59,28
+Palaemon II,26,62,65
+Phorcys II,27,19,88
+Pontos II,27,28,21
+Poseidon II,27,31,111
+Proteus II,27,32,15
+Scylla II,27,35,88
+Aglaope II,27,41,28
+Himerope II,27,44,13
+Leucosia II,27,55,187
+Ligeia II,27,58,27
+Molpe II,27,59,203
+Parthenope II,27,64,13
+Peisinoe II,28,10,33
+Raidne II,28,11,7
+Teles II,28,24,62
+Thelchtereia II,28,38,111
+Thelxiope II,28,40,60
+Telchines II,28,45,12
+Actaeus II,28,46,39
+Argyron II,28,53,22
+Atabyrius II,28,54,120
+Chalcon II,29,1,16
+Chryson II,29,10,6
+Damon II,29,12,9
+Damnameneus II,29,19,16
+Dexithea II,29,33,70
+Lycos II,29,50,3
+Lysagora II,29,53,186
+Makelo II,30,1,9
+Megalesius II,30,9,3
+Mylas II,30,11,3
+Nikon II,30,18,50
+Ormenos II,30,29,28
+Simon II,30,31,28
+Skelmis II,30,39,18
+Tethys II,30,41,5
+Thalassa II,30,42,25
+Thaumas II,30,43,6
+Thoosa II,30,46,67
+Triteia II,30,56,38
+Triton II,30,59,13
+Tritones II,30,63,15
+Achelois II,31,5,13
+Aeolus II,31,9,2
+Aether II,31,14,4
+Alectrona II,31,19,86
+Anemoi II,31,27,102
+Boreas II,31,36,26
+Eurus II,31,38,14
+Notus II,31,39,112
+Zephyrus II,31,40,8
+Aparctias II,31,44,7
+Apheliotes II,31,48,9
+Argestes II,31,50,6
+Caicias II,32,15,5
+Circios II,32,16,18
+Euronotus II,32,19,10
+Lips II,32,20,34
+Skeiron II,32,32,256
+Arke II,32,39,8
+Astraios II,32,42,37
+Stilbon II,32,45,5
+Eosphorus II,32,46,42
+Hesperus II,32,59,8
+Pyroeis II,32,60,59
+Phaethon II,33,5,8
+Phaenon II,33,9,36
+Aurai II,33,21,26
+Aura II,33,32,55
+Chaos II,33,33,592
+Chione II,33,35,54
+Helios II,33,40,3
+Selene II,33,43,7
+Eos II,33,46,4
+Hemera II,34,2,38
+Hera II,34,3,3
+Herse II,34,14,31
+Hesperides II,34,15,7
+Hyades II,34,24,44
+Iris II,34,31,27
+Menae II,34,32,218
+Nephelai II,34,43,3
+Ouranos II,34,47,8
+Pandia II,34,48,49
+Pleiades II,34,56,22
+Alcyone II,34,62,54
+Sterope II,34,63,21
+Celaeno II,35,10,8
+Electra II,35,24,6
+Maia II,35,29,23
+Merope II,35,45,9
+Taygete II,36,8,4
+Zeus II,36,21,10
+Aetna II,36,24,21
+Amphictyonis II,36,45,8
+Anthousai II,36,49,8
+Aristaeus II,36,57,7
+Attis II,37,26,2
+Britomartis II,37,50,5
+Cabeiri II,37,55,21
+Aitnaios II,38,1,3
+Alkon II,38,15,0
+Eurymedon II,38,28,83
+Onnes II,38,44,33
+Tonnes II,38,46,42
+Asbolus II,38,49,6
+Chariclo II,38,53,15
+Chiron II,38,62,108
+Eurytion II,39,25,24
+Nessus II,39,26,12
+Pholus II,39,34,7
+Cercopes II,39,51,65
+Akmon II,39,54,17
+Passalos II,39,61,28
+Chloris II,39,62,19
+Comus II,39,63,141
+Corymbus II,39,64,15
+Curetes II,40,5,-1
+Cybele II,40,10,7
+Dactyls II,40,13,1
+Acmon II,40,19,5
+Damnameneus II,40,28,29
+Delas II,40,33,5
+Epimedes II,40,46,15
+Heracles II,40,55,24
+Iasios II,40,61,10
+Kelmis II,41,5,-3
+Skythes II,41,9,25
+Dionysus II,41,14,-2
+Dryades II,41,19,3
+Gaia II,41,25,179
+Epimeliades II,41,28,7
+Hamadryades II,41,30,1
+Hecaterus II,41,43,17
+Hephaestus II,41,44,8
+Hermes II,41,49,28
+Eunomia II,41,50,6
+Dike II,41,52,7
+Eirene II,41,63,20
+Thallo II,42,6,3
+Auxo II,42,7,6
+Karpo II,42,8,15
+Pherousa II,42,11,3
+Euporie II,42,26,59
+Orthosie II,42,30,6
+Auge II,42,38,22
+Anatole II,42,44,56
+Mousika II,42,46,41
+Musica II,43,14,4
+Gymnastika II,43,36,0
+Nymphe II,43,46,10
+Mesembria II,43,50,5
+Sponde II,43,51,57
+Elete II,43,56,20
+Akte II,43,59,205
+Acte II,43,60,25
+Cypris II,44,8,15
+Hesperis II,44,9,0
+Dysis II,44,11,4
+Arktos II,44,16,8
+Eiar II,44,20,73
+Theros II,44,21,19
+Pthinoporon II,44,22,95
+Cheimon II,44,23,17
+Korybantes II,44,27,5
+Damneus II,44,28,30
+Idaios II,44,30,29
+Kyrbas II,44,35,1
+Okythoos II,44,43,17
+Prymneus II,44,47,12
+Pyrrhichos II,44,50,41
+Maenades II,44,53,21
+Methe II,44,54,105
+Meliae II,44,55,16
+Naiades II,44,59,24
+Daphne II,44,61,29
+Metope II,45,8,6
+Hekaerge II,45,12,8
+Loxo II,45,13,63
+Oupis II,45,19,20
+Oreades II,45,28,7
+Adrasteia II,45,39,7
+Echo II,45,47,21
+Oceanides II,45,57,50
+Beroe II,45,61,297
+Calypso II,46,21,21
+Clytie II,46,30,11
+Eidyia II,46,31,3
+Ourea II,46,33,-1
+Palici II,46,44,100
+Pan II,46,46,125
+Potamoi II,46,50,81
+Achelous II,46,54,92
+Acis II,46,61,34
+Acheron II,46,63,30
+Alpheus II,47,18,19
+Asopus II,47,22,9
+Cladeus II,47,31,18
+Eurotas II,47,36,5
+Cocytus II,47,38,7
+Lethe II,47,43,98
+Peneus II,47,48,19
+Phlegethon II,47,50,27
+Styx II,47,57,21
+Scamander II,47,62,25
+Priapus II,48,2,40
+Rhea II,48,5,2
+Krotos II,48,8,14
+Silenus II,48,14,39
+Telete II,48,32,21
+Zagreus II,48,34,58
+Adonis II,48,35,9
+Aphaea II,48,45,11
+Carme II,48,46,75
+Carmanor II,48,49,38
+Chrysothemis II,48,50,180
+Cyamites II,48,58,73
+Demeter II,48,59,12
+Despoina II,49,8,7
+Dionysus II,49,12,3
+Eunostus II,49,15,36
+Hestia II,49,22,5
+Persephone II,49,30,1
+Philomelus II,49,44,9
+Plutus II,49,57,78
+Achilles II,50,1,19
+Aiakos II,50,13,4
+Aeolus II,50,24,34
+Amphiaraus II,50,28,23
+Ariadne II,50,49,36
+Aristaeus II,50,63,31
+Asclepius II,51,6,4
+Attis II,51,8,11
+Bolina II,51,16,18
+Dioscuri II,51,29,6
+Castor II,51,36,11
+Polydeuces II,51,38,14
+Endymion II,51,55,105
+Ganymede II,51,61,47
+Glaucus II,52,1,12
+Hemithea II,52,11,13
+Apollo II,52,15,19
+Heracles II,52,19,18
+Lampsace II,52,23,9
+Minos II,52,24,28
+Ino II,52,30,36
+Leucippides II,52,49,12
+Phoebe II,52,57,12
+Hilaeira II,53,20,17
+Orithyia II,53,42,9
+Palaemon II,53,46,27
+Phylonoe II,53,47,28
+Psyche II,53,55,38
+Aceso II,53,61,447
+Aegle II,54,4,60
+Asclepius II,54,8,76
+Epione II,54,10,66
+Hygieia II,54,11,18
+Iaso II,54,16,41
+Paeon II,54,26,38
+Panacea II,54,33,4
+Telesphorus II,54,58,119
+Gyges II,54,61,48
+Agrius II,55,1,25
+Alcyoneus II,55,12,21
+Otos II,55,27,109
+Ephialtes II,55,42,24
+Antaeus II,55,58,40
+Panoptes II,55,62,39
+Arges II,55,63,353
+Brontes II,55,64,43
+Steropes II,56,9,37
+Polyphemus II,56,18,17
+Enceladus II,56,22,40
+Gegenees II,56,24,82
+Geryon II,56,37,9
+Orion II,56,38,56
+Talos II,56,42,176
+Tityos II,56,49,9
+Typhon II,56,52,75
+Achlys II,57,3,25
+Adephagia II,57,4,13
+Adikia II,57,9,426
+Aergia II,57,20,1
+Agon II,57,23,24
+Aidos II,57,36,10
+Aisa II,57,47,14
+Alala II,57,48,13
+Alastor II,57,51,31
+Aletheia II,57,62,22
+Achos II,58,4,109
+Ania II,58,7,35
+Lupe II,58,8,187
+Alke II,58,9,44
+Amechania II,58,11,26
+Anaideia II,58,15,12
+Androktasiai II,58,19,2
+Angelia II,58,33,9
+Apate II,58,47,13
+Apheleia II,58,48,52
+Aporia II,58,50,92
+Arae II,58,51,21
+Arete II,58,53,13
+Atë II,58,62,182
+Bia II,59,2,22
+Caerus II,59,3,236
+Corus II,59,15,90
+Deimos II,59,27,110
+Dikaiosyne II,59,31,70
+Dike II,59,39,177
+Dolos II,59,43,248
+Dysnomia II,59,60,45
+Dyssebeia II,59,63,504
+Eirene II,60,3,36
+Ekecheiria II,60,4,250
+Eleos II,60,9,20
+Elpis II,60,15,17
+Epiphron II,60,17,4
+Eris II,60,24,59
+Anteros II,60,32,49
+Eros II,60,36,95
+Hedylogos II,60,41,12
+Himeros II,60,45,35
+Pothos II,60,48,68
+Eucleia II,60,60,317
+Eulabeia II,61,5,579
+Eunomia II,61,8,21
+Eupheme II,61,13,342
+Eupraxia II,61,18,4
+Eusebeia II,61,21,126
+Euthenia II,61,41,52
+Gelos II,61,42,14
+Geras II,61,49,46
+Harmonia II,61,51,65
+Hebe II,61,53,533
+Hedone II,61,58,24
+Heimarmene II,62,2,218
+Homados II,62,4,322
+Homonoia II,62,10,110
+Horkos II,62,21,13
+Horme II,62,26,45
+Hybris II,62,28,89
+Hypnos II,62,36,135
+Hysminai II,62,38,117
+Ioke II,62,40,46
+Kakia II,62,52,272
+Kalokagathia II,62,61,80
+Keres II,62,62,428
+Koalemos II,63,3,576
+Kratos II,63,18,18
+Kydoimos II,63,26,8
+Lethe II,63,28,8
+Limos II,63,32,14
+Litae II,63,38,19
+Lyssa II,63,46,38
+Machai II,63,60,67
+Mania II,64,1,120
+Moirai II,64,13,19
+Clotho II,64,14,142
+Lachesis II,64,16,168
+Atropos II,64,25,5
+Momus II,64,43,23
+Moros II,64,52,242
+Neikea II,1,26,4
+Nemesis II,1,29,4
+Nike II,1,32,15
+Nomos II,1,33,65
+Oizys II,1,47,28
+Oneiroi II,1,50,27
+Epiales II,1,54,18
+Morpheus II,1,57,123
+Phantasos II,2,4,170
+Phobetor II,2,8,90
+Palioxis II,2,14,27
+Peitharchia II,2,20,10
+Peitho II,2,22,-11
+Penia II,2,23,1
+Penthus II,2,24,-4
+Pepromene II,2,41,7
+Pheme II,2,46,35
+Philophrosyne II,2,61,26
+Philotes II,2,62,205
+Phobos II,3,1,106
+Phonoi II,3,3,410
+Phrike II,3,10,15
+Phthonus II,3,13,18
+Pistis II,3,16,4
+Poine II,3,20,6
+Polemos II,3,22,1
+Ponos II,3,23,1
+Poros II,3,44,8
+Praxidike II,4,12,67
+Proioxis II,4,17,4
+Prophasis II,4,31,6
+Pseudologoi II,4,37,8
+Ptocheia II,4,38,35
+Soter II,4,54,101
+Soteria II,4,55,17
+Sophrosyne II,4,56,60
+Techne II,5,19,7
+Thanatos II,5,20,2
+Thrasos II,5,25,13
+Tyche II,5,34,1
+Zelos II,5,54,24
+Acratopotes II,5,60,54
+Adrastea II,6,6,180
+Agdistis II,6,20,11
+Alexiares II,6,23,4
+Aphroditus II,6,25,-1
+Astraea II,6,45,14
+Auxesia II,6,47,9
+Charites II,6,49,9
+Aglaea II,6,50,42
+Euphrosyne II,6,59,40
+Thalia II,6,61,57
+Hegemone II,7,4,25
+Antheia II,7,10,25
+Pasithea II,7,18,4
+Cleta II,7,21,7
+Phaenna II,7,22,3
+Eudaimonia II,7,25,14
+Euthymia II,7,29,-2
+Calleis II,7,37,16
+Paidia II,7,41,21
+Pandaisia II,7,44,9
+Pannychis II,7,53,35
+Ceraon II,7,59,327
+Chrysus II,8,2,87
+Circe II,8,14,28
+Daemones II,8,34,17
+Ceramici II,8,39,7
+Syntribos II,8,48,36
+Smaragos II,8,51,10
+Asbetos II,8,54,95
+Sabaktes II,8,64,281
+Omodamos II,9,3,14
+Deipneus II,9,20,2
+Eiresione II,9,34,2
+Eileithyia II,9,38,5
+Enyalius II,9,40,22
+Enyo II,9,48,6
+Harpocrates II,9,53,48
+Hermaphroditus II,9,55,50
+Hymenaios II,10,20,25
+Ichnaea II,10,22,48
+Iynx II,10,26,69
+Matton II,10,32,32
+Aoide II,10,40,104
+Arche II,10,47,7
+Melete II,10,51,12
+Mneme II,10,54,87
+Thelxinoe II,10,55,31
+Mnemosyne II,10,58,276
+Calliope II,11,5,19
+Clio II,11,10,24
+Erato II,11,18,6
+Euterpe II,11,20,8
+Melpomene II,11,21,21
+Polyhymnia II,11,34,4
+Terpsichore II,11,57,61
+Thalia II,11,58,36
+Urania II,11,60,31
+Cephisso II,12,1,12
+Apollonis II,12,5,10
+Borysthenis II,12,11,25
+Hypate II,12,19,11
+Mese II,12,25,5
+Nete II,12,34,7
+Polymatheia II,12,35,3
+Palaestra II,12,49,11
+Rhapso II,12,57,21
+Abderus II,12,61,39
+Aeneas II,12,64,180
+Ajax II,13,10,7
+Amphitryon II,13,11,26
+Bellerophon II,13,12,28
+Pollux II,13,13,245
+Chrysippus II,13,16,8
+Daedalus II,13,20,21
+Diomedes II,13,23,20
+Eleusis II,13,24,4
+Eunostus II,13,25,30
+Ganymede II,13,28,9
+Hector II,13,38,7
+Iolaus II,13,40,7
+Jason II,13,41,30
+Meleager II,13,55,35
+Odysseus II,13,61,375
+Orpheus II,14,1,14
+Perseus II,14,8,23
+Theseus II,14,11,16
+Alcestis II,14,13,24
+Amymone II,14,14,140
+Andromache II,14,19,18
+Andromeda II,14,29,10
+Antigone II,14,35,6
+Arachne II,14,45,26
+Ariadne II,14,47,22
+Atalanta II,14,51,21
+Briseis II,15,3,39
+Caeneus II,15,4,7
+Cassandra II,15,12,11
+Clytemnestra II,15,28,9
+Danaë II,15,31,37
+Deianeira II,15,37,10
+Electra II,15,60,19
+Europa II,16,13,7
+Hecuba II,16,16,197
+Helen II,16,30,15
+Hermione II,16,43,10
+Iphigenia II,16,45,13
+Ismene II,17,9,67
+Jocasta II,17,13,44
+Medea II,17,14,10
+Medusa II,17,18,46
+Niobe II,17,25,50
+Pandora II,17,29,22
+Penelope II,17,34,13
+Phaedra II,17,38,7
+Polyxena II,17,39,12
+Semele II,17,41,47
+Abas II,17,46,15
+Acastus II,17,47,39
+Acrisius II,17,51,47
+Actaeus II,17,55,16
+Admetus II,17,56,9
+Adrastus II,18,9,11
+Aeacus II,18,13,8
+Aeëtes II,18,14,61
+Aegeus II,18,15,23
+Aegimius II,18,17,42
+Aegisthus II,18,30,17
+Aegyptus II,18,31,5
+Aeson II,18,47,22
+Aëthlius II,18,54,53
+Aetolus II,18,61,10
+Agamemnon II,18,64,233
+Agasthenes II,19,1,17
+Agenor II,19,25,10
+Alcinous II,19,32,8
+Alcmaeon II,19,35,89
+Aleus II,19,39,63
+Amphiaraus II,19,46,18
+Amphictyon II,19,60,16
+Amphion II,20,1,8
+Zethus II,20,5,5
+Amycus II,20,9,2
+Anaxagoras II,20,11,4
+Anchises II,20,12,50
+Arcesius II,20,19,18
+Argeus II,20,42,32
+Assaracus II,20,49,13
+Asterion II,20,53,26
+Athamas II,20,58,44
+Atreus II,21,2,2
+Augeas II,21,22,18
+Autesion II,21,26,10
+Bias II,21,30,20
+Busiris II,21,31,25
+Cadmus II,21,36,14
+Car II,21,39,15
+Catreus II,21,51,28
+Cecrops II,21,53,288
+Ceisus II,21,54,29
+Celeus II,21,56,12
+Cephalus II,21,58,8
+Cepheus II,22,13,12
+Cepheus II,22,32,57
+Charnabon II,22,46,89
+Cinyras II,22,50,63
+Codrus II,22,55,25
+Corinthus II,22,57,17
+Cranaus II,22,60,126
+Creon II,23,2,3
+Cres II,23,7,54
+Cresphontes II,23,8,7
+Cretheus II,23,12,7
+Criasus II,23,22,18
+Cylarabes II,23,24,20
+Cynortas II,23,25,39
+Cyzicus II,23,31,105
+Danaus II,23,32,9
+Dardanus II,23,39,148
+Deiphontes II,23,40,20
+Demophon II,23,53,36
+Diomedes II,24,9,10
+Echemus II,24,29,9
+Echetus II,24,31,7
+Eetion II,24,32,34
+Electryon II,24,35,7
+Elephenor II,24,38,77
+Eleusis II,24,39,17
+Epaphus II,24,41,28
+Epopeus II,24,44,69
+Erechtheus II,24,50,46
+Erginus II,24,51,9
+Erichthonius II,24,59,29
+Eteocles II,24,61,11
+Eteocles II,25,4,7
+Eurotas II,25,8,11
+Eurystheus II,25,13,14
+Gelanor II,25,15,3
+Haemus II,25,19,12
+Helenus II,25,32,8
+Hippothoön II,25,37,39
+Hyrieus II,25,41,269
+Ilus II,25,42,28
+Ixion II,25,43,23
+Laërtes II,25,48,9
+Laomedon II,26,3,8
+Lycaon II,26,14,17
+Lycurgus II,26,21,5
+Makedon II,26,27,23
+Megareus II,26,33,7
+Melampus II,26,36,38
+Melanthus II,26,42,106
+Memnon II,27,1,14
+Menelaus II,27,6,9
+Menestheus II,27,12,6
+Midas II,27,16,5
+Minos II,27,21,23
+Myles II,27,36,11
+Nestor II,27,43,86
+Nycteus II,27,51,75
+Odysseus II,27,53,20
+Oebalus II,27,62,15
+Oedipus II,28,15,7
+Oeneus II,28,25,10
+Oenomaus II,28,31,14
+Oenopion II,28,52,75
+Ogygus II,28,61,24
+Oicles II,29,2,6
+Oileus II,29,3,10
+Orestes II,29,8,7
+Oxyntes II,29,14,10
+Pandion II,29,18,6
+Peleus II,29,41,36
+Pelias II,29,48,4
+Pelops II,29,52,16
+Pentheus II,29,62,23
+Perseus II,30,2,22
+Phineus II,30,4,49
+Phlegyas II,30,7,5
+Phoenix II,30,16,28
+Phoroneus II,30,17,4
+Phyleus II,30,48,41
+Pirithoös II,31,6,4
+Pittheus II,31,28,14
+Polybus II,31,41,12
+Polynices II,31,45,8
+Priam II,31,49,14
+Proetus II,31,51,79
+Pylades II,31,52,7
+Rhadamanthys II,32,3,4
+Rhesus II,32,14,19
+Sarpedon II,32,25,9
+Sisyphus II,32,26,45
+Sithon II,32,29,11
+Talaus II,32,33,58
+Tegyrios II,32,40,41
+Telamon II,32,47,8
+Telephus II,32,49,8
+Temenus II,32,53,6
+Teucer II,33,19,13
+Teutamides II,33,25,65
+Teuthras II,33,26,5
+Thersander II,33,27,15
+Theseus II,33,42,5
+Thyestes II,33,50,11
+Tisamenus II,33,56,2
+Tyndareus II,33,57,35
+Amphilochus II,33,58,8
+Anius II,33,59,13
+Branchus II,33,64,16
+Calchas II,34,4,10
+Carnus II,34,6,4
+Carya II,34,8,26
+Cassandra II,34,26,29
+Ennomus II,34,33,54
+Halitherses II,34,50,56
+Helenus II,34,51,8
+Iamus II,34,54,27
+Idmon II,34,61,8
+Manto II,35,5,11
+Melampus II,35,19,49
+Mopsus II,35,49,16
+Polyeidos II,35,55,53
+Telemus II,35,61,26
+Theoclymenus II,35,62,18
+Tiresias II,35,64,24
+Aegea II,36,14,26
+Aella II,36,15,1
+Alcibie II,36,16,0
+Antandre II,36,19,5
+Antiope II,36,26,20
+Areto II,36,35,24
+Asteria II,36,38,72
+Bremusa II,36,43,9
+Celaeno II,36,44,53
+Eurypyle II,36,46,34
+Hippolyta II,36,50,49
+Hippothoe II,36,53,15
+Iphito II,36,58,54
+Lampedo II,36,59,18
+Marpesia II,37,5,60
+Melanippe II,37,6,8
+Molpadia II,37,11,11
+Myrina II,37,16,-1
+Orithyia II,37,22,10
+Otrera II,37,25,28
+Pantariste II,37,30,16
+Penthesilea II,37,38,16
+Abia II,37,43,9
+Abrota II,38,2,13
+Acacallis II,38,3,5
+Acallaris II,38,11,2
+Acamas II,38,18,15
+Acarnan II,38,20,48
+Achaeus II,38,22,57
+Acoetes II,38,41,10
+Actaeon II,38,50,15
+Actor II,38,56,66
+Aegiale II,38,58,69
+Aegialeus II,38,63,16
+Aepytus II,39,7,-2
+Aëdon II,39,11,37
+Aërope II,39,16,5
+Aesacus II,39,21,12
+Aethalides II,39,22,13
+Aethilla II,39,32,6
+Aethra II,39,36,8
+Agamede II,39,37,15
+Agamedes II,39,43,65
+Agapenor II,39,47,54
+Agave II,39,49,6
+Agelaus II,39,52,6
+Aglaea II,40,2,13
+Aglaulus II,40,12,-2
+Agrius II,40,17,6
+Agron II,40,30,31
+Alcaeus II,40,32,25
+Alcathous II,40,35,6
+Alcidice II,40,48,15
+Alcimache II,40,59,26
+Alcimede II,40,62,67
+Alcimedon II,40,64,55
+Alcimus II,41,2,2
+Alcinoe II,41,3,8
+Alcmene II,41,6,-1
+Alcyone II,41,15,1
+Almus II,41,40,16
+Aloeus II,41,41,201
+Alope II,41,45,22
+Alphesiboea II,41,62,8
+Althaea II,42,18,18
+Althaemenes II,42,19,7
+Amarynceus II,42,21,5
+Amethystos II,42,27,10
+Amphidamas II,42,36,3
+Amphimachus II,42,41,16
+Amphinome II,42,49,8
+Amphinomus II,42,51,7
+Amphion II,42,55,19
+Amphithea II,42,63,17
+Amyclas II,43,11,7
+Amyntor II,43,16,-1
+Amythaon II,43,29,14
+Anaxarete II,43,32,4
+Anaxibia II,43,35,3
+Anaxo II,43,37,4
+Ancaeus II,43,41,15
+Anchialus II,43,57,43
+Andraemon II,43,62,20
+Andreus II,44,1,6
+Androgeus II,44,2,16
+Antenor II,44,14,27
+Anticlus II,44,24,40
+Anticlea II,44,25,3
+Antilochus II,44,26,14
+Antimachus II,44,29,7
+Antinoe II,44,33,2
+Antinous II,44,38,22
+Antion II,44,41,2
+Antiphates II,44,45,21
+Antiphus II,44,57,13
+Apemosyne II,44,62,143
+Aphareus II,44,64,80
+Apheidas II,45,3,6
+Apis II,45,6,1
+Apsyrtus II,45,10,3
+Arcas II,45,22,23
+Arceophon II,45,25,23
+Arcesilaus II,45,27,6
+Areithous II,45,32,-1
+Aretaon II,45,34,3
+Arete II,45,35,5
+Arganthone II,45,37,46
+Arge II,45,42,5
+Argea II,45,60,31
+Argia II,46,4,18
+Argynnus II,46,8,14
+Aristodemus II,46,14,62
+Aristomachus II,46,16,37
+Asius II,46,22,92
+Asterodia II,46,35,5
+Asteropaios II,46,38,41
+Asterope II,46,40,34
+Astyanassa II,46,49,9
+Astyanax II,46,53,25
+Astydameia II,46,57,7
+Astynome II,46,58,55
+Astyoche II,47,3,30
+Astypalaea II,47,10,2
+Atrax II,47,21,25
+Atymnius II,47,26,2
+Auge II,47,29,3
+Autolycus II,47,44,16
+Automedon II,47,45,29
+Autonoë II,47,47,153
+Autonous II,48,24,33
+Axylus II,48,28,1
+Batea II,48,29,5
+Baubo II,48,33,9
+Baucis II,48,37,7
+Bianna II,48,40,43
+Bienor II,48,55,13
+Biston II,49,2,12
+Bormus II,49,3,12
+Borus II,49,9,30
+Botres II,49,10,7
+Budeia II,49,26,4
+Briseus II,49,34,8
+Broteas II,49,41,70
+Bucolion II,49,50,41
+Buphagus II,49,54,7
+Bura II,49,64,30
+Butes II,50,9,7
+Byblis II,50,20,54
+Calesius II,50,25,6
+Caletor II,50,31,7
+Callidice II,50,32,38
+Callithyia II,50,56,62
+Calyce II,50,60,89
+Calydon II,51,13,24
+Canace II,51,17,31
+Canthus II,51,19,154
+Capaneus II,51,22,6
+Capys II,51,24,3
+Carius II,51,39,90
+Carystus II,51,51,183
+Cassiopeia II,51,57,26
+Caunus II,52,3,10
+Cebriones II,52,7,10
+Celtine II,52,10,38
+Cerambus II,52,16,55
+Cerdo II,52,35,6
+Cestrinus II,52,55,15
+Ceyx II,52,62,207
+Chaeresilaus II,52,64,188
+Chalciope II,53,2,6
+Chalcodon II,53,8,12
+Charops II,53,21,151
+Chione II,53,23,20
+Chloris II,53,26,4
+Chromia II,53,44,24
+Chrysanthis II,53,54,33
+Chryseis II,53,56,11
+Chryses II,53,63,54
+Chrysippe II,54,2,54
+Chrysothemis II,54,15,11
+Chthonia II,54,23,12
+Chthonius II,54,25,2
+Chthonophyle II,54,27,12
+Cilix II,54,40,66
+Cilla II,54,43,23
+Cleite II,54,47,15
+Cleitus II,55,3,96
+Cleoboea II,55,6,18
+Cleobule II,55,9,41
+Cleodaeus II,55,11,184
+Cleopatra II,55,14,13
+Meleager II,55,18,4
+Clinis II,55,21,13
+Clonius II,55,24,12
+Clymenus II,55,29,16
+Clytie II,55,34,8
+Clytius II,55,35,88
+Clytodora II,55,36,14
+Clytus II,55,43,221
+Coeranus II,55,52,17
+Comaetho II,55,55,301
+Copreus II,55,56,37
+Coresus II,55,57,63
+Coronis II,55,60,35
+Cragaleus II,55,61,62
+Crete II,56,1,21
+Creusa II,56,11,24
+Crino II,56,17,2
+Crisus II,56,20,17
+Ctesippus II,56,21,4
+Ctesylla II,56,23,10
+Ctimene II,56,43,29
+Cyanippus II,56,46,55
+Cychreus II,56,53,16
+Cycnus II,56,55,36
+Cydippe II,56,56,290
+Cydon II,56,58,292
+Cyparissus II,56,59,40
+Daedalion II,57,5,64
+Daedalus II,57,18,2
+Dascylus II,57,28,9
+Deileon II,57,30,3
+Deimachus II,57,35,17
+Deioneus II,57,38,14
+Deiphobus II,57,41,433
+Deipyle II,57,57,670
+Delphus II,58,12,90
+Demodice II,58,21,4
+Demonassa II,58,22,30
+Demonice II,58,34,32
+Demophon II,58,52,82
+Eleusis II,58,61,25
+Deucalion II,58,63,55
+Dexamenus II,58,64,362
+Dia II,59,12,25
+Dictys II,59,14,14
+Dimoetes II,59,16,8
+Diocles II,59,18,5
+Diomede II,59,41,43
+Dirce II,59,42,28
+Dius II,59,44,25
+Dolius II,59,45,40
+Dolon II,60,20,52
+Dolops II,60,55,37
+Dorus II,60,58,167
+Dotis II,61,29,189
+Dryas II,61,33,32
+Dryope II,61,64,56
+Dymas II,62,1,50
+Echion II,62,8,162
+Eioneus II,62,22,60
+Electryone II,62,49,19
+Eleius II,62,54,261
+Eleuther II,62,60,364
+Elpenor II,63,7,461
+Elymus II,63,15,214
+Emathion II,63,17,19
+Enarete II,63,22,9
+Endeïs II,63,36,19
+Endymion II,63,42,22
+Enyeus II,63,43,178
+Epeius II,63,48,41
+Epicasta II,63,51,396
+Epidaurus II,63,53,69
+Epipole II,64,8,322
+Epirus II,64,11,42
+Epistrophus II,64,26,18
+Epochus II,64,28,29
+Ereuthalion II,64,35,18
+Eribotes II,64,36,77
+Eriopis II,64,37,10
+Eriphyle II,64,48,321
+Erymanthus II,64,49,42
+Euippe II,64,57,42
+Euchenor II,64,59,66
+Eulimene II,64,61,54
+Eumaeus II,1,9,113
+Eumedes II,1,19,11
+Euphorion II,1,30,6
+Euryalus II,1,38,6
+Euryanassa II,1,43,19
+Eurybates II,1,46,16
+Eurycleia II,2,12,48
+Eurycyda II,2,15,9
+Eurydamas II,2,28,-1
+Eurylochus II,2,36,2
+Eurymachus II,2,38,0
+Eurymedon II,2,39,5
+Eurymedousa II,2,43,7
+Eurypyle II,2,49,15
+Eurypylus II,2,50,73
+Euryte II,2,64,542
+Eurythemis II,3,4,47
+Eurythemista II,3,8,20
+Eurytion II,3,14,11
+Eurytus II,3,24,-1
+Evaechme II,3,25,-2
+Evippus II,3,27,-13
+Galanthis II,3,28,-4
+Alcmene II,3,30,4
+Gerana II,3,32,8
+Gorge II,4,1,44
+Gorgophone II,4,6,176
+Guneus II,4,15,10
+Haemon II,4,25,1
+Halaesus II,4,30,8
+Halirrhothius II,4,36,53
+Harpalion II,4,39,6
+Hecamede II,4,52,87
+Henioche II,4,58,102
+Herippe II,4,64,440
+Hermippe II,5,6,41
+Leander II,5,9,43
+Hero II,5,14,12
+Hippocoön II,5,21,48
+Hippodamas II,5,24,-1
+Hippodamia II,5,47,20
+Hippolytus II,5,49,42
+Hippotes II,5,50,9
+Hippothoe II,5,57,67
+Hippothous II,6,19,1
+Hodites II,6,21,5
+Hodoedocus II,6,27,0
+Hyacinthus II,6,29,2
+Apollo II,6,30,-12
+Lacedaemon II,6,33,0
+Hylas II,6,38,58
+Hyllus II,7,13,19
+Hyperenor II,7,17,1
+Hyperippe II,7,26,3
+Hypermnestra II,7,27,27
+Hyperphas II,7,34,4
+Hypsenor II,7,47,44
+Hyrmine II,8,3,18
+Hyrnetho II,8,11,27
+Ialmenus II,8,13,7
+Iasus II,8,15,3
+Icarius II,8,58,263
+Icarus II,9,8,43
+Ilione II,9,10,43
+Ilioneus II,9,14,9
+Imbrius II,9,17,47
+Iodame II,9,25,162
+Iole II,9,33,25
+Ion II,9,41,215
+Iphianassa II,9,42,23
+Iphianeira II,9,44,4
+Iphicles II,9,59,73
+Iphidamas II,9,60,22
+Iphimedeia II,10,1,19
+Iphinoe II,10,3,8
+Iphitus II,10,4,25
+Iphthime II,10,5,8
+Itonus II,10,6,66
+Lamedon II,10,10,167
+Lampus II,10,15,7
+Laodamas II,10,18,37
+Laodamia II,10,19,4
+Laodice II,10,31,3
+Laonome II,10,35,-2
+Laothoe II,10,59,36
+Lapithes II,11,8,22
+Leitus II,11,23,86
+Leos II,11,27,82
+Lepreus II,11,28,10
+Leucippus II,11,30,3
+Leucon II,11,31,53
+Leuconoe II,11,42,17
+Leucophrye II,11,49,15
+Leucus II,11,55,230
+Lityerses II,11,63,312
+Lophis II,12,9,11
+Lycaon II,12,15,15
+Lycaste II,12,45,24
+Lycastus II,12,51,12
+Lycorus II,13,4,12
+Lycurgus II,13,35,10
+Lysianassa II,13,47,31
+Lysimache II,13,50,12
+Lysippe II,13,59,48
+Machaon II,13,63,51
+Maeon II,14,2,23
+Magnes II,14,4,53
+Mecisteus II,14,5,12
+Meda II,14,17,14
+Medôn II,14,23,12
+Megapenthes II,14,37,7
+Melanippus II,14,48,61
+Melantho II,14,55,14
+Melas II,15,5,9
+Meliboea II,15,9,9
+Melicertes II,15,10,12
+Melite II,15,21,26
+Menippe II,15,23,64
+Messene II,15,25,8
+Metaneira II,15,32,2
+Metioche II,15,36,9
+Miletus II,15,42,9
+Minyas II,15,43,111
+Mestra II,15,44,18
+Munichus II,15,48,20
+Myrina II,15,58,13
+Myrmidon II,15,63,286
+Myrmidone II,16,2,33
+Myrrha II,16,8,40
+Myrtilus II,16,17,43
+Myrto II,16,26,35
+Mytilene II,16,37,7
+Narcissus II,16,38,23
+Naubolus II,16,42,39
+Nausicaa II,16,46,70
+Nausithous II,16,59,16
+Neoptolemus II,16,61,16
+Nicippe II,17,1,111
+Nireus II,17,17,477
+Nyctimene II,17,28,6
+Nyctimus II,17,33,125
+Oenoe II,17,37,26
+Oenone II,18,3,7
+Oenotrus II,18,8,34
+Olenus II,18,25,4
+Omphale II,18,29,3
+Orion II,18,43,9
+Ornytion II,18,46,71
+Ornytus II,18,51,28
+Orsilochus II,18,57,10
+Othryoneus II,19,6,9
+Oxylus II,19,17,47
+Pallene II,19,19,204
+Pandaie II,19,28,12
+Pandareus II,19,50,25
+Pandarus II,19,62,28
+Pandora II,19,63,270
+Panopeus II,20,13,16
+Panthous II,20,17,12
+Paris II,20,20,107
+Priam II,20,26,36
+Parthenopeus II,20,39,6
+Patroclus II,20,47,17
+Peirous II,20,54,110
+Peisenor II,20,59,13
+Peisidice II,20,61,28
+Peisistratus II,21,3,5
+Pelopia II,21,5,65
+Peneleus II,21,11,14
+Penthilus II,21,13,129
+Periboea II,21,19,26
+Perileos II,21,20,20
+Periphas II,21,21,197
+Periphetes II,21,23,19
+Perimede II,21,27,28
+Perimedes II,21,33,33
+Phaenops II,21,35,23
+Phaëton II,21,44,24
+Phalerus II,21,55,37
+Pharis II,22,3,2
+Phemius II,22,5,5
+Phialo II,22,10,40
+Phocus II,22,18,14
+Philemon II,22,21,21
+Philoctetes II,22,24,75
+Phlias II,22,25,13
+Phoenix II,22,26,54
+Phorbas II,22,27,19
+Phorcys II,22,30,97
+Phrastor II,22,33,7
+Phrixus II,22,40,55
+Phrontis II,22,61,31
+Phylacus II,22,62,121
+Phylas II,23,10,8
+Phyleus II,23,11,57
+Phyllis II,23,23,171
+Physadeia II,23,26,24
+Physcoa II,23,36,9
+Pleuron II,23,43,161
+Plexippus II,23,46,13
+Podalirius II,23,59,223
+Polites II,24,11,5
+Polyboea II,24,37,11
+Polycaon II,24,40,123
+Polycaste II,24,49,4
+Polydorus II,24,55,28
+Polymele II,25,9,123
+Polypheides II,25,17,39
+Polyxenus II,25,30,8
+Polyxo II,25,39,33
+Praxithea II,25,50,4
+Proclia II,25,51,11
+Procrustes II,26,1,5
+Promedon II,26,5,6
+Pronax II,26,7,10
+Prosymnus II,26,13,6
+Protesilaus II,26,16,35
+Prothoenor II,26,48,45
+Psophis II,26,50,25
+Pterelaos II,26,53,10
+Pygmalion II,26,61,8
+Pylaeus II,27,2,8
+Pylaemenes II,27,11,65
+Pyraechmes II,27,17,8
+Pyramus II,27,20,11
+Pyrrha II,27,25,37
+Rarus II,27,27,161
+Rhadine II,27,34,7
+Rhoeo II,27,47,63
+Saon II,27,50,7
+Schedius II,27,54,20
+Scylaceus II,27,63,129
+Selemnus II,28,1,9
+Sidero II,28,5,12
+Socus II,28,9,4
+Solymus II,28,16,27
+Sostratus II,28,18,45
+Sparta II,28,22,95
+Lacedaemon II,28,39,14
+Staphylus II,28,42,48
+Stentor II,28,57,13
+Stheneboea II,28,64,65
+Sthenele II,29,24,6
+Sthenelus II,29,26,10
+Stratonice II,29,27,25
+Strophius II,29,29,239
+Syleus II,29,34,15
+Syme II,29,35,39
+Tecmessa II,29,37,271
+Tegeates II,29,42,6
+Telecleia II,29,45,122
+Telegonus II,29,54,22
+Telemachus II,29,56,9
+Teleon II,29,58,12
+Telephassa II,29,59,26
+Tenes II,30,5,12
+Termerus II,30,12,15
+Theiodamas II,30,14,17
+Themiste II,30,15,2
+Themisto II,30,20,82
+Theobule II,30,27,16
+Theonoe II,30,38,118
+Theophane II,30,44,49
+Thero II,30,49,2
+Thersander II,30,57,7
+Thersites II,30,60,90
+Thespius II,31,3,56
+Thestius II,31,7,52
+Thestor II,31,23,58
+Thisbe II,31,25,9
+Thoas II,31,29,38
+Thoön II,31,37,39
+Thrasymedes II,31,42,10
+Thymoetes II,31,55,86
+Timandra II,31,59,114
+Tithonus II,31,62,15
+Tlepolemus II,32,43,8
+Toxeus II,32,44,21
+Trambelus II,32,50,40
+Troezen II,32,54,18
+Trophonius II,32,55,9
+Tydeus II,33,38,9
+Tyres II,33,48,11
+Tyro II,33,55,7
+Ucalegon II,34,16,37
+Xanthippe II,34,21,6
+Xanthius II,34,36,79
+Xanthus II,34,45,5
+Xuthus II,34,49,12
+Zarex II,35,2,9
+Zetes II,35,3,48
+Zeuxippe II,35,4,3
+Zeuxippus II,35,7,4
+Amphiaraus III,35,8,4
+Angelos III,35,11,39
+Askalaphos III,35,17,6
+Cerberus III,35,22,5
+Charon III,35,25,7
+Empusa III,35,28,7
+Erebos III,35,30,20
+Erinyes III,35,40,8
+Alecto III,35,44,4
+Tisiphone III,35,51,83
+Megaera III,35,52,10
+Hecate III,35,58,10
+Aiakos III,36,1,8
+Minos III,36,4,41
+Rhadamanthys III,36,5,4
+Keuthonymos III,36,7,3
+Cronus III,36,18,29
+Lamia III,36,25,6
+Lampades III,36,30,97
+Gorgyra III,36,37,18
+Orphne III,36,51,10
+Macaria III,37,2,3
+Melinoe III,37,9,-3
+Menoetes III,37,14,2
+Mormo III,37,24,2
+Nyx III,37,34,12
+Persephone III,37,39,20
+Acheron III,37,42,4
+Kokytos III,37,49,18
+Lethe III,37,59,35
+Phlegethon III,37,62,25
+Styx III,38,4,23
+Tartarus III,38,12,18
+Aegaeon III,38,13,7
+Acheilos III,38,19,7
+Amphitrite III,38,31,11
+Benthesikyme III,38,33,6
+Brizo III,38,35,11
+Ceto III,38,38,63
+Charybdis III,38,48,24
+Cymopoleia III,39,9,8
+Delphin III,39,12,0
+Eidothea III,39,33,13
+Glaucus III,39,38,11
+Stheno III,39,45,14
+Euryale III,39,56,22
+Medusa III,39,58,20
+Deino III,40,26,65
+Enyo III,40,40,89
+Pemphredo III,40,53,9
+Aello III,41,8,0
+Ocypete III,41,10,1
+Podarge III,41,12,-1
+Celaeno III,41,17,41
+Nicothoe III,41,21,17
+Bythos III,41,24,20
+Aphros III,41,37,25
+Karkinos III,41,51,10
+Ladon III,41,59,36
+Leucothea III,41,61,52
+Nereides III,42,1,6
+Thetis III,42,2,34
+Arethusa III,42,22,42
+Galene III,42,25,15
+Psamathe III,42,28,20
+Nereus III,42,35,2
+Nerites III,42,45,6
+Oceanus III,42,48,37
+Palaemon III,42,53,9
+Phorcys III,42,56,139
+Pontos III,42,59,25
+Poseidon III,43,1,16
+Proteus III,43,4,2
+Scylla III,43,19,53
+Aglaope III,43,20,8
+Himerope III,43,26,11
+Leucosia III,43,27,73
+Ligeia III,43,31,17
+Molpe III,43,45,26
+Parthenope III,43,54,15
+Peisinoe III,44,3,5
+Raidne III,44,12,33
+Teles III,44,44,122
+Thelchtereia III,44,49,4
+Thelxiope III,44,56,54
+Telchines III,45,18,9
+Actaeus III,45,21,213
+Argyron III,45,43,25
+Atabyrius III,45,48,8
+Chalcon III,45,51,22
+Chryson III,45,52,21
+Damon III,45,62,35
+Damnameneus III,46,1,6
+Dexithea III,46,2,12
+Lycos III,46,3,4
+Lysagora III,46,12,36
+Makelo III,46,29,6
+Megalesius III,46,32,-1
+Mylas III,46,37,7
+Nikon III,46,48,57
+Ormenos III,46,52,110
+Simon III,47,2,3
+Skelmis III,47,7,17
+Tethys III,47,9,7
+Thalassa III,47,11,43
+Thaumas III,47,23,86
+Thoosa III,47,27,14
+Triteia III,47,37,4
+Triton III,47,55,128
+Tritones III,47,56,15
+Achelois III,47,59,149
+Aeolus III,47,63,267
+Aether III,48,6,-2
+Alectrona III,48,9,2
+Anemoi III,48,13,4
+Boreas III,48,18,162
+Eurus III,48,44,50
+Notus III,48,47,20
+Zephyrus III,48,54,66
+Aparctias III,49,5,23
+Apheliotes III,49,6,1
+Argestes III,49,20,12
+Caicias III,49,27,8
+Circios III,49,31,9
+Euronotus III,49,37,10
+Lips III,49,38,3
+Skeiron III,49,45,39
+Arke III,49,46,10
+Astraios III,49,49,399
+Stilbon III,49,51,36
+Eosphorus III,49,56,10
+Hesperus III,50,4,17
+Pyroeis III,50,10,54
+Phaethon III,50,18,144
+Phaenon III,50,26,19
+Aurai III,50,27,8
+Aura III,50,36,39
+Chaos III,50,45,11
+Chione III,50,48,150
+Helios III,51,1,27
+Selene III,51,4,11
+Eos III,51,5,12
+Hemera III,51,9,18
+Hera III,51,26,1
+Herse III,51,27,39
+Hesperides III,51,40,9
+Hyades III,51,41,12
+Iris III,51,49,38
+Menae III,51,54,14
+Nephelai III,51,56,11
+Ouranos III,52,2,48
+Pandia III,52,5,13
+Pleiades III,52,6,37
+Alcyone III,52,9,7
+Sterope III,52,12,88
+Celaeno III,52,22,46
+Electra III,52,27,4
+Maia III,52,29,8
+Merope III,52,33,2
+Taygete III,52,34,25
+Zeus III,52,44,88
+Aetna III,52,50,65
+Amphictyonis III,52,59,23
+Anthousai III,53,6,14
+Aristaeus III,53,7,12
+Attis III,53,9,41
+Britomartis III,53,10,9
+Cabeiri III,53,11,23
+Aitnaios III,53,31,16
+Alkon III,53,32,6
+Eurymedon III,53,33,18
+Onnes III,53,34,7
+Tonnes III,53,51,31
+Asbolus III,53,58,19
+Chariclo III,53,60,41
+Chiron III,54,1,18
+Eurytion III,54,5,14
+Nessus III,54,12,117
+Pholus III,54,13,21
+Cercopes III,54,14,85
+Akmon III,54,30,27
+Passalos III,54,34,39
+Chloris III,54,44,115
+Comus III,54,46,106
+Corymbus III,54,53,30
+Curetes III,54,54,168
+Cybele III,54,63,42
+Dactyls III,55,4,12
+Acmon III,55,10,23
+Damnameneus III,55,26,13
+Delas III,55,31,49
+Epimedes III,55,32,5
+Heracles III,55,45,36
+Iasios III,55,49,19
+Kelmis III,55,54,33
+Skythes III,56,29,8
+Dionysus III,56,33,8
+Dryades III,56,44,90
+Gaia III,56,50,59
+Epimeliades III,56,51,15
+Hamadryades III,56,60,129
+Hecaterus III,56,64,272
+Hephaestus III,57,2,15
+Hermes III,57,7,49
+Eunomia III,57,10,39
+Dike III,57,27,23
+Eirene III,57,42,45
+Thallo III,57,44,14
+Auxo III,57,50,15
+Karpo III,57,52,15
+Pherousa III,57,60,21
+Euporie III,57,63,51
+Orthosie III,58,2,92
+Auge III,58,3,23
+Anatole III,58,5,18
+Mousika III,58,6,125
+Musica III,58,18,23
+Gymnastika III,58,40,179
+Nymphe III,58,43,30
+Mesembria III,58,55,39
+Sponde III,58,58,313
+Elete III,58,60,159
+Akte III,59,1,47
+Acte III,59,24,17
+Cypris III,59,40,24
+Hesperis III,59,46,23
+Dysis III,59,47,142
+Arktos III,59,48,12
+Eiar III,59,54,34
+Theros III,59,55,316
+Pthinoporon III,59,62,57
+Cheimon III,59,64,62
+Korybantes III,60,7,36
+Damneus III,60,18,17
+Idaios III,60,39,20
+Kyrbas III,60,42,94
+Okythoos III,60,49,12
+Prymneus III,60,50,97
+Pyrrhichos III,60,54,255
+Maenades III,60,59,47
+Methe III,61,9,83
+Meliae III,61,14,35
+Naiades III,61,23,19
+Daphne III,61,25,30
+Metope III,61,36,27
+Hekaerge III,61,40,13
+Loxo III,61,46,37
+Oupis III,61,63,102
+Oreades III,62,12,198
+Adrasteia III,62,16,71
+Echo III,62,20,66
+Oceanides III,62,24,26
+Beroe III,62,25,7
+Calypso III,62,33,10
+Clytie III,62,35,18
+Eidyia III,63,4,71
+Ourea III,63,6,61
+Palici III,63,9,46
+Pan III,63,11,294
+Potamoi III,63,12,36
+Achelous III,63,23,60
+Acis III,63,29,14
+Acheron III,63,33,24
+Alpheus III,63,41,23
+Asopus III,63,44,24
+Cladeus III,63,45,49
+Eurotas III,63,49,45
+Cocytus III,63,56,47
+Lethe III,64,6,328
+Peneus III,64,19,14
+Phlegethon III,64,29,6
+Styx III,64,30,63
+Scamander III,64,32,125
+Priapus III,64,39,14
+Rhea III,64,45,18
+Krotos III,64,46,170
+Silenus III,64,58,368
+Telete III,1,1,1000
+Zagreus III,1,3,100
+Adonis III,1,5,118
+Aphaea III,1,6,28
+Carme III,1,64,122
+Carmanor III,2,2,390
+Chrysothemis III,2,3,54
+Cyamites III,2,21,2
+Demeter III,2,37,2
+Despoina III,2,47,13
+Dionysus III,2,48,84
+Eunostus III,2,51,14
+Hestia III,2,53,12
+Persephone III,2,54,50
+Philomelus III,2,63,69
+Plutus III,3,7,173
+Achilles III,3,12,14
+Aiakos III,3,26,0
+Aeolus III,3,35,25
+Amphiaraus III,3,43,80
+Ariadne III,3,51,110
+Aristaeus III,3,58,22
+Asclepius III,3,60,33
+Attis III,3,64,79
+Bolina III,4,11,15
+Dioscuri III,4,19,5
+Castor III,4,26,-2
+Polydeuces III,4,40,23
+Endymion III,4,41,3
+Ganymede III,4,44,54
+Glaucus III,4,47,11
+Hemithea III,5,11,20
+Apollo III,5,12,17
+Heracles III,5,13,138
+Lampsace III,5,30,-2
+Minos III,5,33,18
+Ino III,5,37,109
+Leucippides III,5,39,10
+Phoebe III,5,51,20
+Hilaeira III,5,55,35
+Orithyia III,5,61,561
+Palaemon III,5,64,49
+Phylonoe III,6,1,31
+Psyche III,6,4,189
+Aceso III,6,10,71
+Aegle III,6,13,14
+Asclepius III,6,17,1
+Epione III,6,28,0
+Hygieia III,6,35,4
+Iaso III,6,51,11
+Paeon III,7,3,179
+Panacea III,7,7,232
+Telesphorus III,7,31,-8
+Gyges III,7,46,5
+Agrius III,7,48,3
+Alcyoneus III,7,49,11
+Otos III,7,54,25
+Ephialtes III,7,63,410
+Antaeus III,8,5,15
+Panoptes III,8,30,-5
+Arges III,8,35,1
+Brontes III,8,40,73
+Steropes III,8,44,47
+Polyphemus III,8,46,10
+Enceladus III,9,7,43
+Gegenees III,9,11,38
+Geryon III,9,13,52
+Orion III,9,18,4
+Talos III,9,27,17
+Tityos III,9,28,6
+Typhon III,9,29,5
+Achlys III,9,31,5
+Adephagia III,9,32,6
+Adikia III,9,35,0
+Aergia III,9,39,25
+Agon III,9,50,8
+Aidos III,9,52,9
+Aisa III,9,56,58
+Alala III,9,57,626
+Alastor III,9,64,31
+Aletheia III,10,12,88
+Achos III,10,16,42
+Ania III,10,25,16
+Lupe III,10,38,21
+Alke III,10,41,25
+Amechania III,10,42,99
+Anaideia III,10,44,48
+Androktasiai III,10,45,8
+Angelia III,10,48,46
+Apate III,10,64,232
+Apheleia III,11,3,53
+Aporia III,11,6,13
+Arae III,11,16,11
+Arete III,11,32,3
+Atë III,11,35,8
+Bia III,11,50,15
+Caerus III,11,52,16
+Corus III,11,54,26
+Deimos III,12,10,93
+Dikaiosyne III,12,21,20
+Dike III,12,30,43
+Dolos III,12,33,-2
+Dysnomia III,12,36,7
+Dyssebeia III,12,44,94
+Eirene III,12,47,16
+Ekecheiria III,12,54,131
+Eleos III,12,59,36
+Elpis III,12,60,199
+Epiphron III,12,63,37
+Eris III,13,6,14
+Anteros III,13,14,25
+Eros III,13,29,70
+Hedylogos III,13,30,6
+Himeros III,13,32,5
+Pothos III,13,42,5
+Eucleia III,13,43,24
+Eulabeia III,13,46,26
+Eunomia III,13,60,38
+Eupheme III,14,15,24
+Eupraxia III,14,41,6
+Eusebeia III,14,46,113
+Euthenia III,14,57,9
+Gelos III,14,58,69
+Geras III,14,60,150
+Harmonia III,14,62,177
+Hebe III,15,7,29
+Hedone III,15,14,22
+Heimarmene III,15,20,17
+Homados III,15,24,9
+Homonoia III,15,33,5
+Horkos III,15,50,27
+Horme III,15,51,194
+Hybris III,15,57,20
+Hypnos III,15,64,37
+Hysminai III,16,4,23
+Ioke III,16,24,46
+Kakia III,16,31,3
+Kalokagathia III,16,49,42
+Keres III,16,50,178
+Koalemos III,16,62,104
+Kratos III,16,63,32
+Kydoimos III,17,3,8
+Lethe III,17,19,51
+Limos III,17,22,7
+Litae III,17,27,11
+Lyssa III,17,44,7
+Machai III,17,52,16
+Mania III,17,61,43
+Moirai III,17,63,34
+Clotho III,18,2,52
+Lachesis III,18,6,7
+Atropos III,18,7,4
+Momus III,18,10,51
+Moros III,18,23,6
+Neikea III,18,39,6
+Nemesis III,18,49,39
+Nike III,18,53,11
+Nomos III,18,55,13
+Oizys III,18,60,58
+Oneiroi III,19,2,6
+Epiales III,19,8,7
+Morpheus III,19,9,16
+Phantasos III,19,12,6
+Phobetor III,19,21,32
+Palioxis III,19,23,60
+Peitharchia III,19,29,22
+Peitho III,19,33,22
+Penia III,19,41,11
+Penthus III,19,48,22
+Pepromene III,19,56,10
+Pheme III,20,3,4
+Philophrosyne III,20,14,74
+Philotes III,20,21,19
+Phobos III,20,22,69
+Phonoi III,20,24,24
+Phrike III,20,27,12
+Phthonus III,20,44,98
+Pistis III,21,9,19
+Poine III,21,18,7
+Polemos III,21,37,151
+Ponos III,21,38,16
+Poros III,21,43,27
+Praxidike III,21,59,34
+Proioxis III,21,61,278
+Prophasis III,21,64,11
+Pseudologoi III,22,1,6
+Ptocheia III,22,11,7
+Soter III,22,31,13
+Soteria III,22,39,14
+Sophrosyne III,22,52,114
+Techne III,22,64,82
+Thanatos III,23,4,3
+Thrasos III,23,9,10
+Tyche III,23,15,53
+Zelos III,23,19,43
+Acratopotes III,23,29,21
+Adrastea III,23,30,14
+Agdistis III,23,35,71
+Alexiares III,23,44,22
+Aphroditus III,23,45,26
+Astraea III,23,49,18
+Auxesia III,23,51,101
+Charites III,23,52,14
+Aglaea III,23,58,25
+Euphrosyne III,24,3,3
+Thalia III,24,17,5
+Hegemone III,24,21,8
+Antheia III,24,33,6
+Pasithea III,24,42,126
+Cleta III,24,46,30
+Phaenna III,25,10,12
+Eudaimonia III,25,12,5
+Euthymia III,25,14,4
+Calleis III,25,18,4
+Paidia III,25,21,27
+Pandaisia III,25,24,38
+Pannychis III,25,29,55
+Ceraon III,25,38,12
+Chrysus III,25,61,47
+Circe III,25,63,18
+Daemones III,26,10,59
+Ceramici III,26,11,8
+Syntribos III,26,19,10
+Smaragos III,26,22,61
+Asbetos III,26,28,83
+Sabaktes III,26,37,10
+Omodamos III,26,41,29
+Deipneus III,26,64,85
+Eiresione III,27,4,4
+Eileithyia III,27,9,19
+Enyalius III,27,10,6
+Enyo III,27,23,159
+Harpocrates III,27,37,23
+Hermaphroditus III,27,38,20
+Hymenaios III,27,39,153
+Ichnaea III,27,56,27
+Iynx III,27,60,21
+Matton III,28,2,25
+Aoide III,28,3,5
+Arche III,28,8,28
+Melete III,28,12,49
+Mneme III,28,13,11
+Thelxinoe III,28,19,11
+Mnemosyne III,28,26,53
+Calliope III,28,33,11
+Clio III,28,34,42
+Erato III,28,41,11
+Euterpe III,28,44,68
+Melpomene III,28,47,10
+Polyhymnia III,28,50,24
+Terpsichore III,28,63,16
+Thalia III,29,5,119
+Urania III,29,15,5
+Cephisso III,29,22,19
+Apollonis III,29,30,27
+Borysthenis III,29,31,37
+Hypate III,29,40,12
+Mese III,29,47,9
+Nete III,29,63,23
+Polymatheia III,29,64,6
+Palaestra III,30,13,4
+Rhapso III,30,23,12
+Abderus III,30,26,54
+Aeneas III,30,28,87
+Ajax III,30,40,52
+Amphitryon III,30,47,10
+Bellerophon III,30,50,22
+Pollux III,30,54,91
+Chrysippus III,31,12,4
+Daedalus III,31,16,5
+Diomedes III,31,20,13
+Eleusis III,31,26,10
+Eunostus III,31,34,35
+Ganymede III,31,35,261
+Hector III,31,57,10
+Iolaus III,31,60,16
+Jason III,31,64,18
+Meleager III,32,9,3
+Odysseus III,32,12,8
+Orpheus III,32,21,4
+Perseus III,32,23,8
+Theseus III,32,27,8
+Alcestis III,32,34,253
+Amymone III,32,36,96
+Andromache III,32,41,6
+Andromeda III,32,52,19
+Antigone III,32,56,30
+Arachne III,32,63,16
+Ariadne III,33,3,7
+Atalanta III,33,6,5
+Briseis III,33,11,4
+Caeneus III,33,12,4
+Cassandra III,33,31,54
+Clytemnestra III,33,39,11
+Danaë III,33,53,11
+Deianeira III,33,61,37
+Electra III,34,7,2
+Europa III,34,13,5
+Hecuba III,34,17,8
+Helen III,34,20,33
+Hermione III,34,27,10
+Iphigenia III,34,35,28
+Ismene III,34,38,34
+Jocasta III,34,39,7
+Medea III,34,59,12
+Medusa III,34,60,45
+Niobe III,35,1,17
+Pandora III,35,6,0
+Penelope III,35,16,7
+Phaedra III,35,27,80
+Polyxena III,35,31,189
+Semele III,35,37,27
+Abas III,35,38,7
+Acastus III,35,46,6
+Acrisius III,35,50,12
+Actaeus III,35,53,20
+Admetus III,36,6,24
+Adrastus III,36,20,41
+Aeacus III,36,29,16
+Aeëtes III,36,31,19
+Aegeus III,36,36,118
+Aegimius III,36,40,45
+Aegisthus III,36,52,62
+Aegyptus III,37,4,5
+Aeson III,37,32,12
+Aëthlius III,37,45,89
+Aetolus III,37,58,8
+Agamemnon III,37,63,28
+Agasthenes III,38,10,26
+Agenor III,38,29,18
+Alcinous III,38,30,83
+Alcmaeon III,38,54,97
+Aleus III,39,3,17
+Amphiaraus III,39,5,0
+Amphictyon III,39,6,3
+Amphion III,39,8,3
+Zethus III,39,18,6
+Amycus III,39,28,12
+Anaxagoras III,39,31,95
+Anchises III,39,53,16
+Arcesius III,39,55,153
+Argeus III,39,60,19
+Assaracus III,40,3,2
+Asterion III,40,6,-10
+Athamas III,40,20,11
+Atreus III,40,22,30
+Augeas III,40,31,11
+Autesion III,40,44,27
+Bias III,40,45,2
+Busiris III,40,51,4
+Cadmus III,41,1,19
+Car III,41,29,21
+Catreus III,41,36,4
+Cecrops III,41,46,7
+Ceisus III,41,54,9
+Celeus III,41,58,34
+Cephalus III,41,60,11
+Cepheus III,42,5,3
+Cepheus III,42,14,1
+Charnabon III,42,17,6
+Cinyras III,42,23,14
+Codrus III,42,29,0
+Corinthus III,42,33,3
+Cranaus III,42,47,10
+Creon III,42,52,43
+Cres III,42,58,176
+Cresphontes III,43,7,37
+Cretheus III,43,17,1
+Criasus III,43,38,8
+Cylarabes III,43,39,54
+Cynortas III,43,40,8
+Cyzicus III,43,43,142
+Danaus III,43,58,25
+Dardanus III,44,5,1
+Deiphontes III,44,18,40
+Demophon III,44,46,93
+Diomedes III,44,60,131
+Echemus III,45,4,5
+Echetus III,45,7,4
+Eetion III,45,11,4
+Electryon III,45,14,8
+Elephenor III,45,53,221
+Eleusis III,46,5,2
+Epaphus III,46,25,3
+Epopeus III,46,26,23
+Erechtheus III,46,39,6
+Erginus III,46,51,23
+Erichthonius III,46,55,13
+Eteocles III,46,59,21
+Eteocles III,47,13,13
+Eurotas III,47,19,184
+Eurystheus III,47,28,-2
+Gelanor III,47,39,44
+Haemus III,47,42,12
+Helenus III,47,46,20
+Hippothoön III,47,51,190
+Hyrieus III,47,53,30
+Ilus III,47,54,16
+Ixion III,47,58,16
+Laërtes III,47,60,19
+Laomedon III,48,3,3
+Lycaon III,48,4,23
+Lycurgus III,48,7,3
+Makedon III,48,10,16
+Megareus III,48,11,6
+Melampus III,48,12,9
+Melanthus III,48,20,74
+Memnon III,48,23,9
+Menelaus III,48,36,38
+Menestheus III,48,38,30
+Midas III,48,52,91
+Minos III,48,53,12
+Myles III,48,56,63
+Nestor III,48,63,31
+Nycteus III,49,4,7
+Odysseus III,49,21,32
+Oebalus III,49,35,14
+Oedipus III,49,36,7
+Oeneus III,49,39,13
+Oenomaus III,49,40,8
+Oenopion III,49,47,41
+Ogygus III,49,48,37
+Oicles III,49,53,53
+Oileus III,49,55,17
+Orestes III,49,61,51
+Oxyntes III,50,5,2
+Pandion III,50,11,12
+Peleus III,50,17,36
+Pelias III,50,21,8
+Pelops III,50,22,15
+Pentheus III,50,39,8
+Perseus III,50,42,53
+Phineus III,50,52,60
+Phlegyas III,50,58,87
+Phoenix III,51,3,79
+Phoroneus III,51,11,113
+Phyleus III,51,12,16
+Pirithoös III,51,21,24
+Pittheus III,51,30,4
+Polybus III,51,31,62
+Polynices III,51,43,122
+Priam III,51,44,15
+Proetus III,51,53,29
+Pylades III,52,4,54
+Rhadamanthys III,52,17,8
+Rhesus III,52,26,3
+Sarpedon III,52,28,21
+Sisyphus III,52,39,11
+Sithon III,52,40,41
+Talaus III,52,41,9
+Tegyrios III,52,52,150
+Telamon III,52,54,129
+Telephus III,52,60,166
+Temenus III,53,1,47
+Teucer III,53,5,113
+Teutamides III,53,13,235
+Teuthras III,53,17,34
+Thersander III,53,18,4
+Theseus III,53,28,11
+Thyestes III,53,41,55
+Tisamenus III,53,49,48
+Tyndareus III,53,57,77
+Amphilochus III,53,62,48
+Anius III,53,64,26
+Branchus III,54,9,11
+Calchas III,54,24,21
+Carnus III,54,28,59
+Carya III,54,29,9
+Cassandra III,54,32,29
+Ennomus III,54,48,41
+Halitherses III,54,50,56
+Helenus III,54,51,17
+Iamus III,54,55,31
+Idmon III,54,56,106
+Manto III,54,57,21
+Melampus III,54,62,217
+Mopsus III,55,2,10
+Polyeidos III,55,5,17
+Telemus III,55,7,149
+Theoclymenus III,55,16,11
+Tiresias III,55,20,6
+Aegea III,55,38,15
+Aella III,55,40,24
+Alcibie III,55,46,14
+Antandre III,56,7,18
+Antiope III,56,12,67
+Areto III,56,15,9
+Asteria III,56,19,4
+Bremusa III,56,30,24
+Celaeno III,56,31,5
+Eurypyle III,56,35,8
+Hippolyta III,56,40,182
+Hippothoe III,56,45,11
+Iphito III,57,13,52
+Lampedo III,57,25,240
+Marpesia III,57,32,10
+Melanippe III,57,43,49
+Molpadia III,57,59,71
+Myrina III,57,61,92
+Orithyia III,58,10,190
+Otrera III,58,25,22
+Pantariste III,58,26,104
+Penthesilea III,58,46,71
+Abia III,58,54,115
+Abrota III,59,4,32
+Acacallis III,59,6,36
+Acallaris III,59,17,12
+Acamas III,59,19,28
+Acarnan III,59,21,13
+Achaeus III,59,23,108
+Acoetes III,59,59,379
+Actaeon III,60,2,123
+Actor III,60,6,254
+Aegiale III,60,23,11
+Aegialeus III,60,27,11
+Aepytus III,60,28,80
+Aëdon III,60,43,26
+Aërope III,60,44,181
+Aesacus III,60,63,69
+Aethalides III,60,64,371
+Aethilla III,61,1,130
+Aethra III,61,2,30
+Agamede III,61,4,64
+Agamedes III,61,10,16
+Agapenor III,61,17,39
+Agave III,61,19,18
+Agelaus III,61,20,15
+Aglaea III,61,30,21
+Aglaulus III,61,31,25
+Agrius III,61,34,9
+Agron III,61,37,292
+Alcaeus III,61,38,29
+Alcathous III,61,39,30
+Alcidice III,61,44,36
+Alcimache III,61,50,20
+Alcimede III,61,52,54
+Alcimedon III,62,6,306
+Alcimus III,62,9,22
+Alcinoe III,62,15,27
+Alcmene III,62,17,7
+Alcyone III,62,23,8
+Almus III,62,34,72
+Aloeus III,62,37,28
+Alope III,62,41,8
+Alphesiboea III,62,42,61
+Althaea III,62,45,38
+Althaemenes III,62,57,26
+Amarynceus III,63,21,18
+Amethystos III,63,31,129
+Amphidamas III,63,35,159
+Amphimachus III,63,37,26
+Amphinome III,63,40,12
+Amphinomus III,63,58,54
+Amphion III,64,3,81
+Amphithea III,64,5,48
+Amyclas III,64,10,267
+Amyntor III,64,15,29
+Amythaon III,64,20,45
+Anaxarete III,64,27,4
+Anaxibia III,64,31,17
+Anaxo III,64,40,77
+Ancaeus III,64,42,124
+Anchialus III,64,44,126
+Andraemon III,64,56,299
+Andreus III,64,60,364
+Androgeus III,64,63,109
+Antenor III,1,4,42
+Anticlus III,1,7,37
+Anticlea III,1,8,28
+Antilochus III,1,20,1
+Antimachus III,1,22,-1
+Antinoe III,1,24,1
+Antinous III,1,28,-1
+Antion III,1,41,31
+Antiphates III,1,42,9
+Antiphus III,1,44,11
+Apemosyne III,1,45,34
+Aphareus III,1,56,25
+Apheidas III,1,60,31
+Apis III,1,61,112
+Apsyrtus III,1,63,117
+Arcas III,2,6,107
+Arceophon III,2,7,21
+Arcesilaus III,2,11,14
+Areithous III,2,18,15
+Aretaon III,2,25,-2
+Arete III,2,55,12
+Arganthone III,2,57,18
+Arge III,3,5,61
+Argea III,3,6,28
+Argia III,3,15,56
+Argynnus III,3,21,1
+Aristodemus III,3,33,4
+Aristomachus III,3,45,23
+Asius III,3,55,124
+Asterodia III,4,2,172
+Asteropaios III,4,3,43
+Asterope III,4,16,14
+Astyanassa III,4,45,12
+Astyanax III,4,48,61
+Astydameia III,4,51,13
+Astynome III,4,59,29
+Astyoche III,4,60,241
+Astypalaea III,5,10,8
+Atrax III,5,18,1
+Atymnius III,5,23,3
+Auge III,5,42,7
+Autolycus III,5,46,17
+Automedon III,5,62,64
+Autonoë III,6,14,46
+Autonous III,6,32,-7
+Axylus III,6,36,53
+Batea III,6,42,39
+Baubo III,6,44,57
+Baucis III,6,52,99
+Bianna III,6,56,95
+Bienor III,6,57,15
+Biston III,6,63,55
+Bormus III,7,11,188
+Borus III,7,16,6
+Botres III,7,23,71
+Budeia III,7,42,13
+Briseus III,7,45,9
+Broteas III,7,51,119
+Bucolion III,7,61,67
+Buphagus III,8,6,112
+Bura III,8,7,26
+Butes III,8,17,3
+Byblis III,8,18,16
+Calesius III,8,19,1
+Caletor III,8,21,7
+Callidice III,8,23,9
+Callithyia III,8,37,5
+Calyce III,8,38,21
+Calydon III,8,50,48
+Canace III,8,52,69
+Canthus III,8,55,29
+Capaneus III,8,57,62
+Capys III,8,61,19
+Carius III,8,62,138
+Carystus III,9,1,98
+Cassiopeia III,9,15,16
+Caunus III,9,19,3
+Cebriones III,9,23,18
+Celtine III,9,26,14
+Cerambus III,9,30,0
+Cerdo III,9,37,12
+Cestrinus III,9,46,3
+Ceyx III,9,63,39
+Chaeresilaus III,10,7,23
+Chalciope III,10,17,6
+Chalcodon III,10,24,79
+Charops III,10,36,3
+Chione III,10,39,11
+Chloris III,10,43,14
+Chromia III,10,62,107
+Chrysanthis III,11,2,8
+Chryseis III,11,4,9
+Chryses III,11,7,153
+Chrysippe III,11,12,21
+Chrysothemis III,11,14,15
+Chthonia III,11,17,8
+Chthonius III,11,45,20
+Chthonophyle III,11,53,26
+Cilix III,11,56,30
+Cilla III,11,59,305
+Cleite III,11,62,36
+Cleitus III,11,64,35
+Cleoboea III,12,7,13
+Cleobule III,12,22,76
+Cleodaeus III,12,27,7
+Cleopatra III,12,31,5
+Meleager III,12,32,15
+Clinis III,12,37,9
+Clonius III,12,39,11
+Clymenus III,12,40,32
+Clytie III,12,43,14
+Clytius III,12,46,100
+Clytodora III,12,56,104
+Clytus III,13,1,43
+Coeranus III,13,3,16
+Comaetho III,13,5,113
+Copreus III,13,15,31
+Coresus III,13,19,29
+Coronis III,13,22,23
+Cragaleus III,13,34,5
+Crete III,13,37,62
+Creusa III,13,64,22
+Crino III,14,3,4
+Crisus III,14,7,8
+Ctesippus III,14,26,21
+Ctesylla III,14,28,46
+Ctimene III,14,42,30
+Cyanippus III,14,44,116
+Cychreus III,14,64,188
+Cycnus III,15,26,4
+Cydippe III,15,30,4
+Cydon III,15,34,5
+Cyparissus III,15,38,6
+Daedalion III,15,53,32
+Daedalus III,15,55,103
+Dascylus III,15,59,145
+Deileon III,15,61,46
+Deimachus III,16,3,3
+Deioneus III,16,7,7
+Deiphobus III,16,9,10
+Deipyle III,16,15,26
+Delphus III,16,25,9
+Demodice III,16,33,14
+Demonassa III,16,44,57
+Demonice III,16,48,155
+Demophon III,16,60,69
+Eleusis III,16,64,249
+Deucalion III,17,5,12
+Dexamenus III,17,12,5
+Dia III,17,16,46
+Dictys III,17,21,46
+Dimoetes III,17,23,16
+Diocles III,17,40,4
+Diomede III,17,42,7
+Dirce III,17,45,56
+Dius III,17,49,422
+Dolius III,17,64,30
+Dolon III,18,5,3
+Dolops III,18,19,30
+Dorus III,18,21,8
+Dotis III,18,28,20
+Dryas III,18,35,11
+Dryope III,18,36,26
+Dymas III,18,38,26
+Echion III,18,42,47
+Eioneus III,18,48,184
+Electryone III,18,50,170
+Eleius III,18,52,81
+Eleuther III,18,56,37
+Elpenor III,19,3,31
+Elymus III,19,10,5
+Emathion III,19,11,52
+Enarete III,19,13,22
+Endeïs III,19,18,29
+Endymion III,19,20,23
+Enyeus III,19,45,33
+Epeius III,19,53,32
+Epicasta III,20,2,8
+Epidaurus III,20,6,49
+Epipole III,20,7,5
+Epirus III,20,8,28
+Epistrophus III,20,16,54
+Epochus III,20,18,69
+Ereuthalion III,20,32,48
+Eribotes III,20,33,5
+Eriopis III,20,34,53
+Eriphyle III,20,43,13
+Erymanthus III,20,50,74
+Euippe III,20,56,57
+Euchenor III,20,60,99
+Eulimene III,21,14,16
+Eumaeus III,21,16,4
+Eumedes III,21,25,39
+Euphorion III,21,28,20
+Euryalus III,21,29,201
+Euryanassa III,21,34,5
+Eurybates III,21,45,245
+Eurycleia III,21,57,55
+Eurycyda III,21,62,31
+Eurydamas III,22,2,8
+Eurylochus III,22,4,28
+Eurymachus III,22,8,21
+Eurymedon III,22,9,5
+Eurymedousa III,22,15,5
+Eurypyle III,22,20,75
+Eurypylus III,22,28,90
+Euryte III,22,29,21
+Eurythemis III,22,36,60
+Eurythemista III,22,47,13
+Eurytion III,22,51,17
+Eurytus III,22,53,32
+Evaechme III,22,54,140
+Evippus III,22,58,86
+Galanthis III,23,3,39
+Alcmene III,23,20,7
+Gerana III,23,37,23
+Gorge III,23,38,19
+Gorgophone III,23,54,26
+Guneus III,23,55,235
+Haemon III,24,2,25
+Halaesus III,24,6,28
+Halirrhothius III,24,13,6
+Harpalion III,24,15,3
+Hecamede III,24,24,148
+Henioche III,24,34,44
+Herippe III,24,52,48
+Hermippe III,24,57,41
+Leander III,24,64,69
+Hero III,25,1,22
+Hippocoön III,25,2,1
+Hippodamas III,25,3,3
+Hippodamia III,25,5,24
+Hippolytus III,25,16,8
+Hippotes III,25,20,8
+Hippothoe III,25,23,32
+Hippothous III,25,26,39
+Hodites III,25,34,8
+Hodoedocus III,25,49,45
+Hyacinthus III,25,57,437
+Apollo III,25,58,44
+Lacedaemon III,26,2,22
+Hylas III,26,25,36
+Hyllus III,26,26,164
+Hyperenor III,26,30,63
+Hyperippe III,26,32,47
+Hypermnestra III,26,43,11
+Hyperphas III,26,44,44
+Hypsenor III,26,54,83
+Hyrmine III,26,57,45
+Hyrnetho III,26,63,12
+Ialmenus III,27,8,7
+Iasus III,27,30,17
+Icarius III,27,46,8
+Icarus III,27,52,9
+Ilione III,27,57,41
+Ilioneus III,27,61,27
+Imbrius III,28,7,10
+Iodame III,28,14,45
+Iole III,28,20,73
+Ion III,28,28,127
+Iphianassa III,28,37,25
+Iphianeira III,28,43,12
+Iphicles III,28,48,35
+Iphidamas III,28,55,23
+Iphimedeia III,28,56,92
+Iphinoe III,28,60,119
+Iphitus III,29,6,14
+Iphthime III,29,7,11
+Itonus III,29,16,6
+Lamedon III,29,20,18
+Lampus III,29,32,11
+Laodamas III,29,36,30
+Laodamia III,29,51,16
+Laodice III,29,60,22
+Laonome III,30,8,13
+Laothoe III,30,19,15
+Lapithes III,30,24,45
+Leitus III,30,30,147
+Leos III,30,35,26
+Lepreus III,30,37,30
+Leucippus III,30,45,11
+Leucon III,30,52,66
+Leuconoe III,30,55,13
+Leucophrye III,31,2,9
+Leucus III,31,10,5
+Lityerses III,31,17,13
+Lophis III,31,21,10
+Lycaon III,31,30,27
+Lycaste III,31,31,265
+Lycastus III,31,46,11
+Lycorus III,31,56,10
+Lycurgus III,31,58,11
+Lysianassa III,32,7,6
+Lysimache III,32,10,24
+Lysippe III,32,11,4
+Machaon III,32,24,29
+Maeon III,32,31,32
+Magnes III,32,37,14
+Mecisteus III,32,38,41
+Meda III,32,58,29
+Medôn III,33,2,6
+Megapenthes III,33,7,7
+Melanippus III,33,13,9
+Melantho III,33,14,2
+Melas III,33,15,6
+Meliboea III,33,20,8
+Melicertes III,33,22,4
+Melite III,33,24,7
+Menippe III,33,36,12
+Messene III,33,47,16
+Metaneira III,33,52,5
+Metioche III,33,54,0
+Miletus III,33,60,10
+Minyas III,33,62,6
+Mestra III,33,63,17
+Munichus III,34,12,27
+Myrina III,34,22,25
+Myrmidon III,34,25,6
+Myrmidone III,34,30,69
+Myrrha III,34,37,7
+Myrtilus III,34,40,14
+Myrto III,34,41,7
+Mytilene III,34,55,7
+Narcissus III,34,58,51
+Naubolus III,35,9,8
+Nausicaa III,35,12,7
+Nausithous III,35,15,41
+Neoptolemus III,35,20,5
+Nicippe III,35,21,17
+Nireus III,35,26,5
+Nyctimene III,35,34,27
+Nyctimus III,35,36,19
+Oenoe III,35,39,61
+Oenone III,35,41,10
+Oenotrus III,35,43,53
+Olenus III,35,47,59
+Omphale III,35,56,3
+Orion III,35,57,11
+Ornytion III,35,60,16
+Ornytus III,36,2,34
+Orsilochus III,36,10,19
+Othryoneus III,36,13,5
+Oxylus III,36,17,2
+Pallene III,36,27,12
+Pandaie III,36,39,11
+Pandareus III,36,41,7
+Pandarus III,36,42,23
+Pandora III,36,48,23
+Panopeus III,36,61,29
+Panthous III,36,62,112
+Paris III,37,3,3
+Priam III,37,7,1
+Parthenopeus III,37,8,4
+Patroclus III,37,10,2
+Peirous III,37,13,33
+Peisenor III,37,19,12
+Peisidice III,37,28,15
+Peisistratus III,37,31,30
+Pelopia III,37,33,36
+Peneleus III,37,46,6
+Penthilus III,37,54,15
+Periboea III,37,60,27
+Perileos III,37,61,253
+Periphas III,38,6,25
+Periphetes III,38,23,8
+Perimede III,38,27,10
+Perimedes III,38,34,33
+Phaenops III,38,37,17
+Phaëton III,38,43,7
+Phalerus III,38,45,7
+Pharis III,39,2,1
+Phemius III,39,4,5
+Phialo III,39,13,1
+Phocus III,39,14,5
+Philemon III,39,19,47
+Philoctetes III,39,24,15
+Phlias III,39,27,96
+Phoenix III,39,29,23
+Phorbas III,39,41,26
+Phorcys III,39,59,202
+Phrastor III,40,14,1
+Phrixus III,40,18,24
+Phrontis III,40,27,9
+Phylacus III,40,38,56
+Phylas III,40,47,3
+Phyleus III,40,54,70
+Phyllis III,40,57,36
+Physadeia III,40,60,74
+Physcoa III,40,63,16
+Pleuron III,41,7,1
+Plexippus III,41,13,3
+Podalirius III,41,16,2
+Polites III,41,18,4
+Polyboea III,41,22,3
+Polycaon III,41,33,34
+Polycaste III,41,42,23
+Polydorus III,42,4,24
+Polymele III,42,10,2
+Polypheides III,42,13,-1
+Polyxenus III,42,15,3
+Polyxo III,42,16,1
+Praxithea III,42,20,26
+Proclia III,42,24,78
+Procrustes III,42,32,32
+Promedon III,42,34,19
+Pronax III,42,39,11
+Prosymnus III,42,43,16
+Protesilaus III,42,50,29
+Prothoenor III,42,61,14
+Psophis III,42,62,56
+Pterelaos III,42,64,82
+Pygmalion III,43,10,0
+Pylaeus III,43,15,7
+Pylaemenes III,43,18,4
+Pyraechmes III,43,23,134
+Pyramus III,43,44,15
+Pyrrha III,43,55,151
+Rarus III,44,10,13
+Rhadine III,44,13,6
+Rhoeo III,44,31,4
+Saon III,44,37,2
+Schedius III,44,52,95
+Scylaceus III,45,9,16
+Selemnus III,45,29,50
+Sidero III,45,30,3
+Socus III,45,36,2
+Solymus III,45,49,44
+Sostratus III,45,54,21
+Sparta III,45,55,23
+Lacedaemon III,45,63,40
+Staphylus III,45,64,12
+Stentor III,46,10,3
+Stheneboea III,46,17,4
+Sthenele III,46,18,52
+Sthenelus III,46,20,95
+Stratonice III,46,24,51
+Strophius III,46,41,4
+Syleus III,46,45,23
+Syme III,47,5,8
+Tecmessa III,47,12,8
+Tegeates III,47,34,5
+Telecleia III,47,40,8
+Telegonus III,47,52,23
+Telemachus III,47,61,34
+Teleon III,48,17,34
+Telephassa III,48,22,24
+Tenes III,48,25,6
+Termerus III,48,26,21
+Theiodamas III,48,27,2
+Themiste III,48,30,23
+Themisto III,48,43,11
+Theobule III,48,51,22
+Theonoe III,48,61,10
+Theophane III,48,62,87
+Thero III,48,64,216
+Thersander III,49,13,26
+Thersites III,49,14,8
+Thespius III,49,16,36
+Thestius III,49,17,366
+Thestor III,49,28,-1
+Thisbe III,49,52,13
+Thoas III,49,62,13
+Thoön III,49,63,31
+Thrasymedes III,50,6,29
+Thymoetes III,50,8,38
+Timandra III,50,12,38
+Tithonus III,50,23,2
+Tlepolemus III,50,29,6
+Toxeus III,50,34,36
+Trambelus III,50,35,5
+Troezen III,50,46,64
+Trophonius III,50,50,166
+Tydeus III,50,55,11
+Tyres III,51,23,32
+Tyro III,51,25,3
+Ucalegon III,51,28,7
+Xanthippe III,51,33,12
+Xanthius III,51,34,5
+Xanthus III,51,35,66
+Xuthus III,51,47,150
+Zarex III,51,50,24
+Zetes III,51,58,18
+Zeuxippe III,51,60,23
+Zeuxippus III,52,14,119
+Amphiaraus IV,52,18,63
+Angelos IV,52,21,13
+Askalaphos IV,52,25,4
+Cerberus IV,52,32,12
+Charon IV,52,37,17
+Empusa IV,52,48,53
+Erebos IV,52,56,59
+Erinyes IV,53,3,19
+Alecto IV,53,4,15
+Tisiphone IV,53,12,26
+Megaera IV,53,14,22
+Hecate IV,53,15,19
+Aiakos IV,53,19,17
+Minos IV,53,22,12
+Rhadamanthys IV,53,24,2
+Keuthonymos IV,53,25,15
+Cronus IV,53,29,74
+Lamia IV,53,35,17
+Lampades IV,53,45,237
+Gorgyra IV,53,59,48
+Orphne IV,54,19,9
+Macaria IV,54,22,70
+Melinoe IV,54,31,7
+Menoetes IV,54,36,61
+Mormo IV,54,37,16
+Nyx IV,54,38,85
+Persephone IV,54,41,14
+Acheron IV,54,49,6
+Kokytos IV,54,52,126
+Lethe IV,55,13,31
+Phlegethon IV,55,15,87
+Styx IV,55,19,38
+Tartarus IV,55,30,7
+Aegaeon IV,55,39,151
+Acheilos IV,55,48,11
+Amphitrite IV,55,53,42
+Benthesikyme IV,55,59,311
+Brizo IV,56,5,11
+Ceto IV,56,6,55
+Charybdis IV,56,16,39
+Cymopoleia IV,56,27,12
+Delphin IV,56,34,42
+Eidothea IV,56,57,68
+Glaucus IV,57,1,121
+Stheno IV,57,16,9
+Euryale IV,57,17,39
+Medusa IV,57,19,6
+Deino IV,57,21,23
+Enyo IV,57,29,30
+Pemphredo IV,57,31,7
+Aello IV,57,33,67
+Ocypete IV,57,34,8
+Podarge IV,57,39,45
+Celaeno IV,57,40,42
+Nicothoe IV,57,54,15
+Bythos IV,57,55,72
+Aphros IV,57,64,43
+Karkinos IV,58,1,30
+Ladon IV,58,14,49
+Leucothea IV,58,23,15
+Nereides IV,58,28,40
+Thetis IV,58,30,31
+Arethusa IV,58,41,43
+Galene IV,58,57,68
+Psamathe IV,59,5,56
+Nereus IV,59,7,274
+Nerites IV,59,11,226
+Oceanus IV,59,35,79
+Palaemon IV,59,37,29
+Phorcys IV,59,49,20
+Pontos IV,59,52,28
+Poseidon IV,59,57,80
+Proteus IV,60,1,31
+Scylla IV,60,8,125
+Aglaope IV,60,11,24
+Himerope IV,60,12,150
+Leucosia IV,60,13,32
+Ligeia IV,60,14,134
+Molpe IV,60,21,12
+Parthenope IV,60,25,7
+Peisinoe IV,60,29,17
+Raidne IV,60,37,28
+Teles IV,60,46,152
+Thelchtereia IV,60,47,19
+Thelxiope IV,61,11,45
+Telchines IV,61,15,38
+Actaeus IV,61,22,14
+Argyron IV,61,24,10
+Atabyrius IV,61,28,16
+Chalcon IV,61,32,6
+Chryson IV,61,43,36
+Damon IV,61,54,57
+Damnameneus IV,61,60,79
+Dexithea IV,61,62,84
+Lycos IV,62,5,67
+Lysagora IV,62,19,10
+Makelo IV,62,43,22
+Megalesius IV,62,50,149
+Mylas IV,62,53,55
+Nikon IV,62,55,44
+Ormenos IV,62,59,56
+Simon IV,62,64,527
+Skelmis IV,63,10,34
+Tethys IV,63,13,49
+Thalassa IV,63,30,18
+Thaumas IV,63,39,129
+Thoosa IV,63,50,48
+Triteia IV,63,52,51
+Triton IV,63,61,104
+Tritones IV,63,62,89
+Achelois IV,63,63,762
+Aeolus IV,64,7,60
+Aether IV,64,12,192
+Alectrona IV,64,21,3
+Anemoi IV,64,64,743

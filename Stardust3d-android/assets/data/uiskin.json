@@ -1,0 +1,223 @@
+{
+resources: {
+        com.badlogic.gdx.graphics.g2d.TextureRegion: {
+                check-on: { width: 28, height: 28, x: 26, y: 154 },
+                check-off: { width: 28, height: 28, x: 4, y: 194 },
+                selection: { width: 2, height: 2, x: 58, y: 160 },
+                default-slider-knob: { width: 18, height: 36, x: 4, y: 154 }
+        },
+        com.badlogic.gdx.graphics.g2d.NinePatch: {
+                default-select-selection: [
+                        { width: 2, height: 2, x: 14, y: 236 },
+                        { width: 2, height: 2, x: 16, y: 236 },
+                        { width: 2, height: 2, x: 18, y: 236 },
+                        { width: 2, height: 2, x: 14, y: 238 },
+                        { width: 2, height: 2, x: 16, y: 238 },
+                        { width: 2, height: 2, x: 18, y: 238 },
+                        { width: 2, height: 2, x: 14, y: 240 },
+                        { width: 2, height: 2, x: 16, y: 240 },
+                        { width: 2, height: 2, x: 18, y: 240 }
+                ],
+                default-round: [
+                        { width: 10, height: 10, x: 4, y: 110 },
+                        { width: 4, height: 10, x: 14, y: 110},
+                        { width: 10, height: 10, x: 18, y: 110 },
+                        { width: 10, height: 22, x: 4, y: 120 },
+                        { width: 4, height: 22, x: 14, y: 120 },
+                        { width: 10, height: 22, x: 18, y: 120 },
+                        { width: 10, height: 8, x: 4, y: 142 },
+                        { width: 4, height: 8, x: 14, y: 142 },
+                        { width: 10, height: 8, x: 18, y: 142 }
+                ],
+                default-pane-noborder: [
+                        { width: 0, height: 0, x: 58, y: 154 },
+                        { width: 2, height: 0, x: 58, y: 154 },
+                        { width: 0, height: 0, x: 60, y: 154 },
+                        { width: 0, height: 2, x: 58, y: 154 },
+                        { width: 2, height: 2, x: 58, y: 154 },
+                        { width: 0, height: 2, x: 60, y: 154 },
+                        { width: 0, height: 0, x: 58, y: 156 },
+                        { width: 2, height: 0, x: 58, y: 156 },
+                        { width: 0, height: 0, x: 60, y: 156 }
+                ],
+                
+                default-rect-pad: [
+                        { width: 2, height: 2, x: 50, y: 214 },
+                        { width: 6, height: 2, x: 52, y: 214 },
+                        { width: 2, height: 2, x: 38, y: 214 },
+                        { width: 2, height: 2, x: 50, y: 216 },
+                        { width: 6, height: 2, x: 52, y: 216 },
+                        { width: 2, height: 2, x: 58, y: 216 },
+                        { width: 2, height: 2, x: 50, y: 218 },
+                        { width: 6, height: 2, x: 52, y: 218 },
+                        { width: 2, height: 2, x: 58, y: 218 }
+                ],
+                default-slider: [
+                        { width: 4, height: 4, x: 36, y: 194 },
+                        { width: 8, height: 4, x: 40, y: 194 },
+                        { width: 4, height: 4, x: 48, y: 194 },
+                        { width: 4, height: 8, x: 36, y: 198 },
+                        { width: 8, height: 8, x: 40, y: 198 },
+                        { width: 4, height: 8, x: 48, y: 198},
+                        { width: 4, height: 4, x: 36, y: 206 },
+                        { width: 8, height: 4, x: 40, y: 206 },
+                        { width: 4, height: 4, x: 48, y: 206 }
+                ],
+                default-rect: [
+                        { width: 2, height: 2, x: 4, y: 240 },
+                        { width: 2, height: 2, x: 6, y: 240 },
+                        { width: 2, height: 2, x: 8, y: 240 },
+                        { width: 2, height: 2, x: 4, y: 242 },
+                        { width: 2, height: 2, x: 6, y: 242 },
+                        { width: 2, height: 2, x: 8, y: 242 },
+                        { width: 2, height: 2, x: 4, y: 244 },
+                        { width: 2, height: 2, x: 6, y: 244 },
+                        { width: 2, height: 2, x: 8, y: 244 }
+                ],
+                default-splitpane-vertical: [
+                        { width: 0, height: 0, x: 4, y: 226 },
+                        { width: 6, height: 0, x: 4, y: 226 },
+                        { width: 0, height: 0, x: 10, y: 226 },
+                        { width: 0, height: 0, x: 4, y: 226 },
+                        { width: 6, height: 0, x: 4, y: 226 },
+                        { width: 0, height: 0, x: 10, y: 226 },
+                        { width: 0, height:10, x: 4, y: 226 },
+                        { width: 6, height:10, x: 4, y: 226 },
+                        { width: 0, height: 10, x: 10, y: 226 }
+                ],
+                default-select: [
+                        { width: 8, height: 8, x: 4, y: 66 },
+                        { width: 18, height: 8, x: 12, y: 66 },
+                        { width: 28, height: 8, x: 30, y: 66 },
+                        { width: 8, height: 24, x: 4, y: 74 },
+                        { width: 18, height: 24, x: 12, y: 74 },
+                        { width: 28, height: 24, x: 30, y: 74 },
+                        { width: 8, height: 8, x: 4, y: 98 },
+                        { width: 18, height: 8, x: 12, y: 98 },
+                        { width: 28, height: 8, x: 30, y: 98 }
+                ],
+                default-pane: [
+                        { width: 2, height: 2, x: 50, y: 114 },
+                        { width: 6, height: 2, x: 52, y: 114 },
+                        { width: 2, height: 2, x: 54, y: 114 },
+                        { width: 2, height: 2, x: 50, y: 114 },
+                        { width: 6, height: 2, x: 52, y: 116 },
+                        { width: 2, height: 2, x: 54, y: 116 },
+                        { width: 2, height: 2, x: 50, y: 118 },
+                        { width: 6, height: 2, x: 52, y: 118 },
+                        { width: 2, height: 2, x: 54, y: 118 }
+                ],
+                default-round-down: [
+                        { width: 10, height: 10, x: 32, y: 110 },
+                        { width: 4, height: 10, x: 42, y: 110 },
+                        { width: 10, height: 10, x: 46, y: 110 },
+                        { width: 10, height: 22, x: 32, y: 120 },
+                        { width: 4, height: 22, x: 42, y: 120 },
+                        { width: 10, height: 22, x: 46, y: 120 },
+                        { width: 10, height: 8, x: 32, y: 142 },
+                        { width: 4, height: 8, x: 42, y: 142 },
+                        { width: 10, height: 8, x: 46, y: 142 }
+                ],
+                cursor: [
+                        { width: 2, height: 2, x: 14, y: 246 },
+                        { width: 2, height: 2, x: 16, y: 246 },
+                        { width: 2, height: 2, x: 18, y: 246 },
+                        { width: 2, height: 2, x: 14, y: 248 },
+                        { width: 2, height: 2, x: 16, y: 248 },
+                        { width: 2, height: 2, x: 18, y: 248 },
+                        { width: 2, height: 2, x: 14, y: 250 },
+                        { width: 2, height: 2, x: 16, y: 250 },
+                        { width: 2, height: 2, x: 18, y: 250 }
+                ],
+                textfield: [
+                        { width: 6, height: 6, x: 4, y: 194 },
+                        { width: 16, height: 6, x: 10, y: 194 },
+                        { width: 6, height: 6, x: 26, y: 194 },
+                        { width: 6, height: 16, x: 4, y: 200 },
+                        { width: 16, height: 16, x: 10, y: 200 },
+                        { width: 6, height: 16, x: 26, y: 200 },
+                        { width: 6, height: 6, x: 4, y: 216 },
+                        { width: 16, height: 6, x: 10, y: 216 },
+                        { width: 6, height: 6, x: 26, y: 216 }
+                ],
+                default-window: [
+                        { width: 8, height: 30, x: 4, y: 0 },
+                        { width: 40, height: 30, x: 12, y: 0 },
+                        { width: 6, height: 30, x: 54, y: 0 },
+                        { width: 8, height: 12, x: 4, y: 32 },
+                        { width: 40, height: 12, x: 12, y: 32},
+                        { width: 6, height: 12, x: 54, y: 32 },
+                        { width: 8, height: 6, x: 4, y: 60 },
+                        { width: 40, height: 6, x: 12, y:  60},
+                        { width: 6, height: 6, x: 54, y: 60 }
+                ],
+                default-splitpane: [
+                        { width: 0, height: 0, x: 36, y: 214 },
+                        { width: 0, height: 0, x: 36, y: 214 },
+                        { width: 10, height: 0, x: 36, y: 214 },
+                        { width: 0, height: 6, x: 36, y: 214 },
+                        { width: 0, height: 6, x: 36, y: 214 },
+                        { width: 10, height: 6, x: 36, y: 214 },
+                        { width: 0, height: 0, x: 36, y: 220 },
+                        { width: 0, height: 0, x: 36, y: 220 },
+                        { width: 10, height: 0, x: 36, y: 220 }
+                ],
+                default-rect-down: [
+                        { width: 2, height: 2, x: 14, y: 226 },
+                        { width: 2, height: 2, x: 16, y: 226 },
+                        { width: 2, height: 2, x: 18, y: 226 },
+                        { width: 2, height: 2, x: 14, y: 228 },
+                        { width: 2, height: 2, x: 16, y: 228 },
+                        { width: 2, height: 2, x: 18, y: 228 },
+                        { width: 2, height: 2, x: 14, y: 230 },
+                        { width: 2, height: 2, x: 16, y: 230 },
+                        { width: 2, height: 2, x: 18, y: 230 }
+                ]
+        },
+        com.badlogic.gdx.graphics.g2d.BitmapFont: { default-font: { file: default.fnt } },
+        com.badlogic.gdx.graphics.Color: {
+                green: { a: 1, b: 0, g: 1, r: 0 },
+                white: { a: 1, b: 1, g: 1, r: 1 },
+                red: { a: 1, b: 0, g: 0, r: 1 },
+                black: { a: 1, b: 0, g: 0, r: 0 }
+        }
+},
+styles: {
+        com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+                default: { down: default-round-down, up: default-round },
+                toggle: { down: default-round-down, checked: default-round-down, up: default-round }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+                default: { down: default-round-down, up: default-round, font: default-font, fontColor: white },
+                toggle: { down: default-round-down, up: default-round, checked: default-round-down, font: default-font, fontColor: white, downFontColor: red }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+                default: { listBackground: default-rect, listSelection: default-select-selection, font: default-font, fontColor: white, background: default-select }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+                default-vertical: { handle: default-splitpane-vertical },
+                default-horizontal: { handle: default-splitpane }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+                default: { vScroll: default-slider, hScrollKnob: default-round, background: default-rect, hScroll: default-slider, vScrollKnob: default-round }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+                default: { titleFont: default-font, background: default-window, titleFontColor: white }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+                default: { slider: default-slider, knob: default-slider-knob }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+                default: { font: default-font, fontColor: white }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+                default: { selection: selection, background: textfield, font: default-font, fontColor: white, cursor: cursor }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+                default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: white }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+                default: { fontColorUnselected: white, selectedPatch: default-rect-pad, fontColorSelected: white, font: default-font }
+        }
+}
+}

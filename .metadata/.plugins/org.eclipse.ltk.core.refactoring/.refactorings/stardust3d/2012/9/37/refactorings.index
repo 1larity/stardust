@@ -1,0 +1,29 @@
+1347281835000	Extract method 'renderJets'
+1347296628968	Copy compilation unit
+1347318920333	Copy method
+1347373627421	Copy method
+1347374574328	Extract method 'renderScreens'
+1347380606688	Copy method
+1347390315375	Copy compilation unit
+1347391663813	Rename field 'localScreen'
+1347394135250	Copy compilation unit
+1347395657891	Copy method
+1347397195016	Encapsulate field 'bind'
+1347400331219	Copy method
+1347462357373	Copy method
+1347462460466	Rename method 'destroyItem'
+1347478070544	Delete element
+1347484072982	Rename type 'Ship'
+1347484601826	Copy compilation unit
+1347485644482	Copy compilation unit
+1347485695591	Extract method 'vendorScreen'
+1347485821576	Extract method 'stationInventory'
+1347485847263	Extract method 'spaceInventory'
+1347485925123	Extract method 'chatScreen'
+1347485956826	Extract method 'charScreen'
+1347486432357	Extract method 'optionsScreen'
+1347486612701	Extract method 'shipScreen'
+1347487621123	Rename local variable 'lableNews'
+1347487659310	Rename local variable 'lableHelp'
+1347490921966	Extract method 'helpScreen'
+1347490953107	Extract method 'marketScreen'

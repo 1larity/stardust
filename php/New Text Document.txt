@@ -1,0 +1,5 @@
+Insert into player_char ('avatar','race','sex',firstmane','surname')
+			values( 'avatar02.jpg','human','male', 'bob', 'test','1016'")
+
+Insert into player_char ('avatar','race','sex',firstname','surname','player_account_UID')
+			values( 'avatar02.jpg','human','male', 'bob', 'test','1016')

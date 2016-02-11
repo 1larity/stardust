@@ -1,0 +1,31 @@
+1347896959421	Rename method 'playengine'
+1347906949250	Rename field 'pitch'
+1347979428656	Copy compilation unit
+1347979597984	Copy method
+1347979917312	Copy compilation unit
+1347980570390	Delete element
+1347980926828	Delete element
+1347981015531	Copy compilation unit
+1347985282734	Copy compilation unit
+1347985296890	Copy compilation unit
+1347985457796	Copy method
+1347986663218	Encapsulate field 'uid'
+1347986668984	Encapsulate field 'title'
+1347986675062	Encapsulate field 'text'
+1347986680125	Encapsulate field 'type'
+1347986685828	Encapsulate field 'conditions'
+1347986690234	Encapsulate field 'rewards'
+1347986694593	Encapsulate field 'giver'
+1347986699828	Encapsulate field 'handin'
+1347986704640	Encapsulate field 'prereq'
+1347996180437	Copy method
+1348072310812	Copy method
+1348131093676	Copy compilation unit
+1348138299380	Delete element
+1348138306270	Delete element
+1348138914473	Delete element
+1348138940270	Delete element
+1348138948223	Delete element
+1348138958176	Delete element
+1348139293317	Rename local variable 'buttonAccept'
+1348140147645	Encapsulate field 'inprogress'

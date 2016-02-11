@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;stardust3d-android/assets/data/crate01.png&apos; to &apos;notset.png&apos;" description="Rename resource &apos;crate01.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/data/crate01.png" name="notset.png" stamp="1345044960406" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;stardust3d-android/assets/data/crate01glow.png&apos; to &apos;notsetglow.png&apos;" description="Rename resource &apos;crate01glow.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/data/crate01glow.png" name="notsetglow.png" stamp="1345044973171" updateReferences="true"/>
+</session>

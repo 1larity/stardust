@@ -1,0 +1,14 @@
+1349362620257	Extract method 'bindMeshes'
+1349450301082	Copy method
+1349474987453	Rename local variable 'message'
+1349527606937	Rename local variable 'warehouseLabel'
+1349527815578	Rename local variable 'buttonAllToWarehouse'
+1349531818122	Rename method 'initGridWarehouse'
+1349532502454	Extract method 'regularItemDialog'
+1349532854682	Move method
+1349532868872	Delete element
+1349536582581	Copy method
+1349555242633	Extract method 'addStackNumber'
+1349555356414	Extract Class...
+1349555409571	Delete element
+1349646794064	Delete element

@@ -1,0 +1,20 @@
+INDEX VERSION 1.126+D:\dropbox_rich\Dropbox\stardust\.metadata\.plugins\org.eclipse.jdt.core
+778219385.index
+474700058.index
+1380297077.index
+3382188796.index
+3585733931.index
+1616409435.index
+3270002986.index
+2877109961.index
+2594609853.index
+1789169078.index
+4251467834.index
+3000053649.index
+3730526690.index
+3277441100.index
+4093717296.index
+2537063514.index
+1674092712.index
+3840977067.index
+3651046054.index

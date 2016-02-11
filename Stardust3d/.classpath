@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/rich/Dropbox/stardust/Stardust3d/libs/gdx.jar" sourcepath="libs/gdx-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Documents and Settings/Richard/Desktop/gdxnightly/docs/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/rich/Dropbox/stardust/Stardust3d/libs/commons-codec-1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rich/Dropbox/stardust/Stardust3d/libs/fluent-hc-4.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-cache-4.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpmime-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rich/Dropbox/stardust/Stardust3d/libs/json-org.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rich/Dropbox/stardust/Stardust3d/libs/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

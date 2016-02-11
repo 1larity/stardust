@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="shipai1_data" version="1.3.0" audacityversion="2.0.0" sel0="0.0116099773" sel1="0.0116099773" vpos="0" h="0.0000000000" zoom="344.5312500000" rate="44100.0">
+	<tags/>
+	<wavetrack name="dockrequest" channel="0" linked="1" mute="1" solo="1" height="150" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="74240">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000168.au" len="74240" min="-0.929575" max="0.905583" rms="0.073406"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dockrequest" channel="1" linked="0" mute="1" solo="1" height="150" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="74240">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d7b.au" len="74240" min="-0.921866" max="0.895551" rms="0.07527"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dockok" channel="0" linked="1" mute="1" solo="0" height="158" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="97024">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005ce.au" len="97024" min="-1.0" max="0.80525" rms="0.060946"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="dockok" channel="1" linked="0" mute="1" solo="0" height="142" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="97024">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000993.au" len="97024" min="-0.823675" max="0.754434" rms="0.072739"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="undock" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="78336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ee1.au" len="78336" min="-1.025929" max="1.080433" rms="0.156327"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="undock" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="78336">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000294.au" len="78336" min="-1.25743" max="1.120956" rms="0.172773"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

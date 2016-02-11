@@ -1,0 +1,3 @@
+1346083651991	Encapsulate field 'value'
+1346084496248	Encapsulate field 'effect'
+1346282231000	Extract method 'createMissionGiver'

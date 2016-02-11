@@ -1,0 +1,32 @@
+1349690940234	Extract method 'repair'
+1349700534687	Rename local variable 'sdf'
+1349721195343	Copy compilation unit
+1349721397687	Encapsulate field 'cache'
+1349721406125	Encapsulate field 'name'
+1349888156125	Extract method 'populateDust'
+1349991967984	Extract method 'makeItemInfo'
+1349992541921	Extract method 'cargoItemClick'
+1349992979453	Extract method 'warehouseItemClick'
+1349993022890	Copy method
+1349993897671	Extract method 'gridClickListener'
+1349994057921	Extract method 'warehouseClickListener'
+1349994208296	Rename method 'gridClickListener'
+1349998573875	Rename local variable 'currentScreen'
+1350139725504	Rename local variable 'nameLabel'
+1350141293915	Rename local variable 'gridWarehouse'
+1350142470523	Delete element
+1350142475399	Delete element
+1350142748074	Delete element
+1350142758450	Delete element
+1350143085767	Rename method 'equipmentClickListener'
+1350143257058	Delete element
+1350143261574	Delete element
+1350148809062	Rename local variable 'image2'
+1350149440762	Rename field 'texture1'
+1350149471591	Rename field 'texture2'
+1350156972525	Copy compilation unit
+1350162673876	Rename local variable 'defslots'
+1350162744033	Rename local variable 'offSlots'
+1350228536792	Rename local variable 'offSlots'
+1350228612517	Rename local variable 'offSlots'
+1350245400203	Extract method 'renderButtonsPC'

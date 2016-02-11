@@ -1,0 +1,7 @@
+1346765547156	Rename method 'getGraphicsDefs'
+1346765733062	Copy compilation unit
+1346765779937	Rename type 'CopyOfAvatarDef'
+1346767805125	Encapsulate field 'assetName'
+1346767811500	Encapsulate field 'ext'
+1346767817609	Encapsulate field 'type'
+1346869040609	Rename field 'EXPLOSION_LIVE_TIME'

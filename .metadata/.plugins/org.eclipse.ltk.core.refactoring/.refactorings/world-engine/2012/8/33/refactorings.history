@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static int oneintenloot(Connection con, int depth, int result)&apos; from &apos;connex.NPCtasks.calculateLoot()&apos; to &apos;connex.NPCtasks&apos;&#x0D;&#x0A;- Original project: &apos;world-engine&apos;&#x0D;&#x0A;- Method name: &apos;oneintenloot&apos;&#x0D;&#x0A;- Destination type: &apos;connex.NPCtasks&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Generate method comment" comments="true" description="Extract method &apos;oneintenloot&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;connex{NPCtasks.java" name="oneintenloot" replace="false" selection="15789 587" stamp="1345084171773" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Shot.java&apos; to &apos;stardust3d/src/com.digitale.sim&apos;&#x0D;&#x0A;- Original project: &apos;stardust3d&apos;&#x0D;&#x0A;- Destination element: &apos;stardust3d/src/com.digitale.sim&apos;&#x0D;&#x0A;- Original element: &apos;com.digitale.sim.Shot.java&apos;" description="Copy compilation unit" destination="/src&lt;com.digitale.sim" element1="/src&lt;com.digitale.sim{Shot.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1350330186312" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,1381 @@
+/*
+ * Copyright 2012 Richard Beech rp.beech@gmail.com
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS"
+ * BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+package com.digitale.mygdxgame;
+import java.io.InputStream;
+import java.math.BigInteger;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import com.badlogic.gdx.Application;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Graphics;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.GL10;
+import com.badlogic.gdx.graphics.Mesh;
+import com.badlogic.gdx.graphics.PerspectiveCamera;
+import com.badlogic.gdx.graphics.Pixmap.Format;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.Texture.TextureFilter;
+import com.badlogic.gdx.graphics.VertexAttribute;
+import com.badlogic.gdx.graphics.VertexAttributes.Usage;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g3d.loaders.obj.ObjLoader;
+import com.badlogic.gdx.math.Matrix4;
+import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.Window;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle;
+import com.badlogic.gdx.scenes.scene2d.ui.Window.WindowStyle;
+import com.badlogic.gdx.scenes.scene2d.ui.tablelayout.Table;
+import com.digitale.connex.Actor;
+import com.digitale.screens.GameLoop;
+import com.digitale.sim.Block;
+import com.digitale.sim.Drone;
+import com.digitale.sim.Explosion;
+import com.digitale.sim.Invader;
+import com.digitale.sim.Ship;
+import com.digitale.sim.Shot;
+import com.digitale.sim.Simulation;
+import com.digitale.sim.Station;
+import com.digitale.sim.Trail;
+import com.digitale.utils.Actors;
+/** The renderer receives a simulation and renders it.
+ * @author rbeech */
+public class Renderer {
+	/** set scale factor for world **/
+	private static final float worldscale = .001f;
+	/** sprite batch to draw text **/
+	private SpriteBatch spriteBatch;
+	/** the shield disrupter mesh **/
+	private Mesh shieldDisruptorMesh;
+	 
+	/** the shield disrupter texture **/
+	private Texture shieldDisruptorTexture;
+	/** the station mesh **/
+	private Mesh stationMesh;
+	/** the ship mesh **/
+	private Mesh shipMesh01;
+	/** the ship texture **/
+	private Texture shipTexture01;
+	/** the ship mesh **/
+	private Mesh shipMesh02;
+	/** the ship texture **/
+	private Texture shipTexture02;
+	/** the ship mesh **/
+	private Mesh shipMesh03;
+	/** the ship texture **/
+	private Texture shipTexture03;
+	/** the planet mesh **/
+	private Mesh planetMesh02;
+	/** the planet mesh **/
+	private Mesh planetMesh;
+	/** the planet texture **/
+	private Texture planetTexture;
+	/** the planet texture **/
+	private Texture planetTexture02;
+	/** the jet mesh **/
+	private Mesh jetMesh;
+	/** the jet texture **/
+	private Texture jetTexture;
+	/** the moon mesh **/
+	private Mesh moonMesh;
+	/** the moon texture **/
+	private Texture moonTexture;
+	/** the ship mesh **/
+	private Mesh skyMesh;
+	/** the ship texture **/
+	private Texture skyTexture;
+	/** the invader mesh **/
+	private Mesh invaderMesh;
+	/** the invader texture **/
+	private Texture invaderTexture;
+	/** the asteroid mesh **/
+	private Mesh roidMesh;
+	/** the dust texture **/
+	//private Texture dustTexture;
+	/** the asteroid texture **/
+	private Texture roidTexture;
+	/** the station texture **/
+	private Texture stationTexture;
+	/** the forcefield mesh **/
+	private Mesh forcefieldMesh;
+	/** the block mesh **/
+	private Mesh blockMesh;
+	/** the hangar mesh **/
+	private Mesh hangarMesh;
+	/** the hangar texture **/
+	private Texture hangarTexture;
+	/** the grid texture**/
+	private Texture gridTexture;
+	/** the shot mesh **/
+	private Mesh shotMesh;
+	/** the background texture **/
+	private Texture backgroundTexture;
+	/** the explosion mesh **/
+	private Mesh explosionMesh;
+	/** the explosion texture **/
+	private Texture explosionTexture;
+	/** the font **/
+	private BitmapFont font;
+	private BitmapFont fontsmall;
+	private BitmapFont fonttiny;
+	//hud icons
+	/** red vingette overlay when player takes damage **/
+	private Texture hurtflash;
+	/** the reticule texture **/
+	private Texture reticuleTexture;
+	/** the help menu icon texture **/
+	private Texture helpTexture;
+	/** the chat menu icon texture **/
+	private Texture chatTexture;
+	/** the character menu icon texture **/
+	private Texture characterTexture;
+	/** the ship icon texture **/
+	private Texture shipiconTexture;
+	/** the inventory menu icon texture **/
+	private Texture inventoryTexture;
+	/** the cash icon texture **/
+	private Texture cashTexture;
+	/** the options menu icon texture **/
+	private Texture optionsTexture;
+	/** the pullout menu icon texture **/
+	private Texture pulloutTexture;
+	/** the close icon texture **/
+	private Texture mapTexture;
+	/** the thumb control texture **/
+	private Texture thumbControlTexture;
+	/** the missile icon texture **/
+	private Texture missileTexture;
+	/** the shooticon texture **/
+	private Texture shootTexture;
+	/** the dock icon texture **/
+	private Texture dockTexture;
+	/** the repair icon texture **/
+	private Texture repairTexture;
+	/** the speedo texture **/
+	private Texture speedoTexture;
+	/** the rotation angle of all invaders around y **/
+	private float invaderAngle = 0;
+	/** the rotation angle of all stations around z **/
+	private float stationAngle = 0;
+	/** status string **/
+	private String status = "";
+	/** keeping track of the last score so we don't constantly construct a new string **/
+	private int lastScore = 0;
+	private int lastLives = 0;
+	private int lastWave = 0;
+	Skin skin;
+	public  Stage stage;
+	
+	//private GroupStrategy strategy;
+	//private DecalBatch decalBatch;
+	/** view and transform matrix for text rendering **/
+	private Matrix4 viewMatrix = new Matrix4();
+	private Matrix4 transformMatrix = new Matrix4();
+
+	/** perspective camera **/
+	PerspectiveCamera camera;
+	public void addActor(com.badlogic.gdx.scenes.scene2d.Actor stageActor) {
+		stage.addActor(stageActor);
+	}
+
+private ArrayList<DecalSprite> dusts=new ArrayList <DecalSprite>();
+public static boolean toastShown;
+	public Renderer (Application app) {
+		Gdx.input.setInputProcessor(null);
+		try {
+			InputStream in;
+			spriteBatch = new SpriteBatch();
+			
+			 in = Gdx.files.internal("data/jet.obj").read();
+			jetMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			 in = Gdx.files.internal("data/ship02.obj").read();
+			shipMesh01 = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			 in = Gdx.files.internal("data/shielddisruptor.obj").read();
+			 shieldDisruptorMesh = ObjLoader.loadObj(in,true);
+				in.close();
+			
+			 in = Gdx.files.internal("data/ship03.obj").read();
+				shipMesh02 = ObjLoader.loadObj(in,true);
+				in.close();
+				
+			 in = Gdx.files.internal("data/ship.obj").read();
+					shipMesh03 = ObjLoader.loadObj(in,true);
+					in.close();
+				
+			in = Gdx.files.internal("data/invader.obj").read();
+			invaderMesh = ObjLoader.loadObj(in,false);
+			in.close();
+ 
+			in = Gdx.files.internal("data/moon.obj").read();
+			moonMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			in = Gdx.files.internal("data/station.obj").read();
+			stationMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			in = Gdx.files.internal("data/planet.obj").read();
+			planetMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			in = Gdx.files.internal("data/planet02.obj").read();
+			planetMesh02 = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			in = Gdx.files.internal("data/block.obj").read();
+			blockMesh = ObjLoader.loadObj(in,false);
+			in.close();
+			
+			in = Gdx.files.internal("data/hangar01.obj").read();
+			hangarMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			
+			in = Gdx.files.internal("data/roid01.obj").read();
+			roidMesh = ObjLoader.loadObj(in,false);
+			in.close();
+			
+			in = Gdx.files.internal("data/shot.obj").read();
+			shotMesh = ObjLoader.loadObj(in,false);
+			in.close();
+			//note use of tru to flip texture V co-ords for max OBJ files
+			in = Gdx.files.internal("data/sky.obj").read();
+			skyMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			//note use of tru to flip texture V co-ords for max OBJ files
+			in = Gdx.files.internal("data/forcefield.obj").read();
+			forcefieldMesh = ObjLoader.loadObj(in,true);
+			in.close();
+			planetTexture = new Texture(Gdx.files.internal("data/planet.jpg"), Format.RGB565, true);
+			planetTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			planetTexture02 = new Texture(Gdx.files.internal("data/planet02.jpg"), Format.RGB565, true);
+			planetTexture02.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			moonTexture = new Texture(Gdx.files.internal("data/craters.jpg"), Format.RGB565, true);
+			moonTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			skyTexture = new Texture(Gdx.files.internal("data/sky01.jpg"), Format.RGB565, true);
+			skyTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			shipTexture01 = new Texture(Gdx.files.internal("data/destroyer01.png"), Format.RGB565, true);
+			shipTexture01.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			shipTexture02 = new Texture(Gdx.files.internal("data/destroyer02.png"), Format.RGB565, true);
+			shipTexture02.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			shipTexture03 = new Texture(Gdx.files.internal("data/ship.png"), Format.RGB565, true);
+			shipTexture03.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			hurtflash = new Texture(Gdx.files.internal("data/hurtflash.png"),Format.RGBA4444, true);
+			hurtflash.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			shieldDisruptorTexture = new Texture(Gdx.files.internal("data/shielddisruptor.png"), Format.RGB565, true);
+			shieldDisruptorTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			
+			invaderTexture = new Texture(Gdx.files.internal("data/invader.png"), Format.RGB565, true);
+			invaderTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			//backgroundTexture = new Texture(Gdx.files.internal("data/bgpland.jpg"), Format.RGB565, true);
+			//backgroundTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			explosionTexture = new Texture(Gdx.files.internal("data/explode.png"), Format.RGBA4444, true);
+			explosionTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			//dustTexture = new Texture(Gdx.files.internal("data/dust.png"), Format.RGBA4444, true);
+			//dustTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			explosionTexture = new Texture(Gdx.files.internal("data/explode.png"), Format.RGBA4444, true);
+			explosionTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			jetTexture = new Texture(Gdx.files.internal("data/jet.png"), Format.RGB565, true);
+			jetTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			roidTexture = new Texture(Gdx.files.internal("data/roid01tex.png"), Format.RGB565, true);
+			roidTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			hangarTexture = new Texture(Gdx.files.internal("data/hangar01.png"), Format.RGBA8888, true);
+			hangarTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			gridTexture = new Texture(Gdx.files.internal("data/grid.png"), Format.RGBA8888, true);
+			gridTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			//hud sprites
+			mapTexture = new Texture(Gdx.files.internal("data/iconmap.png"), Format.RGBA8888, true);
+			mapTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			thumbControlTexture = new Texture(Gdx.files.internal("data/camcontrol.png"), Format.RGBA8888, true);
+			thumbControlTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			shootTexture = new Texture(Gdx.files.internal("data/iconshoot.png"), Format.RGBA8888, true);
+			shootTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			missileTexture = new Texture(Gdx.files.internal("data/iconmissile.png"), Format.RGBA8888, true);
+			missileTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			dockTexture = new Texture(Gdx.files.internal("data/icondock.png"), Format.RGBA8888, true);
+			dockTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			pulloutTexture = new Texture(Gdx.files.internal("data/iconpullout.png"), Format.RGBA8888, true);
+			pulloutTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			stationTexture = new Texture(Gdx.files.internal("data/station01.png"), Format.RGBA8888, true);
+			stationTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			repairTexture = new Texture(Gdx.files.internal("data/iconrepair.png"), Format.RGBA8888, true);
+			repairTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			speedoTexture = new Texture(Gdx.files.internal("data/speedo.png"), Format.RGBA8888, true);
+			speedoTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			helpTexture = new Texture(Gdx.files.internal("data/iconhelp.png"), Format.RGBA8888, true);
+			helpTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			characterTexture = new Texture(Gdx.files.internal("data/iconcharscreen.png"), Format.RGBA8888, true);
+			characterTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			shipiconTexture = new Texture(Gdx.files.internal("data/iconship.png"), Format.RGBA8888, true);
+			shipiconTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			inventoryTexture = new Texture(Gdx.files.internal("data/iconinventory.png"), Format.RGBA8888, true);
+			inventoryTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			cashTexture = new Texture(Gdx.files.internal("data/iconmarket.png"), Format.RGBA8888, true);
+			cashTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			
+			optionsTexture = new Texture(Gdx.files.internal("data/iconsetup.png"), Format.RGBA8888, true);
+			optionsTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+
+			reticuleTexture = new Texture(Gdx.files.internal("data/reticule.png"), Format.RGBA8888, true);
+			reticuleTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+
+			chatTexture = new Texture(Gdx.files.internal("data/iconchat.png"), Format.RGBA8888, true);
+			chatTexture.setFilter(TextureFilter.MipMap, TextureFilter.Linear);
+			explosionMesh = new Mesh(true, 4 * 16, 0, new VertexAttribute(Usage.Position, 3, "a_position"), new VertexAttribute(
+				Usage.TextureCoordinates, 2, "a_texCoord"));
+			//explosion mesh
+			
+			float[] vertices = new float[4 * 16 * (3 + 2)];
+			int idx = 0;
+			for (int row = 0; row < 4; row++) {
+				for (int column = 0; column < 4; column++) {
+					vertices[idx++] = 1;
+					vertices[idx++] = 1;
+					vertices[idx++] = 0;
+					vertices[idx++] = 0.25f + column * 0.25f;
+					vertices[idx++] = 0 + row * 0.25f;
+
+					vertices[idx++] = -1;
+					vertices[idx++] = 1;
+					vertices[idx++] = 0;
+					vertices[idx++] = 0 + column * 0.25f;
+					vertices[idx++] = 0 + row * 0.25f;
+
+					vertices[idx++] = -1;
+					vertices[idx++] = -1;
+					vertices[idx++] = 0;
+					vertices[idx++] = 0f + column * 0.25f;
+					vertices[idx++] = 0.25f + row * 0.25f;
+
+					vertices[idx++] = 1;
+					vertices[idx++] = -1;
+					vertices[idx++] = 0;
+					vertices[idx++] = 0.25f + column * 0.25f;
+					vertices[idx++] = 0.25f + row * 0.25f;
+				}
+			}
+
+			explosionMesh.setVertices(vertices);
+			font = new BitmapFont(Gdx.files.internal("data/default.fnt"), Gdx.files.internal("data/default.png"), false);
+			fontsmall = new BitmapFont(Gdx.files.internal("data/small.fnt"), Gdx.files.internal("data/small.png"), false);
+			fonttiny = new BitmapFont(Gdx.files.internal("data/smallest.fnt"), Gdx.files.internal("data/smallest.png"), false);
+			camera = new PerspectiveCamera(67, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());		
+			skin = new Skin(Gdx.files.internal("data/uiskin.json"),
+					Gdx.files.internal("data/uiskin.png"));
+			stage = new Stage(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(),
+					false);
+			final Button buttonHelp = new TextButton("Quick Help",
+					skin.getStyle(TextButtonStyle.class), "buttonHelp");
+			Window window = new Window("Sim Screen",
+					skin.getStyle(WindowStyle.class), "window");
+			window.add(buttonHelp).colspan(1).align("center");
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	/*
+private ArrayList<DecalSprite> getDusts() {
+	for( int i=0; i<10;i++){
+		DecalSprite dust=new DecalSprite().build("data/dust.png");
+		dust.sprite.setDimensions(10,10);
+		dust.sprite.setPosition(5,5,5);
+		dust.faceCamera(camera);
+		dusts.add(dust);
+	}
+	return dusts;
+	}
+
+*/
+
+	public void render (Application app, Simulation simulation) {
+		if (Ship.STATUS==1){
+			renderSolarSystem(app, simulation);
+		}else{
+			renderInsideStation(app, simulation); 
+	}
+	}
+	private void renderSolarSystem(Application app, Simulation simulation) {
+		GL10 gl = app.getGraphics().getGL10();
+		gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
+		gl.glViewport(0, 0, app.getGraphics().getWidth(), app.getGraphics().getHeight());
+		
+		renderBackground(gl);
+
+		gl.glDisable(GL10.GL_DITHER);
+		gl.glEnable(GL10.GL_DEPTH_TEST);
+		gl.glEnable(GL10.GL_CULL_FACE);
+
+		setProjectionAndCamera(app.getGraphics(), simulation.ship, app, gl);
+		setLighting(gl);
+	
+		
+		gl.glEnable(GL10.GL_TEXTURE_2D);
+		renderRoids(gl);
+		//camera.unproject(GameLoop.touchPoint.set(Gdx.input.getX(), Gdx.input.getY(), 0));
+		
+		//render earth
+		renderPlanet(gl,"earth", true, 6378f, 200000,0, 50000, app);
+		//render mars
+		renderPlanet(gl,"sun", true, 3397, 0,0, 50000, app);
+		//render sun
+		renderSun(gl,69550f, 0,0, 500000, app);
+		//render jupiter
+		renderPlanet(gl,"earth", false, 71492f, -400000,0, 50000, app);
+		//render moon
+		renderMoon(gl,1737f,100000, 0, -50000, app);
+		
+		renderDrones(gl, simulation.drones, app, simulation.ship);
+		renderSky(gl, simulation.ship, app);
+		renderActors(gl);
+		
+		//do alpha models after this
+		
+		//render station
+		renderStation(gl,"station01", true, 1000f, 0,0, 0, app);
+		//render myship
+		renderShip(gl, simulation.ship, app, Stardust3d.myCharacter.getShipname());
+		renderShots(gl, simulation.shots);
+		renderTrails(gl, simulation.trails);
+		gl.glDisable(GL10.GL_TEXTURE_2D);
+		//renderBlocks(gl, simulation.blocks);
+
+		//gl.glDisable(GL10.GL_LIGHTING);
+		 
+
+		gl.glEnable(GL10.GL_TEXTURE_2D);
+		renderExplosions(gl, simulation.explosions);
+		
+		renderHud(simulation, gl);
+		stationAngle += app.getGraphics().getDeltaTime() * 1;
+		if (stationAngle > 360) stationAngle -= 360;
+		
+		invaderAngle += app.getGraphics().getDeltaTime() * 10;
+		if (invaderAngle > 360) invaderAngle -= 360;
+	}
+
+	/**
+	 * @param simulation
+	 * @param gl
+	 */
+	private void renderHud(Simulation simulation, GL10 gl) {
+		gl.glDisable(GL10.GL_CULL_FACE);
+		gl.glDisable(GL10.GL_DEPTH_TEST);
+		spriteBatch.setProjectionMatrix(viewMatrix);
+		spriteBatch.setTransformMatrix(transformMatrix);
+		
+		spriteBatch.enableBlending();
+		spriteBatch.setBlendFunction(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		spriteBatch.begin();
+		if (Ship.STATUS==1){
+		hurtflash(gl);
+		renderReticules(simulation);
+		}
+		
+		//GameLoop.touchPoint.set(Gdx.input.getX(), Gdx.input.getY(), 0);
+	
+		
+		spriteBatch.enableBlending();
+		spriteBatch.setBlendFunction(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		spriteBatch.draw(mapTexture,800-64, 480-64, 64, 64);
+		if (Ship.canDock == true||Ship.STATUS==0){
+			spriteBatch.draw(dockTexture,800-64, 480-64-64, 64, 64);
+		}
+		//slidemenu
+			spriteBatch.draw(pulloutTexture,simulation.slideOut,256+128, 64, 64);
+			spriteBatch.draw(optionsTexture,simulation.slideOut-64,256+128, 64, 64);
+			spriteBatch.draw(helpTexture,simulation.slideOut-(simulation.iconWidth*2),256+128, 64, 64);
+			spriteBatch.draw(cashTexture,simulation.slideOut-(simulation.iconWidth*3),256+128, 64, 64);
+			spriteBatch.draw(characterTexture,simulation.slideOut-(simulation.iconWidth*4),256+128, 64, 64);
+			spriteBatch.draw(shipiconTexture,simulation.slideOut-(simulation.iconWidth*5),256+128, 64, 64);
+			spriteBatch.draw(inventoryTexture,simulation.slideOut-(simulation.iconWidth*6),256+128, 64, 64);
+			spriteBatch.draw(chatTexture,simulation.slideOut-(simulation.iconWidth*7),256+128, 64, 64);
+			spriteBatch.draw(thumbControlTexture,0, 0, 128, 128);
+			if (Ship.STATUS==1){
+		spriteBatch.draw(repairTexture,800-64,128, 64, 64);
+		spriteBatch.draw(missileTexture,800-64,64, 64, 64);
+		spriteBatch.draw(shootTexture,800-64, 0, 64, 64);
+		renderCD(simulation.ship.mainGunCD,800-64,0);
+		
+		spriteBatch.draw(speedoTexture,0, 128, 64, 256, 0,1,.25f,0);
+		
+		
+		speedGauge();
+		powerGauge();
+		healthGauge();
+			}
+			renderChat();
+		 if (Stardust3d.Error==Stardust3d.TEST_ERROR && toastShown==false)
+		 {
+			 System.out.println("toast called");
+				stage.addActor(Actors.bottomToast("Connection to internet failed, Please check your network is working.",
+						5, skin));
+		
+				toastShown=true;
+		 }
+		 
+		spriteBatch.end();
+		
+		spriteBatch.begin();
+		DecimalFormat df2 = new DecimalFormat( "000000000.00" );
+		double xprint=new Double(df2.format( simulation.ship.position.x)).doubleValue();
+		double yprint=new Double(df2.format( simulation.ship.position.y)).doubleValue();
+		double zprint=new Double(df2.format( simulation.ship.position.z)).doubleValue();
+		double rollprint=new Double(df2.format( simulation.ship.yawAngle)).doubleValue();
+		double pitchprint =new Double(df2.format( simulation.ship.pitchAngle)).doubleValue();
+		status = "x: " + xprint+
+		" y: " + yprint + 
+		" z: "+zprint +
+		" roll "+ rollprint+
+		" pitch "+ pitchprint+
+		" thrust"+Ship.SHIP_VELOCITY+
+		" hp "+Ship.SHIP_HEALTH;
+		spriteBatch.enableBlending();
+		spriteBatch.setBlendFunction(GL10.GL_ONE, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		spriteBatch.end();
+		stage.act(Math.min(Gdx.graphics.getDeltaTime(), 1 / 30f));
+		stage.draw();
+		if(Stardust3d.DEBUG)Table.drawDebug(stage);
+	}
+
+		private void hurtflash(GL10 gl) {
+			//if simulation says hurtflash is active.
+			if (Simulation.hurtflash >0){
+				//set alpha 
+				spriteBatch.setColor(1,1, 1, Simulation.hurtflash);
+				spriteBatch.draw(hurtflash,0,0,  Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+				spriteBatch.setColor(1,1, 1, 1);
+			}
+		
+	}
+
+	private void renderCD(int cooldown,int x, int y) {
+		
+		String message=Integer.toString(cooldown);
+		if (Stardust3d.fontsize)
+		{
+			fonttiny.draw(spriteBatch,message, x, y+fonttiny.getCapHeight());
+		}
+		else
+		{
+			fontsmall.draw(spriteBatch, message, x, y+fontsmall.getCapHeight());
+		}
+	}
+	private void renderChat() {
+		if (Stardust3d.fontsize)
+		{
+			
+			fonttiny.draw(spriteBatch, status, 0, 480);
+			fonttiny.drawMultiLine(spriteBatch, Stardust3d.mshortChatLines, 128, 128);
+		}
+		else
+		{
+			fontsmall.draw(spriteBatch, status, 0, 480);
+			fontsmall.drawMultiLine(spriteBatch, Stardust3d.mshortChatLines, 128, 128);
+		}
+		
+		
+		
+	}
+
+	/**
+	 * @param simulation
+	 */
+	private void renderReticules(Simulation simulation) {
+		//spriteBatch.begin();
+	//spriteBatch.enableBlending();
+	//	spriteBatch.setBlendFunction(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		String message="PLAYER";
+		
+		
+		//needs synchronisd list to prevent reading list when empty
+		for (int i = 0; i < Stardust3d.actorsList.size(); i++) {
+			try {
+				Actor actor = Stardust3d.actorsList.get(i);
+				if (actor !=null){
+					//only do if actor is in space
+					if (actor.getStatus()==1){
+				Vector3 tmp=new Vector3((actor.position));
+				camera.project(tmp);
+				Long uid=(actor.get_uid()).longValue();
+
+				message=actor.get_firstname() +" "+actor.get_surname();
+				
+				tmp.x=tmp.x-16;
+				tmp.y=tmp.y-16;
+				if (tmp.z < 1){
+					if (uid <=0 )
+					{
+						spriteBatch.setColor(1,0, 0, 1);
+						fonttiny.setColor(1.0f, 0.0f, 0.0f, 1.0f);
+						fontsmall.setColor(1.0f, 0.0f, 0.0f, 1.0f);
+					}
+					spriteBatch.draw(reticuleTexture, tmp.x, tmp.y);
+					DecimalFormat df2 = new DecimalFormat( "000000000.00" );
+					double distance=new Double(df2.format( actor.position.dst(Ship.position)/1000)).doubleValue();
+					if (Stardust3d.tinyfont)
+					{
+						fonttiny.draw(spriteBatch, message, tmp.x, tmp.y);
+						fonttiny.draw(spriteBatch, actor.getHitpoints()+ "H "+distance+"km", tmp.x, tmp.y+32+fonttiny.getCapHeight());
+					}
+					else
+					{
+						fontsmall.draw(spriteBatch,message, tmp.x, tmp.y);
+						fontsmall.draw(spriteBatch, actor.getHitpoints()+"H "+distance+"km", tmp.x, tmp.y+32+fontsmall.getCapHeight());
+					}
+					fonttiny.setColor(1.0f, 1.0f, 1.0f, 1.0f);
+					fontsmall.setColor(1.0f, 1.0f, 1.0f, 1.0f);
+					spriteBatch.setColor(1,1, 1, 1);
+				}
+				
+} 
+				}
+			} catch (NumberFormatException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IndexOutOfBoundsException e){
+				e.printStackTrace();
+			}
+	}
+		
+	}
+
+
+	/**
+	 * 
+	 */
+	private void speedGauge() {
+		//normal gauge in red
+		/*A minimum of dataset
+		B maximum of dataset
+		a is from where you would like normalised data set to start
+		b is where you would like normalised data set to end
+		x is the value you are trying to normalise
+		a + (x-A)*(b-a)/(B-A) 
+		
+		*/
+		float colour=0+(Ship.SHIP_VELOCITY-0)*(1-0)/(Ship.SHIP_MAXVELOCITY-0);
+		spriteBatch.setColor(colour,1-colour, 0, 1);
+
+		int gaugeLeftedge = 24;
+		int gaugeBottomedge = 192;
+		//top of gauge
+		TextureRegion gaugetop = new TextureRegion(speedoTexture, 64, 0, 16, 16);
+		spriteBatch.draw(gaugetop,14,160+16+colour*160);
+		//middle of gauge
+		TextureRegion gaugemiddle = new Sprite(speedoTexture, 64, 16, 16, 32);
+		spriteBatch.draw(gaugemiddle,14,160+16,16,colour*160);
+		//top of gauge
+		TextureRegion gaugebottom = new TextureRegion(speedoTexture, 64, 48, 16, 16);
+		spriteBatch.draw(gaugebottom,14,160);
+		
+		
+		/*void com.badlogic.gdx.graphics.g2d.SpriteBatch.draw
+		 * (Texture texture,  x,  y,  width,  height,    u,  v,  u2,    v2)
+		Draws a rectangle with the bottom left corner at x,y having the given width and height in pixels. 
+		 * The portion of the Texture given by u, v and u2, v2 are used. These coordinates and sizes are given in texture size percentage. 
+		 * The rectangle will have the given tint Color.
+
+		Parameters:
+		texture the Texture
+		x the x-coordinate in screen space
+		y the y-coordinate in screen space
+		width the width in pixels
+		height the height in pixels 
+		u 
+		v 
+		u2 
+		v2 */
+	}
+	private void powerGauge() {
+		//normal gauge in red
+		/*A minimum of dataset
+		B maximum of dataset
+		a is from where you would like normalised data set to start
+		b is where you would like normalised data set to end
+		x is the value you are trying to normalise
+		a + (x-A)*(b-a)/(B-A) 
+		
+		*/
+		float power =100-(Ship.SHIP_VELOCITY/10);
+		float colour=0+(power-0)*(1-0)/(100-0);
+		spriteBatch.setColor(1-colour,colour, 0, 1);
+
+		int gaugeLeftedge = 24;
+		int gaugeBottomedge = 192;
+		//top of gauge
+		TextureRegion gaugetop = new TextureRegion(speedoTexture, 64, 0, 16, 16);
+		spriteBatch.draw(gaugetop,24,160+16+colour*160);
+		//middle of gauge
+		TextureRegion gaugemiddle = new Sprite(speedoTexture, 64, 16, 16, 32);
+		spriteBatch.draw(gaugemiddle,24,160+16,16,colour*160);
+		//top of gauge
+		TextureRegion gaugebottom = new TextureRegion(speedoTexture, 64, 48, 16, 16);
+		spriteBatch.draw(gaugebottom,24,160);
+		
+		
+		/*void com.badlogic.gdx.graphics.g2d.SpriteBatch.draw
+		 * (Texture texture,  x,  y,  width,  height,    u,  v,  u2,    v2)
+		Draws a rectangle with the bottom left corner at x,y having the given width and height in pixels. 
+		 * The portion of the Texture given by u, v and u2, v2 are used. These coordinates and sizes are given in texture size percentage. 
+		 * The rectangle will have the given tint Color.
+
+		Parameters:
+		texture the Texture
+		x the x-coordinate in screen space
+		y the y-coordinate in screen space
+		width the width in pixels
+		height the height in pixels 
+		u 
+		v 
+		u2 
+		v2 */
+	}
+	
+	private void healthGauge() {
+		//normal gauge in red
+		/*A minimum of dataset
+		B maximum of dataset
+		a is from where you would like normalised data set to start
+		b is where you would like normalised data set to end
+		x is the value you are trying to normalise
+		a + (x-A)*(b-a)/(B-A) 
+		
+		*/
+		float colour=0+(Ship.SHIP_HEALTH-0)*(1-0)/(Ship.SHIP_MAXHEALTH-0);
+		spriteBatch.setColor(1-colour,colour, 0, 1);
+
+		int gaugeLeftedge = 24;
+		int gaugeBottomedge = 192;
+		//top of gauge
+		TextureRegion gaugetop = new TextureRegion(speedoTexture, 64, 0, 16, 16);
+		spriteBatch.draw(gaugetop,34,160+16+colour*160);
+		//middle of gauge
+		TextureRegion gaugemiddle = new Sprite(speedoTexture, 64, 16, 16, 32);
+		spriteBatch.draw(gaugemiddle,34,160+16,16,colour*160);
+		//top of gauge
+		TextureRegion gaugebottom = new TextureRegion(speedoTexture, 64, 48, 16, 16);
+		spriteBatch.draw(gaugebottom,34,160);
+		
+		
+		/*void com.badlogic.gdx.graphics.g2d.SpriteBatch.draw
+		 * (Texture texture,  x,  y,  width,  height,    u,  v,  u2,    v2)
+		Draws a rectangle with the bottom left corner at x,y having the given width and height in pixels. 
+		 * The portion of the Texture given by u, v and u2, v2 are used. These coordinates and sizes are given in texture size percentage. 
+		 * The rectangle will have the given tint Color.
+
+		Parameters:
+		texture the Texture
+		x the x-coordinate in screen space
+		y the y-coordinate in screen space
+		width the width in pixels
+		height the height in pixels 
+		u 
+		v 
+		u2 
+		v2 */
+	}
+	
+	private void renderRoids(GL10 gl) {
+		for (int i=-6;i<6;i++){
+			gl.glPushMatrix();
+		gl.glTranslatef( -30, -10,0+(i*40));
+		//gl.glScalef(.025f,0.025f,.025f);
+		roidTexture.bind();
+		roidMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		}
+	}
+	
+	private void renderInsideStation(Application app, Simulation simulation) {
+		GL10 gl = app.getGraphics().getGL10();
+		gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
+		gl.glViewport(0, 0, app.getGraphics().getWidth(), app.getGraphics().getHeight());
+		
+		renderBackground(gl);
+		gl.glDisable(GL10.GL_DITHER);
+		gl.glEnable(GL10.GL_DEPTH_TEST);
+		gl.glEnable(GL10.GL_CULL_FACE);
+		setStaticProjectionAndCamera(app.getGraphics(), app, gl);
+		setLighting(gl);
+		gl.glEnable(GL10.GL_TEXTURE_2D);
+		renderStaticShip(gl, simulation.ship, app,Stardust3d.myCharacter.getShipname());
+		renderDrones(gl, simulation.drones, app, simulation.ship);
+		gl.glDisable(GL10.GL_DITHER);
+		gl.glEnable(GL10.GL_DEPTH_TEST);
+		gl.glEnable(GL10.GL_CULL_FACE);
+		gl.glEnable(GL10.GL_TEXTURE_2D);
+		//do alpha models after this
+		
+		renderHangar(gl, simulation.ship, app);
+		gl.glDisable(GL10.GL_TEXTURE_2D);
+		renderHud(simulation, gl);
+
+	}
+	
+	
+	private void renderBackground (GL10 gl) {
+		// redundant, but may want later
+		viewMatrix.setToOrtho2D(0, 0, 800, 480);
+		spriteBatch.setProjectionMatrix(viewMatrix);
+		spriteBatch.setTransformMatrix(transformMatrix);
+		spriteBatch.begin();
+		spriteBatch.disableBlending();
+		spriteBatch.setColor(Color.WHITE);
+		//spriteBatch.draw(backgroundTexture, 0, 0, 800, 480, 0, 0, 512, 512, false, false);
+		
+		spriteBatch.end();
+	}
+
+	final Vector3 dir = new Vector3(); 
+
+	private void setProjectionAndCamera (Graphics graphics, Ship ship, Application app,GL10 gl) {
+		gl.glMatrixMode(GL10.GL_MODELVIEW);
+		gl.glLoadIdentity();
+		//x=left-right, y=up-down, z=back-forward
+		camera.far=100000000;
+		//camera.near=0.01f;
+		camera.direction.set(ship.heading.x, 0+ship.heading.y, ship.heading.z);//.sub(camera.position).nor();
+		camera.fieldOfView=67;
+		camera.position.set(ship.position.x, 20f+ship.position.y, 20f+ship.position.z);
+		
+		float orbitRadius =30f;// ship.position.dst(0,-.1,.2);
+		//GameLoop.cameraHorizAngle = (int) (GameLoop.cameraHorizAngle + Ship.yawAngle);
+		camera.rotate(GameLoop.cameraHorizAngle , 0, 1, 0);
+		Vector3 orbitReturnVector = new Vector3(0, 0, 0);
+		orbitReturnVector.set(camera.direction.tmp().mul(-orbitRadius));
+	    camera.translate(orbitReturnVector.x, orbitReturnVector.y, orbitReturnVector.z);
+		//camera.update();
+		//camera.apply(gl);
+		
+		// orbitRadius = ship.position.dst(camera.position);
+		camera.position.set(ship.position);
+		camera.rotate(GameLoop.cameraVertAngle, 1, 0, 0);
+		 orbitReturnVector = new Vector3(0, 0, 0);
+		orbitReturnVector.set(camera.direction.tmp().mul(-orbitRadius));
+	    camera.translate(orbitReturnVector.x, orbitReturnVector.y, orbitReturnVector.z);
+	
+		gl.glMatrixMode(GL10.GL_MODELVIEW);
+		GameLoop.cameraVertAngle=0;
+		GameLoop.cameraHorizAngle=0;
+		camera.up.nor();
+		camera.translate(0,10,0);
+		camera.update();
+		camera.apply(gl);
+	}
+	private void setStaticProjectionAndCamera (Graphics graphics, Application app,GL10 gl) {
+		gl.glMatrixMode(GL10.GL_PROJECTION);
+		gl.glLoadIdentity();
+		//x=left-right, y=up-down, z=back-forward
+		camera.far=1000;
+		camera.position.set(0, 7f+0, 9f+0);
+		//camera.direction.set(ship.position.x, 0+ship.position.y, -4f+ship.position.z).sub(camera.position).nor();
+		camera.fieldOfView=67;
+		float orbitRadius = (new Vector3(0,0,0).dst(camera.position));
+		camera.position.set(new Vector3(0,0,0));
+		
+		camera.rotate(GameLoop.cameraHorizAngle, 0, 1, 0);
+		Vector3 orbitReturnVector = new Vector3(0, 0, 0);
+		orbitReturnVector.set(camera.direction.tmp().mul(-orbitRadius));
+	    camera.translate(orbitReturnVector.x, orbitReturnVector.y, orbitReturnVector.z);
+		camera.update();
+		camera.apply(gl);
+		
+		 orbitRadius = (new Vector3(0,0,0)).dst(camera.position);
+		camera.position.set(new Vector3(0,0,0));
+		camera.rotate(GameLoop.cameraVertAngle, 1, 0, 0);
+		 orbitReturnVector = new Vector3(0, 0, 0);
+		orbitReturnVector.set(camera.direction.tmp().mul(-orbitRadius));
+	    camera.translate(orbitReturnVector.x, orbitReturnVector.y, orbitReturnVector.z);
+		camera.update();
+		camera.apply(gl);
+		gl.glMatrixMode(GL10.GL_MODELVIEW);
+		GameLoop.cameraVertAngle=0;
+		GameLoop.cameraHorizAngle=0;
+	}
+	float[] direction = {0,0, 3, 1};
+
+	private void setLighting (GL10 gl) {
+		gl.glEnable(GL10.GL_LIGHTING);
+		gl.glEnable(GL10.GL_LIGHT0);
+		
+		//gl.glEnable(GL10.GL_LIGHT2);
+		//gl.glEnable(GL10.GL_LIGHT3);
+		//gl.glEnable(GL10.GL_LIGHT1);
+	//	gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_POSITION, direction, 1); 
+		gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_AMBIENT, new float[]{0.25f, 0.25f, 0.29f, 1f}, 0);
+		gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_DIFFUSE, new float[]{0.99f, 0.99f, 0.79f, 1f}, 0);
+		//bright yellow light
+		gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_SPECULAR, new float[]{.9f, .9f, 1f, 1f}, 0);
+		
+		gl.glEnable(GL10.GL_COLOR_MATERIAL);
+		
+	}
+
+	private void renderShip (GL10 gl, Ship ship, Application app,String shipname) {
+		if (ship.isExploding) return;
+		gl.glDisable(GL10.GL_CULL_FACE);	
+		if (shipname.equals("stickleback")){
+		shipTexture01.bind();
+		}else if (shipname.equals("salx")){
+		shipTexture02.bind();
+		
+		}else if (shipname.equals("cynomys")){
+			shipTexture03.bind();
+		}
+		gl.glPushMatrix();
+		gl.glTranslatef(ship.position.x, ship.position.y, ship.position.z);
+		gl.glDisable(GL10.GL_BLEND);
+		gl.glRotatef(ship.yawAngle, 0, 1, 0);
+		gl.glRotatef(ship.pitchAngle, 1, 0, 0);
+		if (shipname.equals("stickleback")){
+			shipMesh01.render(GL10.GL_TRIANGLES);
+			}else if (shipname.equals("salx")){
+			shipMesh02.render(GL10.GL_TRIANGLES);
+			}else if (shipname.equals("cynomys")){
+				shipMesh03.render(GL10.GL_TRIANGLES);
+		
+			}
+		
+		float noise = (float) Math.random();
+		float length=ship.SHIP_VELOCITY/150;
+		gl.glEnable(GL10.GL_BLEND);
+		
+		gl.glDisable(GL10.GL_LIGHTING);
+		gl.glBlendFunc(GL10.GL_ONE, GL10.GL_ONE);
+		jetTexture.bind();
+		
+		gl.glTranslatef(1.1f,-.2f,3f);
+		gl.glScalef(2f,2f,(1f+length+noise));
+		jetMesh.render(GL10.GL_TRIANGLES);
+		
+		gl.glTranslatef(-1.1f,0,0);
+		gl.glScalef(1f,1f,(1f-noise));
+		noise = (float) Math.random();
+		gl.glScalef(1f,1f,(1f+noise));
+		jetMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		gl.glEnable(GL10.GL_CULL_FACE);	
+		gl.glDisable(GL10.GL_BLEND);
+		gl.glEnable(GL10.GL_LIGHTING);
+		//gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+	}
+	private void renderStaticShip (GL10 gl, Ship ship, Application app, String shipname) {
+		if (ship.isExploding) return;
+		
+		if (shipname.equals("stickleback")){
+			shipTexture01.bind();
+			}else if (shipname.equals("salx")){
+			shipTexture02.bind();
+			
+			}else if (shipname.equals("cynomys")){
+				shipTexture03.bind();
+			}
+		gl.glPushMatrix();
+		gl.glTranslatef(0, 0, 0);
+		
+		if (shipname.equals("stickleback")){
+			shipMesh01.render(GL10.GL_TRIANGLES);
+			}else if (shipname.equals("salx")){
+			shipMesh02.render(GL10.GL_TRIANGLES);
+			}else if (shipname.equals("cynomys")){
+				shipMesh03.render(GL10.GL_TRIANGLES);
+		
+			}
+		gl.glPopMatrix();
+	}
+	private void renderHangar (GL10 gl, Ship ship, Application app) {
+		if (ship.isExploding) return;
+		//render hangar
+		hangarTexture.bind();
+		gl.glPushMatrix();
+		hangarMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		//do forcefield
+		gl.glDisable(GL10.GL_CULL_FACE);
+		gl.glEnable(GL10.GL_BLEND);
+		gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE);
+		gl.glPushMatrix();
+		gl.glDisable(GL10.GL_LIGHTING);
+	
+		forcefieldMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		gl.glEnable(GL10.GL_LIGHTING);
+		gl.glEnable(GL10.GL_CULL_FACE);
+	}
+	private void renderDrones (GL10 gl, ArrayList<Drone> drones, Application app, Ship ship) {
+		if (ship.isExploding) return;
+		invaderTexture.bind();
+		for (int i = 0; i < drones.size(); i++) {
+			Drone drone = drones.get(i);
+			gl.glPushMatrix();
+			gl.glScalef(.25f,.25f,.25f);
+			
+			gl.glTranslatef(drone.position.x, drone.position.y, drone.position.z);
+			
+			invaderMesh.render(GL10.GL_TRIANGLES);
+			gl.glPopMatrix();
+			
+		}
+	
+	}
+	private void renderSky (GL10 gl, Ship ship, Application app) {
+	
+		gl.glDisable(GL10.GL_LIGHTING);
+		skyTexture.bind();
+		gl.glColor4f(1, 1,1, 1);
+
+		gl.glPushMatrix();
+		gl.glTranslatef(ship.position.x, ship.position.y, ship.position.z);
+		gl.glScalef(1000f,1000f,1000f);
+		skyMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		gl.glEnable(GL10.GL_LIGHTING);
+	}
+	private void renderPlanet (GL10 gl,String texture, boolean uvtype, float radius,float x,float y,float z, Application app) {
+		radius=radius*worldscale;
+		
+		if (texture.equals("earth")){
+			//render earth/jupiter  texture
+			planetTexture.bind();
+		}else if (texture.equals("sun")){
+			//render mars/sun  texture
+			planetTexture02.bind();
+		}
+		
+		gl.glPushMatrix();
+		//move away from origin
+		gl.glTranslatef(x,y,z);
+		//scale to 10% size of earth
+		gl.glScalef(radius,radius,radius);
+		
+		if (uvtype==true){
+			//render lower planet texture
+			planetMesh.render(GL10.GL_TRIANGLES);
+		}else{
+			//render upper planet texture
+			planetMesh02.render(GL10.GL_TRIANGLES);
+		}
+		gl.glPopMatrix();
+	
+	}
+	private void renderStation (GL10 gl,String texture, boolean uvtype, float radius,float x,float y,float z, Application app) {
+		radius=radius*worldscale;
+		
+		if (texture.equals("station01")){
+			//render earth/jupiter  texture
+			stationTexture.bind();
+		}else if (texture.equals("sun")){
+			//render mars/sun  texture
+			planetTexture02.bind();
+		}
+		//render station
+		gl.glPushMatrix();
+		//move away from origin
+		gl.glTranslatef(x,y,z);
+		//scale to 10% size of earth
+		gl.glScalef(radius,radius,radius);
+		gl.glRotatef(Station.yawAngle, 0, 1, 0);
+		stationMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		
+		//render station forcefield
+		gl.glPushMatrix();
+		//rendermode for glow
+		
+		gl.glEnable(GL10.GL_BLEND);
+		gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE);
+		gl.glPushMatrix();
+		gl.glDisable(GL10.GL_LIGHTING);
+		gridTexture.bind();
+		gl.glColor4f(.5f, .5f, 1f, 1f);
+		gl.glScalef(radius*1.2f,radius*1.2f,radius*1.2f);
+		//doubleside render
+		gl.glDisable(GL10.GL_CULL_FACE);
+		gl.glRotatef(-Station.yawAngle, 0, 1, 0);
+		moonMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		gl.glColor4f(1, 1, 1, 1);
+		//doubleside render off
+		gl.glEnable(GL10.GL_CULL_FACE);
+		gl.glEnable(GL10.GL_LIGHTING);
+	}
+	private void renderSun (GL10 gl, float radius,float x,float y,float z, Application app) {
+		
+		gl.glDisable(GL10.GL_LIGHTING);
+		radius=radius*worldscale;
+		planetTexture02.bind();
+		gl.glPushMatrix();
+		//move away from origin
+		gl.glTranslatef(x,y,z);
+		//scale to size of earth
+		gl.glScalef(radius,radius,radius);
+		planetMesh02.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+		gl.glEnable(GL10.GL_LIGHTING);
+	}
+	private void renderMoon (GL10 gl, float radius,float x,float y,float z, Application app) {
+		radius=radius*worldscale;
+		moonTexture.bind();
+		gl.glPushMatrix();
+		//move away from origin
+		gl.glTranslatef(x, y, z);
+		//scale to size of moon
+		gl.glScalef(radius,radius,radius);
+		moonMesh.render(GL10.GL_TRIANGLES);
+		gl.glPopMatrix();
+	
+	}
+	private void renderActors (GL10 gl) {
+		
+		for (int i = 0; i < Stardust3d.actorsList.size(); i++) {
+			try {
+				Actor actor = Stardust3d.actorsList.get(i);
+				if (actor !=null){
+					//only do for ships in space
+					if (actor.getStatus()==1){
+				gl.glPushMatrix();
+				gl.glTranslatef(actor.position.x, actor.position.y, actor.position.z);
+				
+				
+				gl.glScalef(1,1,1);
+				Long uid=(actor.get_uid()).longValue();
+				if(uid <=0 ){
+					gl.glRotatef(invaderAngle, 0, 0, 1);
+					shieldDisruptorTexture.bind();
+					shieldDisruptorMesh.render(GL10.GL_TRIANGLES);
+				}else{
+					shipTexture01.bind();
+					shipMesh01.render(GL10.GL_TRIANGLES);
+				}
+				gl.glPopMatrix();
+					}
+				}
+			} catch (IndexOutOfBoundsException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} 
+	}
+
+	private void renderBlocks (GL10 gl, ArrayList<Block> blocks) {
+		gl.glEnable(GL10.GL_BLEND);
+		
+		gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		gl.glColor4f(0.2f, 0.2f, 1, 0.7f);
+		for (int i = 0; i < blocks.size(); i++) {
+			Block block = blocks.get(i);
+			gl.glPushMatrix();
+			gl.glTranslatef(block.position.x, block.position.y, block.position.z);
+			blockMesh.render(GL10.GL_TRIANGLES);
+			gl.glPopMatrix();
+		}
+		gl.glColor4f(1, 1, 1, 1);
+		gl.glDisable(GL10.GL_BLEND);
+	}
+
+	private void renderShots (GL10 gl, ArrayList<Shot> shots) {
+		gl.glColor4f(1, 1, 0, 1);
+		jetTexture.bind();
+	gl.glEnable(GL10.GL_BLEND);
+	gl.glDisable(GL10.GL_CULL_FACE);	
+		gl.glDisable(GL10.GL_LIGHTING);
+		gl.glBlendFunc(GL10.GL_ONE, GL10.GL_ONE);
+		jetTexture.bind();
+		for (int i = 0; i < shots.size(); i++) {
+			Shot shot = shots.get(i);
+			gl.glPushMatrix();
+			
+			gl.glTranslatef(shot.position.x, shot.position.y, shot.position.z);
+			gl.glRotatef(Ship.yawAngle, 0, 1, 0);
+			gl.glRotatef(Ship.pitchAngle, 1, 0, 0);
+			gl.glScalef(2, 2, 2);
+			jetMesh.render(GL10.GL_TRIANGLES);
+			gl.glPopMatrix();
+		}
+		gl.glColor4f(1, 1, 1, 1);
+		gl.glEnable(GL10.GL_CULL_FACE);	
+		gl.glDisable(GL10.GL_BLEND);
+		gl.glEnable(GL10.GL_LIGHTING);
+	}
+	private void renderTrails (GL10 gl, ArrayList<Trail> trails) {
+		gl.glColor4f(0, 1, 1, 1);
+		jetTexture.bind();
+		gl.glEnable(GL10.GL_BLEND);
+		gl.glDisable(GL10.GL_CULL_FACE);	
+		gl.glDisable(GL10.GL_LIGHTING);
+		gl.glBlendFunc(GL10.GL_ONE, GL10.GL_ONE);
+		jetTexture.bind();
+		for (int i = 0; i < trails.size(); i++) {
+			Trail trail = trails.get(i);
+			gl.glPushMatrix();
+			
+			gl.glTranslatef(trail.position.x, trail.position.y, trail.position.z);
+			gl.glRotatef(Ship.yawAngle, 0, 1, 0);
+			gl.glRotatef(Ship.pitchAngle, 1, 0, 0);
+			float scale=(Trail.TRAIL_LIFE-trail.life)/50;
+			gl.glScalef(scale,scale,scale);
+			jetMesh.render(GL10.GL_TRIANGLES);
+			gl.glPopMatrix();
+		}
+		gl.glColor4f(1, 1, 1, 1);
+		gl.glEnable(GL10.GL_CULL_FACE);	
+		gl.glDisable(GL10.GL_BLEND);
+		gl.glEnable(GL10.GL_LIGHTING);
+	}
+	private void renderExplosions (GL10 gl, ArrayList<Explosion> explosions) {
+		gl.glDisable(GL10.GL_CULL_FACE);
+		gl.glEnable(GL10.GL_BLEND);
+		gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+		explosionTexture.bind();
+		for (int i = 0; i < explosions.size(); i++) {
+			Explosion explosion = explosions.get(i);
+			gl.glPushMatrix();
+			gl.glTranslatef(explosion.position.x, explosion.position.y, explosion.position.z);
+			gl.glScalef(10,10,10);
+			explosionMesh.render(GL10.GL_TRIANGLE_FAN, (int)((explosion.aliveTime / Explosion.EXPLOSION_LIVE_TIME) * 15) * 4, 4);
+			gl.glPopMatrix();
+		}
+		gl.glDisable(GL10.GL_BLEND);
+		gl.glEnable(GL10.GL_CULL_FACE);	
+	}
+	 
+
+	public void dispose () {
+	
+
+		/** the station mesh **/
+		stationMesh.dispose();
+		/** the ship mesh **/
+		shipMesh01.dispose();
+		/** the ship texture **/
+		shipTexture01.dispose();
+		/** the ship mesh **/
+		shipMesh02.dispose();
+		/** the ship texture **/
+		shipTexture02.dispose();
+		/** the ship mesh **/
+		shipMesh03.dispose();
+		/** the ship texture **/
+		shipTexture03.dispose();;
+		/** the planet mesh **/
+		 planetMesh02.dispose();;
+		/** the planet mesh **/
+		planetMesh.dispose();;
+		/** the planet texture **/
+		planetTexture.dispose();
+		/** the planet texture **/
+		 planetTexture02.dispose();
+		/** the jet mesh **/
+		 jetMesh.dispose();
+		/** the jet texture **/
+		 jetTexture.dispose();
+		/** the moon mesh **/
+		moonMesh.dispose();
+		/** the moon texture **/
+		 moonTexture.dispose();
+		/** the ship mesh **/
+		skyMesh.dispose();
+		/** the ship texture **/
+		 skyTexture.dispose();
+		/** the invader mesh **/
+		invaderMesh.dispose();
+		/** the invader texture **/
+		 invaderTexture.dispose();
+		/** the asteroid mesh **/
+		roidMesh.dispose();
+		/** the dust texture **/
+		//private Texture dustTexture;
+		/** the asteroid texture **/
+		roidTexture.dispose();
+		/** the station texture **/
+		stationTexture.dispose();
+		/** the forcefield mesh **/
+		forcefieldMesh.dispose();
+		/** the block mesh **/
+		blockMesh.dispose();
+		/** the hangar mesh **/
+		hangarMesh.dispose();
+		/** the hangar texture **/
+		 hangarTexture.dispose();
+		/** the grid texture**/
+		gridTexture.dispose();
+		/** the shot mesh **/
+		 shotMesh.dispose();
+		/** the background texture **/
+		 backgroundTexture.dispose();
+		/** the explosion mesh **/
+		explosionMesh.dispose();
+		/** the explosion texture **/
+		 explosionTexture.dispose();
+		/** the font **/
+		 font.dispose();
+		
+		
+		//hud icons
+		/** the reticule texture **/
+		reticuleTexture.dispose();
+		/** the help menu icon texture **/
+		helpTexture.dispose();
+		/** the chat menu icon texture **/
+		 chatTexture.dispose();
+		/** the character menu icon texture **/
+		 characterTexture.dispose();
+		/** the ship icon texture **/
+		 shipiconTexture.dispose();
+		/** the inventory menu icon texture **/
+		 inventoryTexture.dispose();
+		/** the cash icon texture **/
+		 cashTexture.dispose();
+		/** the options menu icon texture **/
+		 optionsTexture.dispose();
+		/** the pullout menu icon texture **/
+		 pulloutTexture.dispose();
+		/** the close icon texture **/
+		 mapTexture.dispose();
+		/** the thumb control texture **/
+		thumbControlTexture.dispose();
+		/** the missile icon texture **/
+		 missileTexture.dispose();
+		/** the shooticon texture **/
+		 shootTexture.dispose();
+		/** the dock icon texture **/
+		dockTexture.dispose();
+		/** the repair icon texture **/
+		 repairTexture.dispose();
+		/** the speedo texture **/
+		speedoTexture.dispose();
+	}
+}
